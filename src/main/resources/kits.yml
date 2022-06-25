@@ -1,0 +1,1738 @@
+Snowman:
+  permission: advancedkits.kit.snowman
+  preview-menu: default
+  levels:
+    '1':
+      cooldown: 30
+      cost: 'VAULT;1000'
+      give-items: true
+      redeem:
+        available:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You just redeemed this kit! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Redeem again in {total}! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_PLAYER_LEVELUP;VOICE;1.0;0.3'
+          particles:
+            - 'NOTE;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+        unavailable:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You have to wait for the kit cooldown! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Available in {cooldown}! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+        locked:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You do not have permission to redeem this kit! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Purchase a rank to unlock this kit! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+Potions:
+  permission: advancedkits.kit.potions
+  preview-menu: default
+  levels:
+    '1':
+      cooldown: 300
+      cost: 'VAULT;1000'
+      give-items: true
+      redeem:
+        available:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You just redeemed this kit! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Redeem again in {total}! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_PLAYER_LEVELUP;VOICE;1.0;0.3'
+          particles:
+            - 'NOTE;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+        unavailable:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You have to wait for the kit cooldown! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Available in {cooldown}! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+        locked:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You do not have permission to redeem this kit! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Purchase a rank to unlock this kit! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+Viking:
+  permission: advancedkits.kit.viking
+  preview-menu: default
+  levels:
+    '1':
+      cooldown: 60
+      cost: 'VAULT;1000'
+      give-items: true
+      redeem:
+        available:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You just redeemed this kit! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Redeem again in {total}! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_PLAYER_LEVELUP;VOICE;1.0;0.3'
+          particles:
+            - 'NOTE;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+        unavailable:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You have to wait for the kit cooldown! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Available in {cooldown}! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+        locked:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You do not have permission to redeem this kit! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Purchase a rank to unlock this kit! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+    '2':
+      cooldown: 120
+      cost: 'VAULT;2000'
+      give-items: true
+      redeem:
+        available:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You just redeemed this kit! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Redeem again in {total}! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_PLAYER_LEVELUP;VOICE;1.0;0.3'
+          particles:
+            - 'NOTE;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+        unavailable:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You have to wait for the kit cooldown! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Available in {cooldown}! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+        locked:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You do not have permission to redeem this kit! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Purchase a rank to unlock this kit! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+    '3':
+      cooldown: 180
+      cost: 'VAULT;3000'
+      give-items: true
+      redeem:
+        available:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You just redeemed this kit! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Redeem again in {total}! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_PLAYER_LEVELUP;VOICE;1.0;0.3'
+          particles:
+            - 'NOTE;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+        unavailable:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You have to wait for the kit cooldown! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Available in {cooldown}! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+        locked:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You do not have permission to redeem this kit! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Purchase a rank to unlock this kit! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+    '4':
+      cooldown: 240
+      cost: 'VAULT;4000'
+      give-items: true
+      redeem:
+        available:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You just redeemed this kit! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Redeem again in {total}! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_PLAYER_LEVELUP;VOICE;1.0;0.3'
+          particles:
+            - 'NOTE;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+        unavailable:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You have to wait for the kit cooldown! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Available in {cooldown}! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+        locked:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You do not have permission to redeem this kit! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Purchase a rank to unlock this kit! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+    '5':
+      cooldown: 300
+      cost: 'VAULT;5000'
+      give-items: true
+      redeem:
+        available:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You just redeemed this kit! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Redeem again in {total}! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_PLAYER_LEVELUP;VOICE;1.0;0.3'
+          particles:
+            - 'NOTE;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+        unavailable:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You have to wait for the kit cooldown! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Available in {cooldown}! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+        locked:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You do not have permission to redeem this kit! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Purchase a rank to unlock this kit! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+Ultimate:
+  permission: advancedkits.kit.ultimate
+  preview-menu: default
+  levels:
+    '1':
+      cooldown: 30
+      cost: 'VAULT;1000'
+      give-items: true
+      redeem:
+        available:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You just redeemed this kit! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Redeem again in {total}! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_PLAYER_LEVELUP;VOICE;1.0;0.3'
+          particles:
+            - 'NOTE;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+        unavailable:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You have to wait for the kit cooldown! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Available in {cooldown}! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+        locked:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You do not have permission to redeem this kit! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Purchase a rank to unlock this kit! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+    '2':
+      cooldown: 45
+      cost: 'VAULT;2000'
+      give-items: true
+      redeem:
+        available:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You just redeemed this kit! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Redeem again in {total}! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_PLAYER_LEVELUP;VOICE;1.0;0.3'
+          particles:
+            - 'NOTE;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+        unavailable:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You have to wait for the kit cooldown! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Available in {cooldown}! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+        locked:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You do not have permission to redeem this kit! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Purchase a rank to unlock this kit! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+    '3':
+      cooldown: 60
+      cost: 'VAULT;3000'
+      give-items: true
+      redeem:
+        available:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You just redeemed this kit! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Redeem again in {total}! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_PLAYER_LEVELUP;VOICE;1.0;0.3'
+          particles:
+            - 'NOTE;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+        unavailable:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You have to wait for the kit cooldown! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Available in {cooldown}! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+        locked:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You do not have permission to redeem this kit! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Purchase a rank to unlock this kit! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+    '4':
+      cooldown: 75
+      cost: 'VAULT;4000'
+      give-items: true
+      redeem:
+        available:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You just redeemed this kit! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Redeem again in {total}! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_PLAYER_LEVELUP;VOICE;1.0;0.3'
+          particles:
+            - 'NOTE;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+        unavailable:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You have to wait for the kit cooldown! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Available in {cooldown}! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+        locked:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You do not have permission to redeem this kit! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Purchase a rank to unlock this kit! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+    '5':
+      cooldown: 90
+      cost: 'VAULT;5000'
+      give-items: true
+      redeem:
+        available:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You just redeemed this kit! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Redeem again in {total}! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_PLAYER_LEVELUP;VOICE;1.0;0.3'
+          particles:
+            - 'NOTE;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+        unavailable:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You have to wait for the kit cooldown! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Available in {cooldown}! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+        locked:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You do not have permission to redeem this kit! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Purchase a rank to unlock this kit! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+Swordsman:
+  permission: advancedkits.kit.swordsman
+  preview-menu: default
+  levels:
+    '1':
+      cooldown: 30
+      cost: 'VAULT;1000'
+      give-items: true
+      redeem:
+        available:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You just redeemed this kit! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Redeem again in {total}! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_PLAYER_LEVELUP;VOICE;1.0;0.3'
+          particles:
+            - 'NOTE;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+        unavailable:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You have to wait for the kit cooldown! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Available in {cooldown}! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+        locked:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You do not have permission to redeem this kit! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Purchase a rank to unlock this kit! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+    '2':
+      cooldown: 45
+      cost: 'VAULT;2000'
+      give-items: true
+      redeem:
+        available:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You just redeemed this kit! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Redeem again in {total}! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_PLAYER_LEVELUP;VOICE;1.0;0.3'
+          particles:
+            - 'NOTE;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+        unavailable:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You have to wait for the kit cooldown! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Available in {cooldown}! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+        locked:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You do not have permission to redeem this kit! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Purchase a rank to unlock this kit! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+    '3':
+      cooldown: 60
+      cost: 'VAULT;3000'
+      give-items: true
+      redeem:
+        available:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You just redeemed this kit! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Redeem again in {total}! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_PLAYER_LEVELUP;VOICE;1.0;0.3'
+          particles:
+            - 'NOTE;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+        unavailable:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You have to wait for the kit cooldown! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Available in {cooldown}! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+        locked:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You do not have permission to redeem this kit! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Purchase a rank to unlock this kit! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+    '4':
+      cooldown: 75
+      cost: 'VAULT;4000'
+      give-items: true
+      redeem:
+        available:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You just redeemed this kit! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Redeem again in {total}! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_PLAYER_LEVELUP;VOICE;1.0;0.3'
+          particles:
+            - 'NOTE;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+        unavailable:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You have to wait for the kit cooldown! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Available in {cooldown}! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+        locked:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You do not have permission to redeem this kit! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Purchase a rank to unlock this kit! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+    '5':
+      cooldown: 90
+      cost: 'VAULT;5000'
+      give-items: true
+      redeem:
+        available:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You just redeemed this kit! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Redeem again in {total}! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_PLAYER_LEVELUP;VOICE;1.0;0.3'
+          particles:
+            - 'NOTE;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+        unavailable:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You have to wait for the kit cooldown! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Available in {cooldown}! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+        locked:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You do not have permission to redeem this kit! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Purchase a rank to unlock this kit! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+Pyro:
+  permission: advancedkits.kit.pyro
+  preview-menu: default
+  levels:
+    '1':
+      cooldown: 30
+      cost: 'VAULT;1000'
+      give-items: true
+      redeem:
+        available:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You just redeemed this kit! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Redeem again in {total}! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_PLAYER_LEVELUP;VOICE;1.0;0.3'
+          particles:
+            - 'NOTE;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+        unavailable:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You have to wait for the kit cooldown! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Available in {cooldown}! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+        locked:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You do not have permission to redeem this kit! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Purchase a rank to unlock this kit! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+    '2':
+      cooldown: 45
+      cost: 'VAULT;2000'
+      give-items: true
+      redeem:
+        available:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You just redeemed this kit! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Redeem again in {total}! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_PLAYER_LEVELUP;VOICE;1.0;0.3'
+          particles:
+            - 'NOTE;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+        unavailable:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You have to wait for the kit cooldown! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Available in {cooldown}! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+        locked:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You do not have permission to redeem this kit! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Purchase a rank to unlock this kit! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+    '3':
+      cooldown: 60
+      cost: 'VAULT;3000'
+      give-items: true
+      redeem:
+        available:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You just redeemed this kit! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Redeem again in {total}! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_PLAYER_LEVELUP;VOICE;1.0;0.3'
+          particles:
+            - 'NOTE;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+        unavailable:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You have to wait for the kit cooldown! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Available in {cooldown}! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+        locked:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You do not have permission to redeem this kit! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Purchase a rank to unlock this kit! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+    '4':
+      cooldown: 75
+      cost: 'VAULT;4000'
+      give-items: true
+      redeem:
+        available:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You just redeemed this kit! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Redeem again in {total}! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_PLAYER_LEVELUP;VOICE;1.0;0.3'
+          particles:
+            - 'NOTE;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+        unavailable:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You have to wait for the kit cooldown! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Available in {cooldown}! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+        locked:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You do not have permission to redeem this kit! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Purchase a rank to unlock this kit! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+    '5':
+      cooldown: 90
+      cost: 'VAULT;5000'
+      give-items: true
+      redeem:
+        available:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You just redeemed this kit! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Redeem again in {total}! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_PLAYER_LEVELUP;VOICE;1.0;0.3'
+          particles:
+            - 'NOTE;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+        unavailable:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You have to wait for the kit cooldown! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Available in {cooldown}! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+        locked:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You do not have permission to redeem this kit! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Purchase a rank to unlock this kit! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+Ninja:
+  permission: advancedkits.kit.ninja
+  preview-menu: default
+  levels:
+    '1':
+      cooldown: 30
+      cost: 'VAULT;1000'
+      give-items: true
+      redeem:
+        available:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You just redeemed this kit! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Redeem again in {total}! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_PLAYER_LEVELUP;VOICE;1.0;0.3'
+          particles:
+            - 'NOTE;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+        unavailable:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You have to wait for the kit cooldown! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Available in {cooldown}! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+        locked:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You do not have permission to redeem this kit! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Purchase a rank to unlock this kit! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+    '2':
+      cooldown: 45
+      cost: 'VAULT;2000'
+      give-items: true
+      redeem:
+        available:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You just redeemed this kit! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Redeem again in {total}! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_PLAYER_LEVELUP;VOICE;1.0;0.3'
+          particles:
+            - 'NOTE;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+        unavailable:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You have to wait for the kit cooldown! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Available in {cooldown}! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+        locked:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You do not have permission to redeem this kit! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Purchase a rank to unlock this kit! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+    '3':
+      cooldown: 60
+      cost: 'VAULT;3000'
+      give-items: true
+      redeem:
+        available:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You just redeemed this kit! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Redeem again in {total}! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          messages: []
+          sounds:
+            - 'ENTITY_PLAYER_LEVELUP;VOICE;1.0;0.3'
+          particles:
+            - 'NOTE;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+        unavailable:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You have to wait for the kit cooldown! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Available in {cooldown}! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+        locked:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You do not have permission to redeem this kit! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Purchase a rank to unlock this kit! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+    '4':
+      cooldown: 75
+      cost: 'VAULT;4000'
+      give-items: true
+      redeem:
+        available:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You just redeemed this kit! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Redeem again in {total}! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_PLAYER_LEVELUP;VOICE;1.0;0.3'
+          particles:
+            - 'NOTE;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+        unavailable:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You have to wait for the kit cooldown! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Available in {cooldown}! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+        locked:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You do not have permission to redeem this kit! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Purchase a rank to unlock this kit! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+    '5':
+      cooldown: 90
+      cost: 'VAULT;5000'
+      give-items: true
+      redeem:
+        available:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You just redeemed this kit! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Redeem again in {total}! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_PLAYER_LEVELUP;VOICE;1.0;0.3'
+          particles:
+            - 'NOTE;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+        unavailable:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You have to wait for the kit cooldown! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Available in {cooldown}! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+        locked:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You do not have permission to redeem this kit! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Purchase a rank to unlock this kit! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+Archer:
+  permission: advancedkits.kit.archer
+  preview-menu: default
+  levels:
+    '1':
+      cooldown: 30
+      cost: 'VAULT;1000'
+      give-items: true
+      redeem:
+        available:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You just redeemed this kit! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Redeem again in {total}! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_PLAYER_LEVELUP;VOICE;1.0;0.3'
+          particles:
+            - 'NOTE;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+        unavailable:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You have to wait for the kit cooldown! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Available in {cooldown}! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+        locked:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You do not have permission to redeem this kit! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Purchase a rank to unlock this kit! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+    '2':
+      cooldown: 45
+      cost: 'VAULT;2000'
+      give-items: true
+      console-commands:
+      redeem:
+        available:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You just redeemed this kit! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Redeem again in {total}! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_PLAYER_LEVELUP;VOICE;1.0;0.3'
+          particles:
+            - 'NOTE;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+        unavailable:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You have to wait for the kit cooldown! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Available in {cooldown}! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+        locked:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You do not have permission to redeem this kit! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Purchase a rank to unlock this kit! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+    '3':
+      cooldown: 60
+      cost: 'VAULT;3000'
+      give-items: true
+      console-commands:
+      redeem:
+        available:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You just redeemed this kit! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Redeem again in {total}! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_PLAYER_LEVELUP;VOICE;1.0;0.3'
+          particles:
+            - 'NOTE;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+        unavailable:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You have to wait for the kit cooldown! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Available in {cooldown}! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+        locked:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You do not have permission to redeem this kit! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Purchase a rank to unlock this kit! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+    '4':
+      cooldown: 75
+      cost: 'VAULT;4000'
+      give-items: true
+      redeem:
+        available:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You just redeemed this kit! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Redeem again in {total}! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_PLAYER_LEVELUP;VOICE;1.0;0.3'
+          particles:
+            - 'NOTE;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+        unavailable:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You have to wait for the kit cooldown! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Available in {cooldown}! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+        locked:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You do not have permission to redeem this kit! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Purchase a rank to unlock this kit! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+    '5':
+      cooldown: 90
+      cost: 'VAULT;5000'
+      give-items: true
+      redeem:
+        available:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You just redeemed this kit! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Redeem again in {total}! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_PLAYER_LEVELUP;VOICE;1.0;0.3'
+          particles:
+            - 'NOTE;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+        unavailable:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You have to wait for the kit cooldown! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Available in {cooldown}! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+        locked:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You do not have permission to redeem this kit! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Purchase a rank to unlock this kit! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+Infected:
+  permission: advancedkits.kit.infected
+  preview-menu: default
+  levels:
+    '1':
+      cooldown: 30
+      cost: 'VAULT;1000'
+      give-items: true
+      redeem:
+        available:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You just redeemed this kit! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Redeem again in {total}! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_PLAYER_LEVELUP;VOICE;1.0;0.3'
+          particles:
+            - 'NOTE;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+        unavailable:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You have to wait for the kit cooldown! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Available in {cooldown}! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+        locked:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You do not have permission to redeem this kit! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Purchase a rank to unlock this kit! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+    '2':
+      cooldown: 45
+      cost: 'VAULT;2000'
+      give-items: true
+      redeem:
+        available:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You just redeemed this kit! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Redeem again in {total}! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_PLAYER_LEVELUP;VOICE;1.0;0.3'
+          particles:
+            - 'NOTE;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+        unavailable:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You have to wait for the kit cooldown! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Available in {cooldown}! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+        locked:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You do not have permission to redeem this kit! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Purchase a rank to unlock this kit! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+    '3':
+      cooldown: 60
+      cost: 'VAULT;3000'
+      give-items: true
+      redeem:
+        available:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You just redeemed this kit! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Redeem again in {total}! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_PLAYER_LEVELUP;VOICE;1.0;0.3'
+          particles:
+            - 'NOTE;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+        unavailable:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You have to wait for the kit cooldown! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Available in {cooldown}! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+        locked:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You do not have permission to redeem this kit! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Purchase a rank to unlock this kit! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+    '4':
+      cooldown: 75
+      cost: 'VAULT;4000'
+      give-items: true
+      redeem:
+        available:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You just redeemed this kit! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Redeem again in {total}! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_PLAYER_LEVELUP;VOICE;1.0;0.3'
+          particles:
+            - 'NOTE;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+        unavailable:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You have to wait for the kit cooldown! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Available in {cooldown}! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+        locked:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You do not have permission to redeem this kit! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Purchase a rank to unlock this kit! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+    '5':
+      cooldown: 90
+      cost: 'VAULT;5000'
+      give-items: true
+      redeem:
+        available:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You just redeemed this kit! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Redeem again in {total}! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_PLAYER_LEVELUP;VOICE;1.0;0.3'
+          particles:
+            - 'NOTE;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+        unavailable:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You have to wait for the kit cooldown! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Available in {cooldown}! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+        locked:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You do not have permission to redeem this kit! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Purchase a rank to unlock this kit! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+Coal:
+  permission: advancedkits.kit.coal
+  preview-menu: default
+  levels:
+    '1':
+      cooldown: 300
+      cost: 'VAULT;1000'
+      give-items: true
+      redeem:
+        available:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You just redeemed this kit! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Redeem again in {total}! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_PLAYER_LEVELUP;VOICE;1.0;0.3'
+          particles:
+            - 'NOTE;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+        unavailable:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You have to wait for the kit cooldown! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Available in {cooldown}! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+        locked:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You do not have permission to redeem this kit! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Purchase a rank to unlock this kit! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+Iron:
+  permission: advancedkits.kit.iron
+  preview-menu: default
+  levels:
+    '1':
+      cooldown: 900
+      cost: 'VAULT;1000'
+      give-items: true
+      redeem:
+        available:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You just redeemed this kit! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Redeem again in {total}! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_PLAYER_LEVELUP;VOICE;1.0;0.3'
+          particles:
+            - 'NOTE;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+        unavailable:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You have to wait for the kit cooldown! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Available in {cooldown}! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+        locked:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You do not have permission to redeem this kit! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Purchase a rank to unlock this kit! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+Gold:
+  permission: advancedkits.kit.gold
+  preview-menu: default
+  levels:
+    '1':
+      cooldown: 1800
+      cost: 'VAULT;1000'
+      give-items: true
+      redeem:
+        available:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You just redeemed this kit! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Redeem again in {total}! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_PLAYER_LEVELUP;VOICE;1.0;0.3'
+          particles:
+            - 'NOTE;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+        unavailable:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You have to wait for the kit cooldown! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Available in {cooldown}! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+        locked:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You do not have permission to redeem this kit! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Purchase a rank to unlock this kit! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+Lapis:
+  permission: advancedkits.kit.lapis
+  preview-menu: default
+  levels:
+    '1':
+      cooldown: 3600
+      cost: 'VAULT;1000'
+      give-items: true
+      redeem:
+        available:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You just redeemed this kit! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Redeem again in {total}! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_PLAYER_LEVELUP;VOICE;1.0;0.3'
+          particles:
+            - 'NOTE;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+        unavailable:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You have to wait for the kit cooldown! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Available in {cooldown}! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+        locked:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You do not have permission to redeem this kit! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Purchase a rank to unlock this kit! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+Emerald:
+  permission: advancedkits.kit.emerald
+  preview-menu: default
+  levels:
+    '1':
+      cooldown: 10800
+      cost: 'VAULT;1000'
+      give-items: true
+      redeem:
+        available:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You just redeemed this kit! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Redeem again in {total}! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_PLAYER_LEVELUP;VOICE;1.0;0.3'
+          particles:
+            - 'NOTE;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+        unavailable:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You have to wait for the kit cooldown! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Available in {cooldown}! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+        locked:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You do not have permission to redeem this kit! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Purchase a rank to unlock this kit! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+Diamond:
+  permission: advancedkits.kit.diamond
+  preview-menu: default
+  levels:
+    '1':
+      cooldown: 21600
+      cost: 'VAULT;1000'
+      give-items: true
+      redeem:
+        available:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You just redeemed this kit! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Redeem again in {total}! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_PLAYER_LEVELUP;VOICE;1.0;0.3'
+          particles:
+            - 'NOTE;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+        unavailable:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You have to wait for the kit cooldown! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Available in {cooldown}! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+        locked:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You do not have permission to redeem this kit! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Purchase a rank to unlock this kit! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+Bedrock:
+  permission: advancedkits.kit.bedrock
+  preview-menu: default
+  levels:
+    '1':
+      cooldown: 28800
+      cost: 'VAULT;1000'
+      give-items: true
+      redeem:
+        available:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You just redeemed this kit! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Redeem again in {total}! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_PLAYER_LEVELUP;VOICE;1.0;0.3'
+          particles:
+            - 'NOTE;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+        unavailable:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You have to wait for the kit cooldown! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Available in {cooldown}! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+        locked:
+          titles:
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You do not have permission to redeem this kit! ))</gradient></italic>;3;17;20;0'
+            - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Purchase a rank to unlock this kit! ))</gradient></italic>;0;17;3;20'
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
