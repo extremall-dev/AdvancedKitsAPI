@@ -1,2 +1,2 @@
 # AdvancedKits
-A kits plugin every player dreams of!
+An advanced kits plugin that can't be beaten!
