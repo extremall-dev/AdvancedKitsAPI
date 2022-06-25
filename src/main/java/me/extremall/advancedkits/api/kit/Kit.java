@@ -9,9 +9,13 @@ import java.util.Map;
 public interface Kit
 {
     @NotNull String getIdentifier();
+
     @NotNull String getPermission();
+
     @NotNull Map<Integer, KitLevel> getLevels();
+
     @Nullable KitLevel getLevel(int level);
+
     boolean isUpgradeable();
 
     boolean isValidLevel(int level);
