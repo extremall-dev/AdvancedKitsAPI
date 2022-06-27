@@ -9,16 +9,14 @@ import org.jetbrains.annotations.NotNull;
 public class UpgradeKitEvent extends BaseUserEvent implements Cancellable
 {
     private final Kit kit;
-    private final KitLevel currentKitLevel;
-    private final KitLevel nextKitLevel;
+    private final KitLevel newKitLevel;
     private boolean cancelled;
 
-    public UpgradeKitEvent(@NotNull User user, @NotNull Kit kit, @NotNull KitLevel currentKitLevel, @NotNull KitLevel nextKitLevel)
+    public UpgradeKitEvent(@NotNull User user, @NotNull Kit kit, @NotNull KitLevel newKitLevel)
     {
         super(user);
         this.kit = kit;
-        this.currentKitLevel = currentKitLevel;
-        this.nextKitLevel = nextKitLevel;
+        this.newKitLevel = newKitLevel;
     }
 
     @Override
@@ -34,15 +32,9 @@ public class UpgradeKitEvent extends BaseUserEvent implements Cancellable
     }
 
     @NotNull
-    public KitLevel getCurrentKitLevel()
+    public KitLevel getNewKitLevel()
     {
-        return this.currentKitLevel;
-    }
-
-    @NotNull
-    public KitLevel getNextKitLevel()
-    {
-        return this.nextKitLevel;
+        return this.newKitLevel;
     }
 
     @Override
