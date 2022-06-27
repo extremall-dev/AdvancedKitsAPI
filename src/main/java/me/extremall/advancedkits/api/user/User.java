@@ -17,13 +17,15 @@ public interface User
 
     int getKitLevel(@NotNull Kit kit);
 
+    void setKitLevel(@NotNull Kit kit, int level);
+
     long getKitCooldown(@NotNull Kit kit);
 
     long getLeftKitCooldown(@NotNull Kit kit);
 
     boolean hasKitCooldown(@NotNull Kit kit);
 
-    void setKitCooldown(@NotNull Kit kit, long delay);
+    void addKitCooldown(@NotNull Kit kit, long delay);
 
     void resetKitCooldown(@NotNull Kit kit);
 
