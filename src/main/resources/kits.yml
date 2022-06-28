@@ -4,7 +4,8 @@ Snowman:
   levels:
     '1':
       cooldown: 30
-      cost: 'VAULT;1000'
+      maximum-usages: -1 # Set -1 for unlimited usages
+      cost: 'VAULT;0' # This is ignored for default level
       give-items: true
       redeem:
         available:
@@ -38,6 +39,13 @@ Snowman:
             - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
           particles:
             - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+        without-usages:
+          titles: []
+          fireworks: []
+          sounds: []
+          particles: []
           console-commands: []
           messages: []
 Potions:
@@ -46,7 +54,8 @@ Potions:
   levels:
     '1':
       cooldown: 300
-      cost: 'VAULT;1000'
+      maximum-usages: -1 # Set -1 for unlimited usages
+      cost: 'VAULT;0' # This is ignored for default level
       give-items: true
       redeem:
         available:
@@ -80,6 +89,13 @@ Potions:
             - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
           particles:
             - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+        without-usages:
+          titles: []
+          fireworks: []
+          sounds: []
+          particles: []
           console-commands: []
           messages: []
 Viking:
@@ -88,7 +104,8 @@ Viking:
   levels:
     '1':
       cooldown: 60
-      cost: 'VAULT;1000'
+      maximum-usages: -1 # Set -1 for unlimited usages
+      cost: 'VAULT;0' # This is ignored for default level
       give-items: true
       redeem:
         available:
@@ -124,8 +141,16 @@ Viking:
             - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
           console-commands: []
           messages: []
+        without-usages:
+          titles: []
+          fireworks: []
+          sounds: []
+          particles: []
+          console-commands: []
+          messages: []
     '2':
       cooldown: 120
+      maximum-usages: -1 # Set -1 for unlimited usages
       cost: 'VAULT;2000'
       give-items: true
       redeem:
@@ -162,8 +187,16 @@ Viking:
             - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
           console-commands: []
           messages: []
+        without-usages:
+          titles: []
+          fireworks: []
+          sounds: []
+          particles: []
+          console-commands: []
+          messages: []
     '3':
       cooldown: 180
+      maximum-usages: -1 # Set -1 for unlimited usages
       cost: 'VAULT;3000'
       give-items: true
       redeem:
@@ -200,8 +233,16 @@ Viking:
             - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
           console-commands: []
           messages: []
+        without-usages:
+          titles: []
+          fireworks: []
+          sounds: []
+          particles: []
+          console-commands: []
+          messages: []
     '4':
       cooldown: 240
+      maximum-usages: -1 # Set -1 for unlimited usages
       cost: 'VAULT;4000'
       give-items: true
       redeem:
@@ -238,8 +279,16 @@ Viking:
             - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
           console-commands: []
           messages: []
+        without-usages:
+          titles: []
+          fireworks: []
+          sounds: []
+          particles: []
+          console-commands: []
+          messages: []
     '5':
       cooldown: 300
+      maximum-usages: -1 # Set -1 for unlimited usages
       cost: 'VAULT;5000'
       give-items: true
       redeem:
@@ -274,6 +323,13 @@ Viking:
             - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
           particles:
             - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+        without-usages:
+          titles: []
+          fireworks: []
+          sounds: []
+          particles: []
           console-commands: []
           messages: []
 Ultimate:
@@ -282,7 +338,8 @@ Ultimate:
   levels:
     '1':
       cooldown: 30
-      cost: 'VAULT;1000'
+      maximum-usages: -1 # Set -1 for unlimited usages
+      cost: 'VAULT;0' # This is ignored for default level
       give-items: true
       redeem:
         available:
@@ -318,8 +375,16 @@ Ultimate:
             - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
           console-commands: []
           messages: []
+        without-usages:
+          titles: []
+          fireworks: []
+          sounds: []
+          particles: []
+          console-commands: []
+          messages: []
     '2':
       cooldown: 45
+      maximum-usages: -1 # Set -1 for unlimited usages
       cost: 'VAULT;2000'
       give-items: true
       redeem:
@@ -356,8 +421,16 @@ Ultimate:
             - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
           console-commands: []
           messages: []
+        without-usages:
+          titles: []
+          fireworks: []
+          sounds: []
+          particles: []
+          console-commands: []
+          messages: []
     '3':
       cooldown: 60
+      maximum-usages: -1 # Set -1 for unlimited usages
       cost: 'VAULT;3000'
       give-items: true
       redeem:
@@ -394,8 +467,16 @@ Ultimate:
             - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
           console-commands: []
           messages: []
+        without-usages:
+          titles: []
+          fireworks: []
+          sounds: []
+          particles: []
+          console-commands: []
+          messages: []
     '4':
       cooldown: 75
+      maximum-usages: -1 # Set -1 for unlimited usages
       cost: 'VAULT;4000'
       give-items: true
       redeem:
@@ -432,8 +513,16 @@ Ultimate:
             - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
           console-commands: []
           messages: []
+        without-usages:
+          titles: []
+          fireworks: []
+          sounds: []
+          particles: []
+          console-commands: []
+          messages: []
     '5':
       cooldown: 90
+      maximum-usages: -1 # Set -1 for unlimited usages
       cost: 'VAULT;5000'
       give-items: true
       redeem:
@@ -468,6 +557,13 @@ Ultimate:
             - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
           particles:
             - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+        without-usages:
+          titles: []
+          fireworks: []
+          sounds: []
+          particles: []
           console-commands: []
           messages: []
 Swordsman:
@@ -476,7 +572,8 @@ Swordsman:
   levels:
     '1':
       cooldown: 30
-      cost: 'VAULT;1000'
+      maximum-usages: -1 # Set -1 for unlimited usages
+      cost: 'VAULT;0' # This is ignored for default level
       give-items: true
       redeem:
         available:
@@ -512,8 +609,16 @@ Swordsman:
             - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
           console-commands: []
           messages: []
+        without-usages:
+          titles: []
+          fireworks: []
+          sounds: []
+          particles: []
+          console-commands: []
+          messages: []
     '2':
       cooldown: 45
+      maximum-usages: -1 # Set -1 for unlimited usages
       cost: 'VAULT;2000'
       give-items: true
       redeem:
@@ -550,8 +655,16 @@ Swordsman:
             - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
           console-commands: []
           messages: []
+        without-usages:
+          titles: []
+          fireworks: []
+          sounds: []
+          particles: []
+          console-commands: []
+          messages: []
     '3':
       cooldown: 60
+      maximum-usages: -1 # Set -1 for unlimited usages
       cost: 'VAULT;3000'
       give-items: true
       redeem:
@@ -588,8 +701,16 @@ Swordsman:
             - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
           console-commands: []
           messages: []
+        without-usages:
+          titles: []
+          fireworks: []
+          sounds: []
+          particles: []
+          console-commands: []
+          messages: []
     '4':
       cooldown: 75
+      maximum-usages: -1 # Set -1 for unlimited usages
       cost: 'VAULT;4000'
       give-items: true
       redeem:
@@ -626,8 +747,16 @@ Swordsman:
             - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
           console-commands: []
           messages: []
+        without-usages:
+          titles: []
+          fireworks: []
+          sounds: []
+          particles: []
+          console-commands: []
+          messages: []
     '5':
       cooldown: 90
+      maximum-usages: -1 # Set -1 for unlimited usages
       cost: 'VAULT;5000'
       give-items: true
       redeem:
@@ -663,13 +792,22 @@ Swordsman:
           particles:
             - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
           console-commands: []
+          messages: []
+        without-usages:
+          titles: []
+          fireworks: []
+          sounds: []
+          particles: []
+          console-commands: []
+          messages: []
 Pyro:
   permission: advancedkits.kit.pyro
   preview-menu: default
   levels:
     '1':
       cooldown: 30
-      cost: 'VAULT;1000'
+      maximum-usages: -1 # Set -1 for unlimited usages
+      cost: 'VAULT;0' # This is ignored for default level
       give-items: true
       redeem:
         available:
@@ -705,8 +843,16 @@ Pyro:
             - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
           console-commands: []
           messages: []
+        without-usages:
+          titles: []
+          fireworks: []
+          sounds: []
+          particles: []
+          console-commands: []
+          messages: []
     '2':
       cooldown: 45
+      maximum-usages: -1 # Set -1 for unlimited usages
       cost: 'VAULT;2000'
       give-items: true
       redeem:
@@ -743,8 +889,16 @@ Pyro:
             - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
           console-commands: []
           messages: []
+        without-usages:
+          titles: []
+          fireworks: []
+          sounds: []
+          particles: []
+          console-commands: []
+          messages: []
     '3':
       cooldown: 60
+      maximum-usages: -1 # Set -1 for unlimited usages
       cost: 'VAULT;3000'
       give-items: true
       redeem:
@@ -781,8 +935,16 @@ Pyro:
             - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
           console-commands: []
           messages: []
+        without-usages:
+          titles: []
+          fireworks: []
+          sounds: []
+          particles: []
+          console-commands: []
+          messages: []
     '4':
       cooldown: 75
+      maximum-usages: -1 # Set -1 for unlimited usages
       cost: 'VAULT;4000'
       give-items: true
       redeem:
@@ -819,8 +981,16 @@ Pyro:
             - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
           console-commands: []
           messages: []
+        without-usages:
+          titles: []
+          fireworks: []
+          sounds: []
+          particles: []
+          console-commands: []
+          messages: []
     '5':
       cooldown: 90
+      maximum-usages: -1 # Set -1 for unlimited usages
       cost: 'VAULT;5000'
       give-items: true
       redeem:
@@ -855,6 +1025,13 @@ Pyro:
             - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
           particles:
             - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+        without-usages:
+          titles: []
+          fireworks: []
+          sounds: []
+          particles: []
           console-commands: []
           messages: []
 Ninja:
@@ -863,7 +1040,8 @@ Ninja:
   levels:
     '1':
       cooldown: 30
-      cost: 'VAULT;1000'
+      maximum-usages: -1 # Set -1 for unlimited usages
+      cost: 'VAULT;0' # This is ignored for default level
       give-items: true
       redeem:
         available:
@@ -899,8 +1077,16 @@ Ninja:
             - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
           console-commands: []
           messages: []
+        without-usages:
+          titles: []
+          fireworks: []
+          sounds: []
+          particles: []
+          console-commands: []
+          messages: []
     '2':
       cooldown: 45
+      maximum-usages: -1 # Set -1 for unlimited usages
       cost: 'VAULT;2000'
       give-items: true
       redeem:
@@ -937,8 +1123,16 @@ Ninja:
             - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
           console-commands: []
           messages: []
+        without-usages:
+          titles: []
+          fireworks: []
+          sounds: []
+          particles: []
+          console-commands: []
+          messages: []
     '3':
       cooldown: 60
+      maximum-usages: -1 # Set -1 for unlimited usages
       cost: 'VAULT;3000'
       give-items: true
       redeem:
@@ -947,7 +1141,6 @@ Ninja:
             - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( You just redeemed this kit! ))</gradient></italic>;3;17;20;0'
             - '<bold><gradient:green:blue>{kit} (Lvl. {current_level})</gradient></bold>;<italic><gradient:#F0BD11:#E5DCD9>(( Redeem again in {total}! ))</gradient></italic>;0;17;3;20'
           fireworks: []
-          messages: []
           sounds:
             - 'ENTITY_PLAYER_LEVELUP;VOICE;1.0;0.3'
           particles:
@@ -976,8 +1169,16 @@ Ninja:
             - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
           console-commands: []
           messages: []
+        without-usages:
+          titles: []
+          fireworks: []
+          sounds: []
+          particles: []
+          console-commands: []
+          messages: []
     '4':
       cooldown: 75
+      maximum-usages: -1 # Set -1 for unlimited usages
       cost: 'VAULT;4000'
       give-items: true
       redeem:
@@ -1014,8 +1215,16 @@ Ninja:
             - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
           console-commands: []
           messages: []
+        without-usages:
+          titles: []
+          fireworks: []
+          sounds: []
+          particles: []
+          console-commands: []
+          messages: []
     '5':
       cooldown: 90
+      maximum-usages: -1 # Set -1 for unlimited usages
       cost: 'VAULT;5000'
       give-items: true
       redeem:
@@ -1050,6 +1259,13 @@ Ninja:
             - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
           particles:
             - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+        without-usages:
+          titles: []
+          fireworks: []
+          sounds: []
+          particles: []
           console-commands: []
           messages: []
 Archer:
@@ -1058,7 +1274,8 @@ Archer:
   levels:
     '1':
       cooldown: 30
-      cost: 'VAULT;1000'
+      maximum-usages: -1 # Set -1 for unlimited usages
+      cost: 'VAULT;0' # This is ignored for default level
       give-items: true
       redeem:
         available:
@@ -1094,8 +1311,16 @@ Archer:
             - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
           console-commands: []
           messages: []
+        without-usages:
+          titles: []
+          fireworks: []
+          sounds: []
+          particles: []
+          console-commands: []
+          messages: []
     '2':
       cooldown: 45
+      maximum-usages: -1 # Set -1 for unlimited usages
       cost: 'VAULT;2000'
       give-items: true
       console-commands:
@@ -1133,8 +1358,16 @@ Archer:
             - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
           console-commands: []
           messages: []
+        without-usages:
+          titles: []
+          fireworks: []
+          sounds: []
+          particles: []
+          console-commands: []
+          messages: []
     '3':
       cooldown: 60
+      maximum-usages: -1 # Set -1 for unlimited usages
       cost: 'VAULT;3000'
       give-items: true
       console-commands:
@@ -1172,8 +1405,16 @@ Archer:
             - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
           console-commands: []
           messages: []
+        without-usages:
+          titles: []
+          fireworks: []
+          sounds: []
+          particles: []
+          console-commands: []
+          messages: []
     '4':
       cooldown: 75
+      maximum-usages: -1 # Set -1 for unlimited usages
       cost: 'VAULT;4000'
       give-items: true
       redeem:
@@ -1210,8 +1451,16 @@ Archer:
             - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
           console-commands: []
           messages: []
+        without-usages:
+          titles: []
+          fireworks: []
+          sounds: []
+          particles: []
+          console-commands: []
+          messages: []
     '5':
       cooldown: 90
+      maximum-usages: -1 # Set -1 for unlimited usages
       cost: 'VAULT;5000'
       give-items: true
       redeem:
@@ -1246,6 +1495,13 @@ Archer:
             - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
           particles:
             - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+        without-usages:
+          titles: []
+          fireworks: []
+          sounds: []
+          particles: []
           console-commands: []
           messages: []
 Infected:
@@ -1254,7 +1510,8 @@ Infected:
   levels:
     '1':
       cooldown: 30
-      cost: 'VAULT;1000'
+      maximum-usages: -1 # Set -1 for unlimited usages
+      cost: 'VAULT;0' # This is ignored for default level
       give-items: true
       redeem:
         available:
@@ -1290,8 +1547,16 @@ Infected:
             - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
           console-commands: []
           messages: []
+        without-usages:
+          titles: []
+          fireworks: []
+          sounds: []
+          particles: []
+          console-commands: []
+          messages: []
     '2':
       cooldown: 45
+      maximum-usages: -1 # Set -1 for unlimited usages
       cost: 'VAULT;2000'
       give-items: true
       redeem:
@@ -1328,8 +1593,16 @@ Infected:
             - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
           console-commands: []
           messages: []
+        without-usages:
+          titles: []
+          fireworks: []
+          sounds: []
+          particles: []
+          console-commands: []
+          messages: []
     '3':
       cooldown: 60
+      maximum-usages: -1 # Set -1 for unlimited usages
       cost: 'VAULT;3000'
       give-items: true
       redeem:
@@ -1366,8 +1639,16 @@ Infected:
             - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
           console-commands: []
           messages: []
+        without-usages:
+          titles: []
+          fireworks: []
+          sounds: []
+          particles: []
+          console-commands: []
+          messages: []
     '4':
       cooldown: 75
+      maximum-usages: -1 # Set -1 for unlimited usages
       cost: 'VAULT;4000'
       give-items: true
       redeem:
@@ -1404,8 +1685,16 @@ Infected:
             - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
           console-commands: []
           messages: []
+        without-usages:
+          titles: []
+          fireworks: []
+          sounds: []
+          particles: []
+          console-commands: []
+          messages: []
     '5':
       cooldown: 90
+      maximum-usages: -1 # Set -1 for unlimited usages
       cost: 'VAULT;5000'
       give-items: true
       redeem:
@@ -1442,13 +1731,21 @@ Infected:
             - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
           console-commands: []
           messages: []
+        without-usages:
+          titles: []
+          fireworks: []
+          sounds: []
+          particles: []
+          console-commands: []
+          messages: []
 Coal:
   permission: advancedkits.kit.coal
   preview-menu: default
   levels:
     '1':
       cooldown: 300
-      cost: 'VAULT;1000'
+      maximum-usages: -1 # Set -1 for unlimited usages
+      cost: 'VAULT;0' # This is ignored for default level
       give-items: true
       redeem:
         available:
@@ -1482,6 +1779,13 @@ Coal:
             - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
           particles:
             - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+        without-usages:
+          titles: []
+          fireworks: []
+          sounds: []
+          particles: []
           console-commands: []
           messages: []
 Iron:
@@ -1490,7 +1794,8 @@ Iron:
   levels:
     '1':
       cooldown: 900
-      cost: 'VAULT;1000'
+      maximum-usages: -1 # Set -1 for unlimited usages
+      cost: 'VAULT;0' # This is ignored for default level
       give-items: true
       redeem:
         available:
@@ -1524,6 +1829,13 @@ Iron:
             - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
           particles:
             - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+        without-usages:
+          titles: []
+          fireworks: []
+          sounds: []
+          particles: []
           console-commands: []
           messages: []
 Gold:
@@ -1532,7 +1844,8 @@ Gold:
   levels:
     '1':
       cooldown: 1800
-      cost: 'VAULT;1000'
+      maximum-usages: -1 # Set -1 for unlimited usages
+      cost: 'VAULT;0' # This is ignored for default level
       give-items: true
       redeem:
         available:
@@ -1566,6 +1879,13 @@ Gold:
             - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
           particles:
             - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+        without-usages:
+          titles: []
+          fireworks: []
+          sounds: []
+          particles: []
           console-commands: []
           messages: []
 Lapis:
@@ -1574,7 +1894,8 @@ Lapis:
   levels:
     '1':
       cooldown: 3600
-      cost: 'VAULT;1000'
+      maximum-usages: -1 # Set -1 for unlimited usages
+      cost: 'VAULT;0' # This is ignored for default level
       give-items: true
       redeem:
         available:
@@ -1608,6 +1929,13 @@ Lapis:
             - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
           particles:
             - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+        without-usages:
+          titles: []
+          fireworks: []
+          sounds: []
+          particles: []
           console-commands: []
           messages: []
 Emerald:
@@ -1616,7 +1944,8 @@ Emerald:
   levels:
     '1':
       cooldown: 10800
-      cost: 'VAULT;1000'
+      maximum-usages: -1 # Set -1 for unlimited usages
+      cost: 'VAULT;0' # This is ignored for default level
       give-items: true
       redeem:
         available:
@@ -1650,6 +1979,13 @@ Emerald:
             - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
           particles:
             - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+        without-usages:
+          titles: []
+          fireworks: []
+          sounds: []
+          particles: []
           console-commands: []
           messages: []
 Diamond:
@@ -1658,7 +1994,8 @@ Diamond:
   levels:
     '1':
       cooldown: 21600
-      cost: 'VAULT;1000'
+      maximum-usages: -1 # Set -1 for unlimited usages
+      cost: 'VAULT;0' # This is ignored for default level
       give-items: true
       redeem:
         available:
@@ -1692,6 +2029,13 @@ Diamond:
             - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
           particles:
             - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+        without-usages:
+          titles: []
+          fireworks: []
+          sounds: []
+          particles: []
           console-commands: []
           messages: []
 Bedrock:
@@ -1700,7 +2044,8 @@ Bedrock:
   levels:
     '1':
       cooldown: 28800
-      cost: 'VAULT;1000'
+      maximum-usages: -1 # Set -1 for unlimited usages
+      cost: 'VAULT;0' # This is ignored for default level
       give-items: true
       redeem:
         available:
@@ -1734,5 +2079,12 @@ Bedrock:
             - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
           particles:
             - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+        without-usages:
+          titles: []
+          fireworks: []
+          sounds: []
+          particles: []
           console-commands: []
           messages: []
