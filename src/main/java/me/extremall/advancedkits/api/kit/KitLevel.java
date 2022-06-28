@@ -15,7 +15,11 @@ public interface KitLevel
 
     int getLevel();
 
-    public int getCooldown();
+    int getCooldown();
+
+    int getMaximumUsages();
+
+    int getNumberOfItems();
 
     @NotNull CurrencyType getCurrencyType();
 
@@ -31,3 +35,4 @@ public interface KitLevel
 
     @NotNull List<String> getRedeemAction(KitRedeemAction kitRedeemAction);
 }
+
