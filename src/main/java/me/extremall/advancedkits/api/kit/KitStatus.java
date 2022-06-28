@@ -4,5 +4,6 @@ public enum KitStatus
 {
     AVAILABLE,
     UNAVAILABLE,
-    LOCKED
+    LOCKED,
+    WITHOUT_USAGES
 }
