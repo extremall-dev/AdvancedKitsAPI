@@ -16,3 +16,4 @@ default:
       upgrade: 49
     settings:
       reset-kit-cooldown: true
+      reset-kit-usages: true
