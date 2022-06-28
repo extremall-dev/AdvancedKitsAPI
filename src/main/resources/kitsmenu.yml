@@ -58,6 +58,23 @@ kits:
         - '   <italic><gradient:#D544EB:#CE166F>preview and upgrades menu!</gradient></italic>'
         - ''
         - '<italic><gradient:#D22727:#F26F0F>(( Purchase a rank to unlock this kit! ))</gradient></italic>'
+    without-usages:
+      material: 'PLAYER_HEAD:https://textures.minecraft.net/texture/eeb225b48be643c568e648e31cc11da660e021b9861b18cd1907bea7ebe'
+      name: '<bold><color:#D22727>✧<color:#D22727><color:#F26F0F>✦<color:#F26F0F><color:#D22727>✧<color:#D22727> <gradient:#D22727:#F26F0F>Kit {kit}</gradient> <color:#D22727>✧<color:#D22727><color:#F26F0F>✦<color:#F26F0F><color:#D22727>✧<color:#D22727></bold>'
+      glow: false
+      lore:
+        - ''
+        - ' <bold><color:#D22727>*<color:#D22727></bold> <gradient:#D22727:#F26F0F>Kit cooldown:</gradient> <color:#E5DCD9>{total}<color:#E5DCD9>'
+        - ' <bold><color:#D22727>*<color:#D22727></bold> <gradient:#D22727:#F26F0F>Number of Items:</gradient> <color:#E5DCD9>{items}<color:#E5DCD9>'
+        - ' <bold><color:#D22727>*<color:#D22727></bold> <gradient:#D22727:#F26F0F>Usages:</gradient> <color:#E5DCD9>{current_usages} / {maximum_usages}<color:#E5DCD9> &7(Upgradeable)'
+        - ''
+        - ' <bold><color:#D22727>*<color:#D22727></bold> <gradient:#D22727:#F26F0F>Kit status:</gradient> <color:#E5DCD9>{status}<color:#E5DCD9>'
+        - ' <bold><color:#D22727>*<color:#D22727></bold> <gradient:#D22727:#F26F0F>Kit level:</gradient> <bold><underlined><color:yellow>{current_level}<color:yellow></underlined></bold> <bold><color:gray>/<color:gray></bold> <bold><underlined><color:red>5<color:red></underlined></bold>'
+        - ''
+        - '  <bold><italic><color:#CE166F>TIP:<color:#CE166F></italic></bold> <italic><gradient:#CE166F:#D544EB>Right-click to open the</gradient></italic>'
+        - '   <italic><gradient:#D544EB:#CE166F>preview and upgrades menu!</gradient></italic>'
+        - ''
+        - '<italic><gradient:#D22727:#F26F0F>(( You have reached the maximum usage limits! ))</gradient></italic>'
   Viking:
     slot: 20
     available:
@@ -111,6 +128,23 @@ kits:
         - '   <italic><gradient:#D544EB:#CE166F>preview and upgrades menu!</gradient></italic>'
         - ''
         - '<italic><gradient:#D22727:#F26F0F>(( Purchase a rank to unlock this kit! ))</gradient></italic>'
+    without-usages:
+      material: 'PLAYER_HEAD:https://textures.minecraft.net/texture/eeb225b48be643c568e648e31cc11da660e021b9861b18cd1907bea7ebe'
+      name: '<bold><color:#D22727>✧<color:#D22727><color:#F26F0F>✦<color:#F26F0F><color:#D22727>✧<color:#D22727> <gradient:#D22727:#F26F0F>Kit {kit}</gradient> <color:#D22727>✧<color:#D22727><color:#F26F0F>✦<color:#F26F0F><color:#D22727>✧<color:#D22727></bold>'
+      glow: false
+      lore:
+        - ''
+        - ' <bold><color:#D22727>*<color:#D22727></bold> <gradient:#D22727:#F26F0F>Kit cooldown:</gradient> <color:#E5DCD9>{total}<color:#E5DCD9>'
+        - ' <bold><color:#D22727>*<color:#D22727></bold> <gradient:#D22727:#F26F0F>Number of Items:</gradient> <color:#E5DCD9>{items}<color:#E5DCD9>'
+        - ' <bold><color:#D22727>*<color:#D22727></bold> <gradient:#D22727:#F26F0F>Usages:</gradient> <color:#E5DCD9>{current_usages} / {maximum_usages}<color:#E5DCD9> &7(Upgradeable)'
+        - ''
+        - ' <bold><color:#D22727>*<color:#D22727></bold> <gradient:#D22727:#F26F0F>Kit status:</gradient> <color:#E5DCD9>{status}<color:#E5DCD9>'
+        - ' <bold><color:#D22727>*<color:#D22727></bold> <gradient:#D22727:#F26F0F>Kit level:</gradient> <bold><underlined><color:yellow>{current_level}<color:yellow></underlined></bold> <bold><color:gray>/<color:gray></bold> <bold><underlined><color:red>5<color:red></underlined></bold>'
+        - ''
+        - '  <bold><italic><color:#CE166F>TIP:<color:#CE166F></italic></bold> <italic><gradient:#CE166F:#D544EB>Right-click to open the</gradient></italic>'
+        - '   <italic><gradient:#D544EB:#CE166F>preview and upgrades menu!</gradient></italic>'
+        - ''
+        - '<italic><gradient:#D22727:#F26F0F>(( You have reached the maximum usage limits! ))</gradient></italic>'
   Ultimate:
     slot: 12
     available:
@@ -164,6 +198,23 @@ kits:
         - '   <italic><gradient:#D544EB:#CE166F>preview and upgrades menu!</gradient></italic>'
         - ''
         - '<italic><gradient:#D22727:#F26F0F>(( Purchase a rank to unlock this kit! ))</gradient></italic>'
+    without-usages:
+      material: 'PLAYER_HEAD:https://textures.minecraft.net/texture/eeb225b48be643c568e648e31cc11da660e021b9861b18cd1907bea7ebe'
+      name: '<bold><color:#D22727>✧<color:#D22727><color:#F26F0F>✦<color:#F26F0F><color:#D22727>✧<color:#D22727> <gradient:#D22727:#F26F0F>Kit {kit}</gradient> <color:#D22727>✧<color:#D22727><color:#F26F0F>✦<color:#F26F0F><color:#D22727>✧<color:#D22727></bold>'
+      glow: false
+      lore:
+        - ''
+        - ' <bold><color:#D22727>*<color:#D22727></bold> <gradient:#D22727:#F26F0F>Kit cooldown:</gradient> <color:#E5DCD9>{total}<color:#E5DCD9>'
+        - ' <bold><color:#D22727>*<color:#D22727></bold> <gradient:#D22727:#F26F0F>Number of Items:</gradient> <color:#E5DCD9>{items}<color:#E5DCD9>'
+        - ' <bold><color:#D22727>*<color:#D22727></bold> <gradient:#D22727:#F26F0F>Usages:</gradient> <color:#E5DCD9>{current_usages} / {maximum_usages}<color:#E5DCD9> &7(Upgradeable)'
+        - ''
+        - ' <bold><color:#D22727>*<color:#D22727></bold> <gradient:#D22727:#F26F0F>Kit status:</gradient> <color:#E5DCD9>{status}<color:#E5DCD9>'
+        - ' <bold><color:#D22727>*<color:#D22727></bold> <gradient:#D22727:#F26F0F>Kit level:</gradient> <bold><underlined><color:yellow>{current_level}<color:yellow></underlined></bold> <bold><color:gray>/<color:gray></bold> <bold><underlined><color:red>5<color:red></underlined></bold>'
+        - ''
+        - '  <bold><italic><color:#CE166F>TIP:<color:#CE166F></italic></bold> <italic><gradient:#CE166F:#D544EB>Right-click to open the</gradient></italic>'
+        - '   <italic><gradient:#D544EB:#CE166F>preview and upgrades menu!</gradient></italic>'
+        - ''
+        - '<italic><gradient:#D22727:#F26F0F>(( You have reached the maximum usage limits! ))</gradient></italic>'
   Swordsman:
     slot: 22
     available:
@@ -217,6 +268,23 @@ kits:
         - '   <italic><gradient:#D544EB:#CE166F>preview and upgrades menu!</gradient></italic>'
         - ''
         - '<italic><gradient:#D22727:#F26F0F>(( Purchase a rank to unlock this kit! ))</gradient></italic>'
+    without-usages:
+      material: 'PLAYER_HEAD:https://textures.minecraft.net/texture/eeb225b48be643c568e648e31cc11da660e021b9861b18cd1907bea7ebe'
+      name: '<bold><color:#D22727>✧<color:#D22727><color:#F26F0F>✦<color:#F26F0F><color:#D22727>✧<color:#D22727> <gradient:#D22727:#F26F0F>Kit {kit}</gradient> <color:#D22727>✧<color:#D22727><color:#F26F0F>✦<color:#F26F0F><color:#D22727>✧<color:#D22727></bold>'
+      glow: false
+      lore:
+        - ''
+        - ' <bold><color:#D22727>*<color:#D22727></bold> <gradient:#D22727:#F26F0F>Kit cooldown:</gradient> <color:#E5DCD9>{total}<color:#E5DCD9>'
+        - ' <bold><color:#D22727>*<color:#D22727></bold> <gradient:#D22727:#F26F0F>Number of Items:</gradient> <color:#E5DCD9>{items}<color:#E5DCD9>'
+        - ' <bold><color:#D22727>*<color:#D22727></bold> <gradient:#D22727:#F26F0F>Usages:</gradient> <color:#E5DCD9>{current_usages} / {maximum_usages}<color:#E5DCD9> &7(Upgradeable)'
+        - ''
+        - ' <bold><color:#D22727>*<color:#D22727></bold> <gradient:#D22727:#F26F0F>Kit status:</gradient> <color:#E5DCD9>{status}<color:#E5DCD9>'
+        - ' <bold><color:#D22727>*<color:#D22727></bold> <gradient:#D22727:#F26F0F>Kit level:</gradient> <bold><underlined><color:yellow>{current_level}<color:yellow></underlined></bold> <bold><color:gray>/<color:gray></bold> <bold><underlined><color:red>5<color:red></underlined></bold>'
+        - ''
+        - '  <bold><italic><color:#CE166F>TIP:<color:#CE166F></italic></bold> <italic><gradient:#CE166F:#D544EB>Right-click to open the</gradient></italic>'
+        - '   <italic><gradient:#D544EB:#CE166F>preview and upgrades menu!</gradient></italic>'
+        - ''
+        - '<italic><gradient:#D22727:#F26F0F>(( You have reached the maximum usage limits! ))</gradient></italic>'
   Potions:
     slot: 21
     available:
@@ -270,6 +338,23 @@ kits:
         - '   <italic><gradient:#D544EB:#CE166F>preview and upgrades menu!</gradient></italic>'
         - ''
         - '<italic><gradient:#D22727:#F26F0F>(( Purchase a rank to unlock this kit! ))</gradient></italic>'
+    without-usages:
+      material: 'PLAYER_HEAD:https://textures.minecraft.net/texture/eeb225b48be643c568e648e31cc11da660e021b9861b18cd1907bea7ebe'
+      name: '<bold><color:#D22727>✧<color:#D22727><color:#F26F0F>✦<color:#F26F0F><color:#D22727>✧<color:#D22727> <gradient:#D22727:#F26F0F>Kit {kit}</gradient> <color:#D22727>✧<color:#D22727><color:#F26F0F>✦<color:#F26F0F><color:#D22727>✧<color:#D22727></bold>'
+      glow: false
+      lore:
+        - ''
+        - ' <bold><color:#D22727>*<color:#D22727></bold> <gradient:#D22727:#F26F0F>Kit cooldown:</gradient> <color:#E5DCD9>{total}<color:#E5DCD9>'
+        - ' <bold><color:#D22727>*<color:#D22727></bold> <gradient:#D22727:#F26F0F>Number of Items:</gradient> <color:#E5DCD9>{items}<color:#E5DCD9>'
+        - ' <bold><color:#D22727>*<color:#D22727></bold> <gradient:#D22727:#F26F0F>Usages:</gradient> <color:#E5DCD9>{current_usages} / {maximum_usages}<color:#E5DCD9> &7(Upgradeable)'
+        - ''
+        - ' <bold><color:#D22727>*<color:#D22727></bold> <gradient:#D22727:#F26F0F>Kit status:</gradient> <color:#E5DCD9>{status}<color:#E5DCD9>'
+        - ' <bold><color:#D22727>*<color:#D22727></bold> <gradient:#D22727:#F26F0F>Kit level:</gradient> <bold><underlined><color:yellow>{current_level}<color:yellow></underlined></bold> <bold><color:gray>/<color:gray></bold> <bold><underlined><color:red>5<color:red></underlined></bold>'
+        - ''
+        - '  <bold><italic><color:#CE166F>TIP:<color:#CE166F></italic></bold> <italic><gradient:#CE166F:#D544EB>Right-click to open the</gradient></italic>'
+        - '   <italic><gradient:#D544EB:#CE166F>preview and upgrades menu!</gradient></italic>'
+        - ''
+        - '<italic><gradient:#D22727:#F26F0F>(( You have reached the maximum usage limits! ))</gradient></italic>'
   Pyro:
     slot: 14
     available:
@@ -323,6 +408,23 @@ kits:
         - '   <italic><gradient:#D544EB:#CE166F>preview and upgrades menu!</gradient></italic>'
         - ''
         - '<italic><gradient:#D22727:#F26F0F>(( Purchase a rank to unlock this kit! ))</gradient></italic>'
+    without-usages:
+      material: 'PLAYER_HEAD:https://textures.minecraft.net/texture/eeb225b48be643c568e648e31cc11da660e021b9861b18cd1907bea7ebe'
+      name: '<bold><color:#D22727>✧<color:#D22727><color:#F26F0F>✦<color:#F26F0F><color:#D22727>✧<color:#D22727> <gradient:#D22727:#F26F0F>Kit {kit}</gradient> <color:#D22727>✧<color:#D22727><color:#F26F0F>✦<color:#F26F0F><color:#D22727>✧<color:#D22727></bold>'
+      glow: false
+      lore:
+        - ''
+        - ' <bold><color:#D22727>*<color:#D22727></bold> <gradient:#D22727:#F26F0F>Kit cooldown:</gradient> <color:#E5DCD9>{total}<color:#E5DCD9>'
+        - ' <bold><color:#D22727>*<color:#D22727></bold> <gradient:#D22727:#F26F0F>Number of Items:</gradient> <color:#E5DCD9>{items}<color:#E5DCD9>'
+        - ' <bold><color:#D22727>*<color:#D22727></bold> <gradient:#D22727:#F26F0F>Usages:</gradient> <color:#E5DCD9>{current_usages} / {maximum_usages}<color:#E5DCD9> &7(Upgradeable)'
+        - ''
+        - ' <bold><color:#D22727>*<color:#D22727></bold> <gradient:#D22727:#F26F0F>Kit status:</gradient> <color:#E5DCD9>{status}<color:#E5DCD9>'
+        - ' <bold><color:#D22727>*<color:#D22727></bold> <gradient:#D22727:#F26F0F>Kit level:</gradient> <bold><underlined><color:yellow>{current_level}<color:yellow></underlined></bold> <bold><color:gray>/<color:gray></bold> <bold><underlined><color:red>5<color:red></underlined></bold>'
+        - ''
+        - '  <bold><italic><color:#CE166F>TIP:<color:#CE166F></italic></bold> <italic><gradient:#CE166F:#D544EB>Right-click to open the</gradient></italic>'
+        - '   <italic><gradient:#D544EB:#CE166F>preview and upgrades menu!</gradient></italic>'
+        - ''
+        - '<italic><gradient:#D22727:#F26F0F>(( You have reached the maximum usage limits! ))</gradient></italic>'
   Ninja:
     slot: 24
     available:
@@ -376,6 +478,23 @@ kits:
         - '   <italic><gradient:#D544EB:#CE166F>preview and upgrades menu!</gradient></italic>'
         - ''
         - '<italic><gradient:#D22727:#F26F0F>(( Purchase a rank to unlock this kit! ))</gradient></italic>'
+    without-usages:
+      material: 'PLAYER_HEAD:https://textures.minecraft.net/texture/eeb225b48be643c568e648e31cc11da660e021b9861b18cd1907bea7ebe'
+      name: '<bold><color:#D22727>✧<color:#D22727><color:#F26F0F>✦<color:#F26F0F><color:#D22727>✧<color:#D22727> <gradient:#D22727:#F26F0F>Kit {kit}</gradient> <color:#D22727>✧<color:#D22727><color:#F26F0F>✦<color:#F26F0F><color:#D22727>✧<color:#D22727></bold>'
+      glow: false
+      lore:
+        - ''
+        - ' <bold><color:#D22727>*<color:#D22727></bold> <gradient:#D22727:#F26F0F>Kit cooldown:</gradient> <color:#E5DCD9>{total}<color:#E5DCD9>'
+        - ' <bold><color:#D22727>*<color:#D22727></bold> <gradient:#D22727:#F26F0F>Number of Items:</gradient> <color:#E5DCD9>{items}<color:#E5DCD9>'
+        - ' <bold><color:#D22727>*<color:#D22727></bold> <gradient:#D22727:#F26F0F>Usages:</gradient> <color:#E5DCD9>{current_usages} / {maximum_usages}<color:#E5DCD9> &7(Upgradeable)'
+        - ''
+        - ' <bold><color:#D22727>*<color:#D22727></bold> <gradient:#D22727:#F26F0F>Kit status:</gradient> <color:#E5DCD9>{status}<color:#E5DCD9>'
+        - ' <bold><color:#D22727>*<color:#D22727></bold> <gradient:#D22727:#F26F0F>Kit level:</gradient> <bold><underlined><color:yellow>{current_level}<color:yellow></underlined></bold> <bold><color:gray>/<color:gray></bold> <bold><underlined><color:red>5<color:red></underlined></bold>'
+        - ''
+        - '  <bold><italic><color:#CE166F>TIP:<color:#CE166F></italic></bold> <italic><gradient:#CE166F:#D544EB>Right-click to open the</gradient></italic>'
+        - '   <italic><gradient:#D544EB:#CE166F>preview and upgrades menu!</gradient></italic>'
+        - ''
+        - '<italic><gradient:#D22727:#F26F0F>(( You have reached the maximum usage limits! ))</gradient></italic>'
   Archer:
     slot: 16
     available:
@@ -429,6 +548,23 @@ kits:
         - '   <italic><gradient:#D544EB:#CE166F>preview and upgrades menu!</gradient></italic>'
         - ''
         - '<italic><gradient:#D22727:#F26F0F>(( Purchase a rank to unlock this kit! ))</gradient></italic>'
+    without-usages:
+      material: 'PLAYER_HEAD:https://textures.minecraft.net/texture/eeb225b48be643c568e648e31cc11da660e021b9861b18cd1907bea7ebe'
+      name: '<bold><color:#D22727>✧<color:#D22727><color:#F26F0F>✦<color:#F26F0F><color:#D22727>✧<color:#D22727> <gradient:#D22727:#F26F0F>Kit {kit}</gradient> <color:#D22727>✧<color:#D22727><color:#F26F0F>✦<color:#F26F0F><color:#D22727>✧<color:#D22727></bold>'
+      glow: false
+      lore:
+        - ''
+        - ' <bold><color:#D22727>*<color:#D22727></bold> <gradient:#D22727:#F26F0F>Kit cooldown:</gradient> <color:#E5DCD9>{total}<color:#E5DCD9>'
+        - ' <bold><color:#D22727>*<color:#D22727></bold> <gradient:#D22727:#F26F0F>Number of Items:</gradient> <color:#E5DCD9>{items}<color:#E5DCD9>'
+        - ' <bold><color:#D22727>*<color:#D22727></bold> <gradient:#D22727:#F26F0F>Usages:</gradient> <color:#E5DCD9>{current_usages} / {maximum_usages}<color:#E5DCD9> &7(Upgradeable)'
+        - ''
+        - ' <bold><color:#D22727>*<color:#D22727></bold> <gradient:#D22727:#F26F0F>Kit status:</gradient> <color:#E5DCD9>{status}<color:#E5DCD9>'
+        - ' <bold><color:#D22727>*<color:#D22727></bold> <gradient:#D22727:#F26F0F>Kit level:</gradient> <bold><underlined><color:yellow>{current_level}<color:yellow></underlined></bold> <bold><color:gray>/<color:gray></bold> <bold><underlined><color:red>5<color:red></underlined></bold>'
+        - ''
+        - '  <bold><italic><color:#CE166F>TIP:<color:#CE166F></italic></bold> <italic><gradient:#CE166F:#D544EB>Right-click to open the</gradient></italic>'
+        - '   <italic><gradient:#D544EB:#CE166F>preview and upgrades menu!</gradient></italic>'
+        - ''
+        - '<italic><gradient:#D22727:#F26F0F>(( You have reached the maximum usage limits! ))</gradient></italic>'
   Infected:
     slot: 26
     available:
@@ -482,3 +618,20 @@ kits:
         - '   <italic><gradient:#D544EB:#CE166F>preview and upgrades menu!</gradient></italic>'
         - ''
         - '<italic><gradient:#D22727:#F26F0F>(( Purchase a rank to unlock this kit! ))</gradient></italic>'
+    without-usages:
+      material: 'PLAYER_HEAD:https://textures.minecraft.net/texture/eeb225b48be643c568e648e31cc11da660e021b9861b18cd1907bea7ebe'
+      name: '<bold><color:#D22727>✧<color:#D22727><color:#F26F0F>✦<color:#F26F0F><color:#D22727>✧<color:#D22727> <gradient:#D22727:#F26F0F>Kit {kit}</gradient> <color:#D22727>✧<color:#D22727><color:#F26F0F>✦<color:#F26F0F><color:#D22727>✧<color:#D22727></bold>'
+      glow: false
+      lore:
+        - ''
+        - ' <bold><color:#D22727>*<color:#D22727></bold> <gradient:#D22727:#F26F0F>Kit cooldown:</gradient> <color:#E5DCD9>{total}<color:#E5DCD9>'
+        - ' <bold><color:#D22727>*<color:#D22727></bold> <gradient:#D22727:#F26F0F>Number of Items:</gradient> <color:#E5DCD9>{items}<color:#E5DCD9>'
+        - ' <bold><color:#D22727>*<color:#D22727></bold> <gradient:#D22727:#F26F0F>Usages:</gradient> <color:#E5DCD9>{current_usages} / {maximum_usages}<color:#E5DCD9> &7(Upgradeable)'
+        - ''
+        - ' <bold><color:#D22727>*<color:#D22727></bold> <gradient:#D22727:#F26F0F>Kit status:</gradient> <color:#E5DCD9>{status}<color:#E5DCD9>'
+        - ' <bold><color:#D22727>*<color:#D22727></bold> <gradient:#D22727:#F26F0F>Kit level:</gradient> <bold><underlined><color:yellow>{current_level}<color:yellow></underlined></bold> <bold><color:gray>/<color:gray></bold> <bold><underlined><color:red>5<color:red></underlined></bold>'
+        - ''
+        - '  <bold><italic><color:#CE166F>TIP:<color:#CE166F></italic></bold> <italic><gradient:#CE166F:#D544EB>Right-click to open the</gradient></italic>'
+        - '   <italic><gradient:#D544EB:#CE166F>preview and upgrades menu!</gradient></italic>'
+        - ''
+        - '<italic><gradient:#D22727:#F26F0F>(( You have reached the maximum usage limits! ))</gradient></italic>'
