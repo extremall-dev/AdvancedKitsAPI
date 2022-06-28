@@ -135,6 +135,7 @@ kit-status-placeholders:
   available: '<bold><gradient:green:blue>UNLOCKED</gradient></bold>'
   unavailable: '<bold><gradient:yellow:white>IN COOLDOWN</gradient></bold>'
   locked: '<bold><gradient:red:aqua>LOCKED</gradient></bold>'
+  without-usages: '<bold><gradient:red:gold>WITHOUT USAGES</gradient></bold>'
 cost-formatting:
   exp: '{amount} EXP'
   vault: '${amount}'
