@@ -21,15 +21,17 @@ public interface User
 
     long getKitCooldown(@NotNull Kit kit);
 
-    long getLeftKitCooldown(@NotNull Kit kit);
-
-    boolean hasKitCooldown(@NotNull Kit kit);
-
-    void addKitCooldown(@NotNull Kit kit, long delay);
+    void setKitCooldown(@NotNull Kit kit, long delay);
 
     void resetKitCooldown(@NotNull Kit kit);
 
-    int getKitRedeemedTimes(@NotNull Kit kit);
+    boolean hasKitCooldown(@NotNull Kit kit);
+
+    int getKitUsages(@NotNull Kit kit);
+
+    void setKitUsages(@NotNull Kit kit, int usages);
+
+    void resetKitUsages(@NotNull Kit kit);
 
     @NotNull KitStatus getKitStatus(@NotNull Kit kit);
 
