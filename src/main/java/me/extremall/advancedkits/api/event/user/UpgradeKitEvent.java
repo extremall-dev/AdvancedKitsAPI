@@ -19,12 +19,6 @@ public class UpgradeKitEvent extends BaseUserEvent implements Cancellable
         this.newKitLevel = newKitLevel;
     }
 
-    @Override
-    public boolean isCancelled()
-    {
-        return this.cancelled;
-    }
-
     @NotNull
     public Kit getKit()
     {
@@ -35,6 +29,12 @@ public class UpgradeKitEvent extends BaseUserEvent implements Cancellable
     public KitLevel getNewKitLevel()
     {
         return this.newKitLevel;
+    }
+
+    @Override
+    public boolean isCancelled()
+    {
+        return this.cancelled;
     }
 
     @Override
