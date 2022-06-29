@@ -2,29 +2,22 @@ package me.extremall.advancedkits.api.event.user;
 
 import me.extremall.advancedkits.api.kit.Kit;
 import me.extremall.advancedkits.api.kit.KitLevel;
+import me.extremall.advancedkits.api.kit.KitStatus;
 import me.extremall.advancedkits.api.user.User;
 import org.bukkit.event.Cancellable;
 import org.jetbrains.annotations.NotNull;
 
 public class PreReceiveKitEvent extends BaseUserEvent implements Cancellable
 {
-    private final boolean requirements;
-    private final Kit kit;
-    private final KitLevel kitLevel;
     private boolean cancelled;
+    private Kit kit;
+    private KitLevel kitLevel;
+    private KitStatus kitStatus;
+    private boolean forceGive;
 
-    public PreReceiveKitEvent(@NotNull User user, @NotNull Kit kit, @NotNull KitLevel kitLevel, boolean requirements)
+    public PreReceiveKitEvent(@NotNull User user)
     {
         super(user);
-        this.kit = kit;
-        this.kitLevel = kitLevel;
-        this.requirements = requirements;
-    }
-
-    @Override
-    public boolean isCancelled()
-    {
-        return this.cancelled;
     }
 
     @NotNull
@@ -33,15 +26,47 @@ public class PreReceiveKitEvent extends BaseUserEvent implements Cancellable
         return this.kit;
     }
 
+    public void setKit(@NotNull Kit kit)
+    {
+        this.kit = kit;
+    }
+
     @NotNull
     public KitLevel getKitLevel()
     {
         return this.kitLevel;
     }
 
-    public boolean hasRequirements()
+    public void setKitLevel(@NotNull KitLevel kitLevel)
     {
-        return this.requirements;
+        this.kitLevel = kitLevel;
+    }
+
+    @NotNull
+    public KitStatus getKitStatus()
+    {
+        return this.kitStatus;
+    }
+
+    public void setKitStatus(@NotNull KitStatus kitStatus)
+    {
+        this.kitStatus = kitStatus;
+    }
+
+    public boolean isForceGive()
+    {
+        return this.forceGive;
+    }
+
+    public void setForceGive(boolean forceGive)
+    {
+        this.forceGive = forceGive;
+    }
+
+    @Override
+    public boolean isCancelled()
+    {
+        return this.cancelled;
     }
 
     @Override
