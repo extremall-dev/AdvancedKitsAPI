@@ -1,28 +1,21 @@
 package me.extremall.advancedkits.api.event.user;
 
+import me.extremall.advancedkits.api.event.BaseEvent;
 import me.extremall.advancedkits.api.user.User;
-import org.bukkit.event.HandlerList;
 import org.jetbrains.annotations.NotNull;
 
-public class BaseUserEvent extends UserEvent
+public class BaseUserEvent extends BaseEvent
 {
-    private static final HandlerList HANDLERS = new HandlerList();
+    protected User user;
 
     public BaseUserEvent(@NotNull User user)
     {
-        super(user);
+        this.user = user;
     }
 
     @NotNull
-    @Override
-    public HandlerList getHandlers()
+    public User getUser()
     {
-        return BaseUserEvent.HANDLERS;
-    }
-
-    @NotNull
-    public static HandlerList getHandlerList()
-    {
-        return BaseUserEvent.HANDLERS;
+        return this.user;
     }
 }
