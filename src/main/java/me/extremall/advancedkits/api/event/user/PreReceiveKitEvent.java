@@ -13,7 +13,6 @@ public class PreReceiveKitEvent extends BaseUserEvent implements Cancellable
     private Kit kit;
     private KitLevel kitLevel;
     private KitStatus kitStatus;
-    private boolean forceGive;
 
     public PreReceiveKitEvent(@NotNull User user)
     {
@@ -51,16 +50,6 @@ public class PreReceiveKitEvent extends BaseUserEvent implements Cancellable
     public void setKitStatus(@NotNull KitStatus kitStatus)
     {
         this.kitStatus = kitStatus;
-    }
-
-    public boolean isForceGive()
-    {
-        return this.forceGive;
-    }
-
-    public void setForceGive(boolean forceGive)
-    {
-        this.forceGive = forceGive;
     }
 
     @Override
