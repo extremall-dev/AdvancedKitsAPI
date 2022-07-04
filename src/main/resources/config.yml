@@ -32,7 +32,7 @@ preview-kits-menu:
       - ''
       - '<italic><gradient:#D22727:#F26F0F>(( This kit has no available upgrades! ))</gradient></italic>'
   default-level-upgrade-button:
-    material: 'PLAYER_HEAD:http://textures.minecraft.net/texture/e5e8cc99bb42dda2aafbff457756776b28c8e34ee245cc553d2694e6b04b72'
+    material: 'PLAYER_HEAD:https://textures.minecraft.net/texture/71bdf5e4225d6683c393d6f8b2b735ed228eb6f3a078d0d791adeca55e4392fa'
     name: '<bold><color:#D22727>✧<color:#D22727><color:#F26F0F>✦<color:#F26F0F><color:#D22727>✧<color:#D22727> <gradient:#D22727:#F26F0F>Upgrade {kit}</gradient> <color:#D22727>✧<color:#D22727><color:#F26F0F>✦<color:#F26F0F><color:#D22727>✧<color:#D22727></bold>'
     glow: false
     lore:
@@ -42,7 +42,7 @@ preview-kits-menu:
       - ''
       - '<italic><gradient:#D22727:#F26F0F>(( This is the default kit level! ))</gradient></italic>'
   available-upgrade-button:
-    material: 'PLAYER_HEAD:http://textures.minecraft.net/texture/e5e8cc99bb42dda2aafbff457756776b28c8e34ee245cc553d2694e6b04b72'
+    material: 'PLAYER_HEAD:https://textures.minecraft.net/texture/71bdf5e4225d6683c393d6f8b2b735ed228eb6f3a078d0d791adeca55e4392fa'
     name: '<bold><color:#10987A>✧<color:#10987A><color:#49ECC3>✦<color:#49ECC3><color:#10987A>✧<color:#10987A> <gradient:#10987A:#49ECC3>Upgrade {kit}</gradient> <color:#10987A>✧<color:#10987A><color:#49ECC3>✦<color:#49ECC3><color:#10987A>✧<color:#10987A></bold>'
     glow: false
     lore:
@@ -55,7 +55,7 @@ preview-kits-menu:
       - ''
       - '<italic><gradient:#10987A:#49ECC3>(( Click to buy this upgrade! ))</gradient></italic>'
   insufficient-funds-upgrade-button:
-    material: 'PLAYER_HEAD:http://textures.minecraft.net/texture/e5e8cc99bb42dda2aafbff457756776b28c8e34ee245cc553d2694e6b04b72'
+    material: 'PLAYER_HEAD:https://textures.minecraft.net/texture/71bdf5e4225d6683c393d6f8b2b735ed228eb6f3a078d0d791adeca55e4392fa'
     name: '<bold><color:#D22727>✧<color:#D22727><color:#F26F0F>✦<color:#F26F0F><color:#D22727>✧<color:#D22727> <gradient:#D22727:#F26F0F>Upgrade {kit}</gradient> <color:#D22727>✧<color:#D22727><color:#F26F0F>✦<color:#F26F0F><color:#D22727>✧<color:#D22727></bold>'
     glow: false
     lore:
@@ -65,7 +65,7 @@ preview-kits-menu:
       - ''
       - '<italic><gradient:#D22727:#F26F0F>(( You cannot afford this kit upgrade! ))</gradient></italic>'
   locked-upgrade-button:
-    material: 'PLAYER_HEAD:http://textures.minecraft.net/texture/e5e8cc99bb42dda2aafbff457756776b28c8e34ee245cc553d2694e6b04b72'
+    material: 'PLAYER_HEAD:https://textures.minecraft.net/texture/71bdf5e4225d6683c393d6f8b2b735ed228eb6f3a078d0d791adeca55e4392fa'
     name: '<bold><color:#D22727>✧<color:#D22727><color:#F26F0F>✦<color:#F26F0F><color:#D22727>✧<color:#D22727> <gradient:#D22727:#F26F0F>Upgrade {kit}</gradient> <color:#D22727>✧<color:#D22727><color:#F26F0F>✦<color:#F26F0F><color:#D22727>✧<color:#D22727></bold>'
     glow: false
     lore:
@@ -75,7 +75,7 @@ preview-kits-menu:
       - ''
       - '<italic><gradient:#D22727:#F26F0F>(( You must to unlock this kit first! ))</gradient></italic>'
   maximum-level-upgrade-button:
-    material: 'PLAYER_HEAD:http://textures.minecraft.net/texture/e5e8cc99bb42dda2aafbff457756776b28c8e34ee245cc553d2694e6b04b72'
+    material: 'PLAYER_HEAD:https://textures.minecraft.net/texture/71bdf5e4225d6683c393d6f8b2b735ed228eb6f3a078d0d791adeca55e4392fa'
     name: '<bold><color:#DACB1C>✧<color:#DACB1C><color:#CBF91B>✦<color:#CBF91B><color:#DACB1C>✧<color:#DACB1C> <gradient:#DACB1C:#CBF91B>Upgrade {kit}</gradient> <color:#DACB1C>✧<color:#DACB1C><color:#CBF91B>✦<color:#CBF91B><color:#DACB1C>✧<color:#DACB1C></bold>'
     glow: false
     lore:
@@ -85,7 +85,7 @@ preview-kits-menu:
       - ''
       - '<italic><gradient:#DACB1C:#CBF91B>(( You have reached the maximum level! ))</gradient></italic>'
   unavailable-upgrade-button:
-    material: 'PLAYER_HEAD:http://textures.minecraft.net/texture/e5e8cc99bb42dda2aafbff457756776b28c8e34ee245cc553d2694e6b04b72'
+    material: 'PLAYER_HEAD:https://textures.minecraft.net/texture/71bdf5e4225d6683c393d6f8b2b735ed228eb6f3a078d0d791adeca55e4392fa'
     name: '<bold><color:#DACB1C>✧<color:#DACB1C><color:#CBF91B>✦<color:#CBF91B><color:#DACB1C>✧<color:#DACB1C> <gradient:#DACB1C:#CBF91B>Upgrade {kit}</gradient> <color:#DACB1C>✧<color:#DACB1C><color:#CBF91B>✦<color:#CBF91B><color:#DACB1C>✧<color:#DACB1C></bold>'
     glow: false
     lore:
@@ -95,7 +95,7 @@ preview-kits-menu:
       - ''
       - '<italic><gradient:#DACB1C:#CBF91B>(( Unlock the previous upgrades first! ))</gradient></italic>'
   complete-upgrade-button:
-    material: 'PLAYER_HEAD:http://textures.minecraft.net/texture/e5e8cc99bb42dda2aafbff457756776b28c8e34ee245cc553d2694e6b04b72'
+    material: 'PLAYER_HEAD:https://textures.minecraft.net/texture/71bdf5e4225d6683c393d6f8b2b735ed228eb6f3a078d0d791adeca55e4392fa'
     name: '<bold><color:#10987A>✧<color:#10987A><color:#49ECC3>✦<color:#49ECC3><color:#10987A>✧<color:#10987A> <gradient:#10987A:#49ECC3>Upgrade {kit}</gradient> <color:#10987A>✧<color:#10987A><color:#49ECC3>✦<color:#49ECC3><color:#10987A>✧<color:#10987A></bold>'
     glow: false
     lore:
@@ -108,7 +108,7 @@ preview-kits-menu:
       - ''
       - '<italic><gradient:#10987A:#49ECC3>(( You already bought this upgrade! ))</gradient></italic>'
   current-upgrade-button:
-    material: 'PLAYER_HEAD:http://textures.minecraft.net/texture/e5e8cc99bb42dda2aafbff457756776b28c8e34ee245cc553d2694e6b04b72'
+    material: 'PLAYER_HEAD:https://textures.minecraft.net/texture/71bdf5e4225d6683c393d6f8b2b735ed228eb6f3a078d0d791adeca55e4392fa'
     name: '<bold><color:#10987A>✧<color:#10987A><color:#49ECC3>✦<color:#49ECC3><color:#10987A>✧<color:#10987A> <gradient:#10987A:#49ECC3>Upgrade {kit}</gradient> <color:#10987A>✧<color:#10987A><color:#49ECC3>✦<color:#49ECC3><color:#10987A>✧<color:#10987A></bold>'
     glow: false
     lore:
@@ -131,11 +131,6 @@ first-join-kits:
   - 'Coal;1'
 close-kits-menu-before-opening-preview-menu: true
 data-save-interval-ticks: 12000
-kit-status-placeholders:
-  available: '<bold><gradient:green:blue>UNLOCKED</gradient></bold>'
-  unavailable: '<bold><gradient:yellow:white>IN COOLDOWN</gradient></bold>'
-  locked: '<bold><gradient:red:aqua>LOCKED</gradient></bold>'
-  without-usages: '<bold><gradient:red:gold>WITHOUT USAGES</gradient></bold>'
 cost-formatting:
   exp: '{amount} EXP'
   vault: '${amount}'
@@ -244,18 +239,18 @@ voucher-interact-blocks:
   - 'BLAST_FURNACE'
   - 'CARTOGRAPHY_TABLE'
 time-units:
-  finish: '0 second'
-  days: '{number} days '
-  day: '{number} day '
+  finish: '0 Second'
+  days: '{number} Days '
+  day: '{number} Day '
   no-days: ''
-  hours: '{number} hours '
-  hour: '{number} hour '
+  hours: '{number} Hours '
+  hour: '{number} Hour '
   no-hours: ''
-  minutes: '{number} minutes '
-  minute: '{number} minute '
+  minutes: '{number} Minutes '
+  minute: '{number} Minute '
   no-minutes: ''
-  seconds: '{number} seconds'
-  second: '{number} second'
+  seconds: '{number} Seconds'
+  second: '{number} Second'
   no-seconds: ''
 permissions:
   main-command: 'advancedkits.command.use'
