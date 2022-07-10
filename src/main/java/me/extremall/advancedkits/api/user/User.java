@@ -2,7 +2,6 @@ package me.extremall.advancedkits.api.user;
 
 import me.extremall.advancedkits.api.kit.Kit;
 import me.extremall.advancedkits.api.kit.KitStatus;
-import me.extremall.advancedkits.file.YamlBuilder;
 import org.bukkit.entity.Player;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
@@ -35,8 +34,6 @@ public interface User
 
     @NotNull KitStatus getKitStatus(@NotNull Kit kit);
 
-    @Nullable YamlBuilder getYamlPlayerFile();
-
     void loadDatabase();
 
     void saveDatabase();
@@ -44,4 +41,6 @@ public interface User
     void giveFirstJoinKits();
 
     void giveFirstJoinVouchers();
+
+    @NotNull UserDatabase getUserDatabase();
 }
