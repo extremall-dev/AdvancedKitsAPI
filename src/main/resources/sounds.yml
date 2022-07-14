@@ -37,3 +37,5 @@ unavailable-upgrade:
   - 'ENTITY_VILLAGER_NO;VOICE;10.0;1.0'
 current-upgrade:
   - 'ENTITY_VILLAGER_NO;VOICE;10.0;1.0'
+delay-upgrade:
+  - 'ENTITY_VILLAGER_NO;VOICE;10.0;1.0'
