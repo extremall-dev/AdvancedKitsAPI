@@ -4,6 +4,7 @@ Snowman:
   levels:
     '1':
       cooldown: 30
+      buy-delay: -1
       maximum-usages: -1
       cost: 'VAULT;0'
       give-items: true
@@ -61,6 +62,7 @@ Potions:
   levels:
     '1':
       cooldown: 300
+      buy-delay: -1
       maximum-usages: -1
       cost: 'VAULT;0'
       give-items: true
@@ -118,6 +120,7 @@ Viking:
   levels:
     '1':
       cooldown: 60
+      buy-delay: -1
       maximum-usages: -1
       cost: 'VAULT;0'
       give-items: true
@@ -171,6 +174,7 @@ Viking:
           messages: []
     '2':
       cooldown: 120
+      buy-delay: -1
       maximum-usages: -1
       cost: 'VAULT;2000'
       give-items: true
@@ -224,6 +228,7 @@ Viking:
           messages: []
     '3':
       cooldown: 180
+      buy-delay: -1
       maximum-usages: -1
       cost: 'VAULT;3000'
       give-items: true
@@ -277,6 +282,7 @@ Viking:
           messages: []
     '4':
       cooldown: 240
+      buy-delay: -1
       maximum-usages: -1
       cost: 'VAULT;4000'
       give-items: true
@@ -330,6 +336,7 @@ Viking:
           messages: []
     '5':
       cooldown: 300
+      buy-delay: -1
       maximum-usages: -1
       cost: 'VAULT;5000'
       give-items: true
@@ -387,6 +394,7 @@ Ultimate:
   levels:
     '1':
       cooldown: 30
+      buy-delay: -1
       maximum-usages: -1
       cost: 'VAULT;0'
       give-items: true
@@ -440,6 +448,7 @@ Ultimate:
           messages: []
     '2':
       cooldown: 45
+      buy-delay: -1
       maximum-usages: -1
       cost: 'VAULT;2000'
       give-items: true
@@ -493,6 +502,7 @@ Ultimate:
           messages: []
     '3':
       cooldown: 60
+      buy-delay: -1
       maximum-usages: -1
       cost: 'VAULT;3000'
       give-items: true
@@ -546,6 +556,7 @@ Ultimate:
           messages: []
     '4':
       cooldown: 75
+      buy-delay: -1
       maximum-usages: -1
       cost: 'VAULT;4000'
       give-items: true
@@ -599,6 +610,7 @@ Ultimate:
           messages: []
     '5':
       cooldown: 90
+      buy-delay: -1
       maximum-usages: -1
       cost: 'VAULT;5000'
       give-items: true
@@ -656,6 +668,7 @@ Swordsman:
   levels:
     '1':
       cooldown: 30
+      buy-delay: -1
       maximum-usages: -1
       cost: 'VAULT;0'
       give-items: true
@@ -709,6 +722,7 @@ Swordsman:
           messages: []
     '2':
       cooldown: 45
+      buy-delay: -1
       maximum-usages: -1
       cost: 'VAULT;2000'
       give-items: true
@@ -762,6 +776,7 @@ Swordsman:
           messages: []
     '3':
       cooldown: 60
+      buy-delay: -1
       maximum-usages: -1
       cost: 'VAULT;3000'
       give-items: true
@@ -815,6 +830,7 @@ Swordsman:
           messages: []
     '4':
       cooldown: 75
+      buy-delay: -1
       maximum-usages: -1
       cost: 'VAULT;4000'
       give-items: true
@@ -868,6 +884,7 @@ Swordsman:
           messages: []
     '5':
       cooldown: 90
+      buy-delay: -1
       maximum-usages: -1
       cost: 'VAULT;5000'
       give-items: true
@@ -925,6 +942,7 @@ Pyro:
   levels:
     '1':
       cooldown: 30
+      buy-delay: -1
       maximum-usages: -1
       cost: 'VAULT;0'
       give-items: true
@@ -978,6 +996,7 @@ Pyro:
           messages: []
     '2':
       cooldown: 45
+      buy-delay: -1
       maximum-usages: -1
       cost: 'VAULT;2000'
       give-items: true
@@ -1031,6 +1050,7 @@ Pyro:
           messages: []
     '3':
       cooldown: 60
+      buy-delay: -1
       maximum-usages: -1
       cost: 'VAULT;3000'
       give-items: true
@@ -1084,6 +1104,7 @@ Pyro:
           messages: []
     '4':
       cooldown: 75
+      buy-delay: -1
       maximum-usages: -1
       cost: 'VAULT;4000'
       give-items: true
@@ -1137,6 +1158,7 @@ Pyro:
           messages: []
     '5':
       cooldown: 90
+      buy-delay: -1
       maximum-usages: -1
       cost: 'VAULT;5000'
       give-items: true
@@ -1194,6 +1216,7 @@ Ninja:
   levels:
     '1':
       cooldown: 30
+      buy-delay: -1
       maximum-usages: -1
       cost: 'VAULT;0'
       give-items: true
@@ -1247,6 +1270,7 @@ Ninja:
           messages: []
     '2':
       cooldown: 45
+      buy-delay: -1
       maximum-usages: -1
       cost: 'VAULT;2000'
       give-items: true
@@ -1300,6 +1324,7 @@ Ninja:
           messages: []
     '3':
       cooldown: 60
+      buy-delay: -1
       maximum-usages: -1
       cost: 'VAULT;3000'
       give-items: true
@@ -1353,6 +1378,7 @@ Ninja:
           messages: []
     '4':
       cooldown: 75
+      buy-delay: -1
       maximum-usages: -1
       cost: 'VAULT;4000'
       give-items: true
@@ -1406,6 +1432,7 @@ Ninja:
           messages: []
     '5':
       cooldown: 90
+      buy-delay: -1
       maximum-usages: -1
       cost: 'VAULT;5000'
       give-items: true
@@ -1463,6 +1490,7 @@ Archer:
   levels:
     '1':
       cooldown: 30
+      buy-delay: -1
       maximum-usages: -1
       cost: 'VAULT;0'
       give-items: true
@@ -1516,6 +1544,7 @@ Archer:
           messages: []
     '2':
       cooldown: 45
+      buy-delay: -1
       maximum-usages: -1
       cost: 'VAULT;2000'
       give-items: true
@@ -1570,6 +1599,7 @@ Archer:
           messages: []
     '3':
       cooldown: 60
+      buy-delay: -1
       maximum-usages: -1
       cost: 'VAULT;3000'
       give-items: true
@@ -1624,6 +1654,7 @@ Archer:
           messages: []
     '4':
       cooldown: 75
+      buy-delay: -1
       maximum-usages: -1
       cost: 'VAULT;4000'
       give-items: true
@@ -1677,6 +1708,7 @@ Archer:
           messages: []
     '5':
       cooldown: 90
+      buy-delay: -1
       maximum-usages: -1
       cost: 'VAULT;5000'
       give-items: true
@@ -1734,6 +1766,7 @@ Infected:
   levels:
     '1':
       cooldown: 30
+      buy-delay: -1
       maximum-usages: -1
       cost: 'VAULT;0'
       give-items: true
@@ -1787,6 +1820,7 @@ Infected:
           messages: []
     '2':
       cooldown: 45
+      buy-delay: -1
       maximum-usages: -1
       cost: 'VAULT;2000'
       give-items: true
@@ -1840,6 +1874,7 @@ Infected:
           messages: []
     '3':
       cooldown: 60
+      buy-delay: -1
       maximum-usages: -1
       cost: 'VAULT;3000'
       give-items: true
@@ -1893,6 +1928,7 @@ Infected:
           messages: []
     '4':
       cooldown: 75
+      buy-delay: -1
       maximum-usages: -1
       cost: 'VAULT;4000'
       give-items: true
@@ -1946,6 +1982,7 @@ Infected:
           messages: []
     '5':
       cooldown: 90
+      buy-delay: -1
       maximum-usages: -1
       cost: 'VAULT;5000'
       give-items: true
@@ -2003,6 +2040,7 @@ Coal:
   levels:
     '1':
       cooldown: 300
+      buy-delay: -1
       maximum-usages: -1
       cost: 'VAULT;0'
       give-items: true
@@ -2060,6 +2098,7 @@ Iron:
   levels:
     '1':
       cooldown: 900
+      buy-delay: -1
       maximum-usages: -1
       cost: 'VAULT;0'
       give-items: true
@@ -2117,6 +2156,7 @@ Gold:
   levels:
     '1':
       cooldown: 1800
+      buy-delay: -1
       maximum-usages: -1
       cost: 'VAULT;0'
       give-items: true
@@ -2174,6 +2214,7 @@ Lapis:
   levels:
     '1':
       cooldown: 3600
+      buy-delay: -1
       maximum-usages: -1
       cost: 'VAULT;0'
       give-items: true
@@ -2231,6 +2272,7 @@ Emerald:
   levels:
     '1':
       cooldown: 10800
+      buy-delay: -1
       maximum-usages: -1
       cost: 'VAULT;0'
       give-items: true
@@ -2288,6 +2330,7 @@ Diamond:
   levels:
     '1':
       cooldown: 21600
+      buy-delay: -1
       maximum-usages: -1
       cost: 'VAULT;0'
       give-items: true
@@ -2345,6 +2388,7 @@ Bedrock:
   levels:
     '1':
       cooldown: 28800
+      buy-delay: -1
       maximum-usages: -1
       cost: 'VAULT;0'
       give-items: true
