@@ -120,6 +120,20 @@ preview-kits-menu:
       - ' <bold><color:#10987A>*<color:#10987A></bold> <gradient:#10987A:#49ECC3>Number of Items:</gradient> <color:#E5DCD9>{items}<color:#E5DCD9>'
       - ''
       - '<italic><gradient:#10987A:#49ECC3>(( This is your current upgrade! ))</gradient></italic>'
+  delay-upgrade-button:
+    material: 'PLAYER_HEAD:https://textures.minecraft.net/texture/71bdf5e4225d6683c393d6f8b2b735ed228eb6f3a078d0d791adeca55e4392fa'
+    name: '<bold><color:#10987A>✧<color:#10987A><color:#49ECC3>✦<color:#49ECC3><color:#10987A>✧<color:#10987A> <gradient:#10987A:#49ECC3>Upgrade {kit}</gradient> <color:#10987A>✧<color:#10987A><color:#49ECC3>✦<color:#49ECC3><color:#10987A>✧<color:#10987A></bold>'
+    glow: false
+    lore:
+      - ''
+      - ' <bold><color:#10987A>*<color:#10987A></bold> <gradient:#10987A:#49ECC3>Kit level:</gradient> <bold><underlined><color:yellow>{upgrade_level}<color:yellow></underlined></bold> <bold><color:gray>/<color:gray></bold> <bold><underlined><color:red>{maximum_level}<color:red></underlined></bold>'
+      - ' <bold><color:#10987A>*<color:#10987A></bold> <gradient:#10987A:#49ECC3>Cost:</gradient> <color:red><strikethrough>{cost}</strikethrough><color:red>'
+      - ' <bold><color:#10987A>*<color:#10987A></bold> <gradient:#10987A:#49ECC3>Buy delay:</gradient> <color:#E5DCD9>{buy_delay_remaining} / {buy_delay}<color:#E5DCD9>'
+      - ''
+      - ' <bold><color:#10987A>*<color:#10987A></bold> <gradient:#10987A:#49ECC3>Kit cooldown:</gradient> <color:#E5DCD9>{total}<color:#E5DCD9>'
+      - ' <bold><color:#10987A>*<color:#10987A></bold> <gradient:#10987A:#49ECC3>Number of Items:</gradient> <color:#E5DCD9>{items}<color:#E5DCD9>'
+      - ''
+      - '<italic><gradient:#10987A:#49ECC3>(( You have to wait for the delay! ))</gradient></italic>'
 open-menu-commands:
   - 'kits;advancedkits.command.kits'
 claim-kit-commands:
