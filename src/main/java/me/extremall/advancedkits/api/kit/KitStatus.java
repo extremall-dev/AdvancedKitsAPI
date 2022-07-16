@@ -5,5 +5,6 @@ public enum KitStatus
     AVAILABLE,
     UNAVAILABLE,
     LOCKED,
-    WITHOUT_USAGES
+    OVERUSED,
+    PURCHASABLE
 }

@@ -17,6 +17,12 @@ public interface UserDatabase
 
     void setKitCooldown(@NotNull Kit kit, long delay);
 
+    long getKitBuyDelay(@NotNull Kit kit);
+
+    boolean isSetKitBuyDelay(@NotNull Kit kit);
+
+    void setKitBuyDelay(@NotNull Kit kit, long delay);
+
     int getKitUsages(@NotNull Kit kit);
 
     boolean isSetKitUsages(@NotNull Kit kit);

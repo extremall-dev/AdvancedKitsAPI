@@ -17,6 +17,8 @@ public interface KitLevel
 
     int getCooldown();
 
+    int getBuyDelay();
+
     int getMaximumUsages();
 
     int getNumberOfItems();
@@ -35,4 +37,3 @@ public interface KitLevel
 
     @NotNull List<String> getRedeemAction(KitRedeemAction kitRedeemAction);
 }
-
