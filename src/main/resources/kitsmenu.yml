@@ -6,7 +6,7 @@ menu-fillers:
   - 'non-random-rainbow-glass-pane'
 kits:
   Snowman:
-    slot: 25
+    slots: [25]
     available:
       material: 'FIREWORK_STAR:WHITE'
       name: '<bold><color:green>✧</color><color:dark_green>✦</color><color:green>✧</color> <gradient:green:dark_green:green>Kit {kit}</gradient> <color:green>✧</color><color:dark_green>✦</color><color:green>✧</color></bold>'
@@ -92,7 +92,7 @@ kits:
         - ' <gradient:dark_gray:gray>┏ Maximum Level:</gradient> <color:#E5DCD9>{maximum_level}</color>'
         - ' <gradient:dark_gray:gray>┠ Redeem Status:</gradient> <color:#E5DCD9>All Claimed</color>'
         - ' <gradient:dark_gray:gray>┗ Current Usages:</gradient> <color:#E5DCD9>{current_usages}</color>'
-        - ' <color:#E5DCD9>┠ <italic>You have reached the maximum usage limits!</italic></color>'
+        - ' <color:#E5DCD9>┠ <italic>You have reached utilization limits!</italic></color>'
         - ''
         - '<gradient:dark_gray:gray><bold>Level</bold> Information:<gradient>'
         - ' <gradient:dark_gray:gray>┏ Current Level:</gradient> <color:#E5DCD9>{current_level}</color>'
@@ -102,7 +102,7 @@ kits:
         - ' <color:#E5DCD9>┠ <underlined>Right-click</underlined> <italic>to view all available levels!</italic></color>'
         - ''
   Viking:
-    slot: 20
+    slots: [20]
     available:
       material: 'SHIELD'
       name: '<bold><color:green>✧</color><color:dark_green>✦</color><color:green>✧</color> <gradient:green:dark_green:green>Kit {kit}</gradient> <color:green>✧</color><color:dark_green>✦</color><color:green>✧</color></bold>'
@@ -188,7 +188,7 @@ kits:
         - ' <gradient:dark_gray:gray>┏ Maximum Level:</gradient> <color:#E5DCD9>{maximum_level}</color>'
         - ' <gradient:dark_gray:gray>┠ Redeem Status:</gradient> <color:#E5DCD9>All Claimed</color>'
         - ' <gradient:dark_gray:gray>┗ Current Usages:</gradient> <color:#E5DCD9>{current_usages}</color>'
-        - ' <color:#E5DCD9>┠ <italic>You have reached the maximum usage limits!</italic></color>'
+        - ' <color:#E5DCD9>┠ <italic>You have reached utilization limits!</italic></color>'
         - ''
         - '<gradient:dark_gray:gray><bold>Level</bold> Information:<gradient>'
         - ' <gradient:dark_gray:gray>┏ Current Level:</gradient> <color:#E5DCD9>{current_level}</color>'
@@ -198,7 +198,7 @@ kits:
         - ' <color:#E5DCD9>┠ <underlined>Right-click</underlined> <italic>to view all available levels!</italic></color>'
         - ''
   Ultimate:
-    slot: 12
+    slots: [12]
     available:
       material: 'DIAMOND_CHESTPLATE'
       name: '<bold><color:green>✧</color><color:dark_green>✦</color><color:green>✧</color> <gradient:green:dark_green:green>Kit {kit}</gradient> <color:green>✧</color><color:dark_green>✦</color><color:green>✧</color></bold>'
@@ -284,7 +284,7 @@ kits:
         - ' <gradient:dark_gray:gray>┏ Maximum Level:</gradient> <color:#E5DCD9>{maximum_level}</color>'
         - ' <gradient:dark_gray:gray>┠ Redeem Status:</gradient> <color:#E5DCD9>All Claimed</color>'
         - ' <gradient:dark_gray:gray>┗ Current Usages:</gradient> <color:#E5DCD9>{current_usages}</color>'
-        - ' <color:#E5DCD9>┠ <italic>You have reached the maximum usage limits!</italic></color>'
+        - ' <color:#E5DCD9>┠ <italic>You have reached utilization limits!</italic></color>'
         - ''
         - '<gradient:dark_gray:gray><bold>Level</bold> Information:<gradient>'
         - ' <gradient:dark_gray:gray>┏ Current Level:</gradient> <color:#E5DCD9>{current_level}</color>'
@@ -294,7 +294,7 @@ kits:
         - ' <color:#E5DCD9>┠ <underlined>Right-click</underlined> <italic>to view all available levels!</italic></color>'
         - ''
   Swordsman:
-    slot: 22
+    slots: [22]
     available:
       material: 'DIAMOND_SWORD'
       name: '<bold><color:green>✧</color><color:dark_green>✦</color><color:green>✧</color> <gradient:green:dark_green:green>Kit {kit}</gradient> <color:green>✧</color><color:dark_green>✦</color><color:green>✧</color></bold>'
@@ -380,7 +380,7 @@ kits:
         - ' <gradient:dark_gray:gray>┏ Maximum Level:</gradient> <color:#E5DCD9>{maximum_level}</color>'
         - ' <gradient:dark_gray:gray>┠ Redeem Status:</gradient> <color:#E5DCD9>All Claimed</color>'
         - ' <gradient:dark_gray:gray>┗ Current Usages:</gradient> <color:#E5DCD9>{current_usages}</color>'
-        - ' <color:#E5DCD9>┠ <italic>You have reached the maximum usage limits!</italic></color>'
+        - ' <color:#E5DCD9>┠ <italic>You have reached utilization limits!</italic></color>'
         - ''
         - '<gradient:dark_gray:gray><bold>Level</bold> Information:<gradient>'
         - ' <gradient:dark_gray:gray>┏ Current Level:</gradient> <color:#E5DCD9>{current_level}</color>'
@@ -390,7 +390,7 @@ kits:
         - ' <color:#E5DCD9>┠ <underlined>Right-click</underlined> <italic>to view all available levels!</italic></color>'
         - ''
   Potions:
-    slot: 21
+    slots: [21]
     available:
       material: 'POTION:RED'
       name: '<bold><color:green>✧</color><color:dark_green>✦</color><color:green>✧</color> <gradient:green:dark_green:green>Kit {kit}</gradient> <color:green>✧</color><color:dark_green>✦</color><color:green>✧</color></bold>'
@@ -476,7 +476,7 @@ kits:
         - ' <gradient:dark_gray:gray>┏ Maximum Level:</gradient> <color:#E5DCD9>{maximum_level}</color>'
         - ' <gradient:dark_gray:gray>┠ Redeem Status:</gradient> <color:#E5DCD9>All Claimed</color>'
         - ' <gradient:dark_gray:gray>┗ Current Usages:</gradient> <color:#E5DCD9>{current_usages}</color>'
-        - ' <color:#E5DCD9>┠ <italic>You have reached the maximum usage limits!</italic></color>'
+        - ' <color:#E5DCD9>┠ <italic>You have reached utilization limits!</italic></color>'
         - ''
         - '<gradient:dark_gray:gray><bold>Level</bold> Information:<gradient>'
         - ' <gradient:dark_gray:gray>┏ Current Level:</gradient> <color:#E5DCD9>{current_level}</color>'
@@ -486,7 +486,7 @@ kits:
         - ' <color:#E5DCD9>┠ <underlined>Right-click</underlined> <italic>to view all available levels!</italic></color>'
         - ''
   Pyro:
-    slot: 14
+    slots: [14]
     available:
       material: 'FLINT_AND_STEEL'
       name: '<bold><color:green>✧</color><color:dark_green>✦</color><color:green>✧</color> <gradient:green:dark_green:green>Kit {kit}</gradient> <color:green>✧</color><color:dark_green>✦</color><color:green>✧</color></bold>'
@@ -572,7 +572,7 @@ kits:
         - ' <gradient:dark_gray:gray>┏ Maximum Level:</gradient> <color:#E5DCD9>{maximum_level}</color>'
         - ' <gradient:dark_gray:gray>┠ Redeem Status:</gradient> <color:#E5DCD9>All Claimed</color>'
         - ' <gradient:dark_gray:gray>┗ Current Usages:</gradient> <color:#E5DCD9>{current_usages}</color>'
-        - ' <color:#E5DCD9>┠ <italic>You have reached the maximum usage limits!</italic></color>'
+        - ' <color:#E5DCD9>┠ <italic>You have reached utilization limits!</italic></color>'
         - ''
         - '<gradient:dark_gray:gray><bold>Level</bold> Information:<gradient>'
         - ' <gradient:dark_gray:gray>┏ Current Level:</gradient> <color:#E5DCD9>{current_level}</color>'
@@ -582,7 +582,7 @@ kits:
         - ' <color:#E5DCD9>┠ <underlined>Right-click</underlined> <italic>to view all available levels!</italic></color>'
         - ''
   Ninja:
-    slot: 24
+    slots: [24]
     available:
       material: 'ELYTRA'
       name: '<bold><color:green>✧</color><color:dark_green>✦</color><color:green>✧</color> <gradient:green:dark_green:green>Kit {kit}</gradient> <color:green>✧</color><color:dark_green>✦</color><color:green>✧</color></bold>'
@@ -668,7 +668,7 @@ kits:
         - ' <gradient:dark_gray:gray>┏ Maximum Level:</gradient> <color:#E5DCD9>{maximum_level}</color>'
         - ' <gradient:dark_gray:gray>┠ Redeem Status:</gradient> <color:#E5DCD9>All Claimed</color>'
         - ' <gradient:dark_gray:gray>┗ Current Usages:</gradient> <color:#E5DCD9>{current_usages}</color>'
-        - ' <color:#E5DCD9>┠ <italic>You have reached the maximum usage limits!</italic></color>'
+        - ' <color:#E5DCD9>┠ <italic>You have reached utilization limits!</italic></color>'
         - ''
         - '<gradient:dark_gray:gray><bold>Level</bold> Information:<gradient>'
         - ' <gradient:dark_gray:gray>┏ Current Level:</gradient> <color:#E5DCD9>{current_level}</color>'
@@ -678,7 +678,7 @@ kits:
         - ' <color:#E5DCD9>┠ <underlined>Right-click</underlined> <italic>to view all available levels!</italic></color>'
         - ''
   Archer:
-    slot: 16
+    slots: [16]
     available:
       material: 'BOW'
       name: '<bold><color:green>✧</color><color:dark_green>✦</color><color:green>✧</color> <gradient:green:dark_green:green>Kit {kit}</gradient> <color:green>✧</color><color:dark_green>✦</color><color:green>✧</color></bold>'
@@ -764,7 +764,7 @@ kits:
         - ' <gradient:dark_gray:gray>┏ Maximum Level:</gradient> <color:#E5DCD9>{maximum_level}</color>'
         - ' <gradient:dark_gray:gray>┠ Redeem Status:</gradient> <color:#E5DCD9>All Claimed</color>'
         - ' <gradient:dark_gray:gray>┗ Current Usages:</gradient> <color:#E5DCD9>{current_usages}</color>'
-        - ' <color:#E5DCD9>┠ <italic>You have reached the maximum usage limits!</italic></color>'
+        - ' <color:#E5DCD9>┠ <italic>You have reached utilization limits!</italic></color>'
         - ''
         - '<gradient:dark_gray:gray><bold>Level</bold> Information:<gradient>'
         - ' <gradient:dark_gray:gray>┏ Current Level:</gradient> <color:#E5DCD9>{current_level}</color>'
@@ -774,7 +774,7 @@ kits:
         - ' <color:#E5DCD9>┠ <underlined>Right-click</underlined> <italic>to view all available levels!</italic></color>'
         - ''
   Infected:
-    slot: 26
+    slots: [26]
     available:
       material: 'SPLASH_POTION'
       name: '<bold><color:green>✧</color><color:dark_green>✦</color><color:green>✧</color> <gradient:green:dark_green:green>Kit {kit}</gradient> <color:green>✧</color><color:dark_green>✦</color><color:green>✧</color></bold>'
@@ -860,7 +860,7 @@ kits:
         - ' <gradient:dark_gray:gray>┏ Maximum Level:</gradient> <color:#E5DCD9>{maximum_level}</color>'
         - ' <gradient:dark_gray:gray>┠ Redeem Status:</gradient> <color:#E5DCD9>All Claimed</color>'
         - ' <gradient:dark_gray:gray>┗ Current Usages:</gradient> <color:#E5DCD9>{current_usages}</color>'
-        - ' <color:#E5DCD9>┠ <italic>You have reached the maximum usage limits!</italic></color>'
+        - ' <color:#E5DCD9>┠ <italic>You have reached utilization limits!</italic></color>'
         - ''
         - '<gradient:dark_gray:gray><bold>Level</bold> Information:<gradient>'
         - ' <gradient:dark_gray:gray>┏ Current Level:</gradient> <color:#E5DCD9>{current_level}</color>'
