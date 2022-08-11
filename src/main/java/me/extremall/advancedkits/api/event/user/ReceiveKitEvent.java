@@ -7,14 +7,14 @@ import me.extremall.advancedkits.api.user.User;
 import org.bukkit.event.Cancellable;
 import org.jetbrains.annotations.NotNull;
 
-public class PreReceiveKitEvent extends BaseUserEvent implements Cancellable
+public class ReceiveKitEvent extends BaseUserEvent implements Cancellable
 {
     private boolean cancelled;
     private Kit kit;
     private KitLevel kitLevel;
     private KitStatus kitStatus;
 
-    public PreReceiveKitEvent(@NotNull User user)
+    public ReceiveKitEvent(@NotNull User user)
     {
         super(user);
     }
