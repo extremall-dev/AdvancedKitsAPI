@@ -1,6 +1,5 @@
 package me.extremall.advancedkits.api.kit;
 
-import me.extremall.advancedkits.kits.KitRedeemAction;
 import me.extremall.advancedkits.kits.items.ItemSlotType;
 import me.extremall.advancedkits.kits.upgrades.CurrencyType;
 import org.bukkit.inventory.ItemStack;
@@ -35,5 +34,5 @@ public interface KitLevel
 
     @Nullable List<ItemSlotType> getItemSlotTypes();
 
-    @NotNull List<String> getRedeemAction(KitRedeemAction kitRedeemAction);
+    @NotNull RedeemAction getRedeemAction(KitStatus kitStatus);
 }
