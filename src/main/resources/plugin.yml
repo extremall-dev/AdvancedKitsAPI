@@ -1,12 +1,11 @@
 name: ${project.name}
 main: ${project.groupId}.${project.artifactId}.${project.name}
 version: ${project.version}
+author: ${author}
 description: ${project.description}
 website: ${url}
 api-version: 1.13
 load: POSTWORLD
-authors:
-  - extremall
 softdepend:
   - PlaceholderAPI
   - Vault
