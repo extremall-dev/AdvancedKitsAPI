@@ -56,6 +56,13 @@ Snowman:
           particles: []
           console-commands: []
           messages: []
+        forced:
+          titles: []
+          fireworks: []
+          sounds: []
+          particles: []
+          console-commands: []
+          messages: []
 Potions:
   permission: advancedkits.kit.potions
   preview-menu: default
@@ -108,6 +115,13 @@ Potions:
           console-commands: []
           messages: []
         purchasable:
+          titles: []
+          fireworks: []
+          sounds: []
+          particles: []
+          console-commands: []
+          messages: []
+        forced:
           titles: []
           fireworks: []
           sounds: []
@@ -172,6 +186,13 @@ Viking:
           particles: []
           console-commands: []
           messages: []
+        forced:
+          titles: []
+          fireworks: []
+          sounds: []
+          particles: []
+          console-commands: []
+          messages: []
     '2':
       cooldown: 120
       buy-delay: -1
@@ -220,6 +241,13 @@ Viking:
           console-commands: []
           messages: []
         purchasable:
+          titles: []
+          fireworks: []
+          sounds: []
+          particles: []
+          console-commands: []
+          messages: []
+        forced:
           titles: []
           fireworks: []
           sounds: []
@@ -280,6 +308,13 @@ Viking:
           particles: []
           console-commands: []
           messages: []
+        forced:
+          titles: []
+          fireworks: []
+          sounds: []
+          particles: []
+          console-commands: []
+          messages: []
     '4':
       cooldown: 240
       buy-delay: -1
@@ -334,6 +369,13 @@ Viking:
           particles: []
           console-commands: []
           messages: []
+        forced:
+          titles: []
+          fireworks: []
+          sounds: []
+          particles: []
+          console-commands: []
+          messages: []
     '5':
       cooldown: 300
       buy-delay: -1
@@ -382,6 +424,13 @@ Viking:
           console-commands: []
           messages: []
         purchasable:
+          titles: []
+          fireworks: []
+          sounds: []
+          particles: []
+          console-commands: []
+          messages: []
+        forced:
           titles: []
           fireworks: []
           sounds: []
@@ -446,6 +495,13 @@ Ultimate:
           particles: []
           console-commands: []
           messages: []
+        forced:
+          titles: []
+          fireworks: []
+          sounds: []
+          particles: []
+          console-commands: []
+          messages: []
     '2':
       cooldown: 45
       buy-delay: -1
@@ -494,6 +550,13 @@ Ultimate:
           console-commands: []
           messages: []
         purchasable:
+          titles: []
+          fireworks: []
+          sounds: []
+          particles: []
+          console-commands: []
+          messages: []
+        forced:
           titles: []
           fireworks: []
           sounds: []
@@ -554,6 +617,13 @@ Ultimate:
           particles: []
           console-commands: []
           messages: []
+        forced:
+          titles: []
+          fireworks: []
+          sounds: []
+          particles: []
+          console-commands: []
+          messages: []
     '4':
       cooldown: 75
       buy-delay: -1
@@ -608,6 +678,13 @@ Ultimate:
           particles: []
           console-commands: []
           messages: []
+        forced:
+          titles: []
+          fireworks: []
+          sounds: []
+          particles: []
+          console-commands: []
+          messages: []
     '5':
       cooldown: 90
       buy-delay: -1
@@ -656,6 +733,13 @@ Ultimate:
           console-commands: []
           messages: []
         purchasable:
+          titles: []
+          fireworks: []
+          sounds: []
+          particles: []
+          console-commands: []
+          messages: []
+        forced:
           titles: []
           fireworks: []
           sounds: []
@@ -720,6 +804,13 @@ Swordsman:
           particles: []
           console-commands: []
           messages: []
+        forced:
+          titles: []
+          fireworks: []
+          sounds: []
+          particles: []
+          console-commands: []
+          messages: []
     '2':
       cooldown: 45
       buy-delay: -1
@@ -768,6 +859,13 @@ Swordsman:
           console-commands: []
           messages: []
         purchasable:
+          titles: []
+          fireworks: []
+          sounds: []
+          particles: []
+          console-commands: []
+          messages: []
+        forced:
           titles: []
           fireworks: []
           sounds: []
@@ -828,6 +926,13 @@ Swordsman:
           particles: []
           console-commands: []
           messages: []
+        forced:
+          titles: []
+          fireworks: []
+          sounds: []
+          particles: []
+          console-commands: []
+          messages: []
     '4':
       cooldown: 75
       buy-delay: -1
@@ -882,6 +987,13 @@ Swordsman:
           particles: []
           console-commands: []
           messages: []
+        forced:
+          titles: []
+          fireworks: []
+          sounds: []
+          particles: []
+          console-commands: []
+          messages: []
     '5':
       cooldown: 90
       buy-delay: -1
@@ -930,6 +1042,13 @@ Swordsman:
           console-commands: []
           messages: []
         purchasable:
+          titles: []
+          fireworks: []
+          sounds: []
+          particles: []
+          console-commands: []
+          messages: []
+        forced:
           titles: []
           fireworks: []
           sounds: []
@@ -994,6 +1113,13 @@ Pyro:
           particles: []
           console-commands: []
           messages: []
+        forced:
+          titles: []
+          fireworks: []
+          sounds: []
+          particles: []
+          console-commands: []
+          messages: []
     '2':
       cooldown: 45
       buy-delay: -1
@@ -1042,6 +1168,13 @@ Pyro:
           console-commands: []
           messages: []
         purchasable:
+          titles: []
+          fireworks: []
+          sounds: []
+          particles: []
+          console-commands: []
+          messages: []
+        forced:
           titles: []
           fireworks: []
           sounds: []
@@ -1102,6 +1235,13 @@ Pyro:
           particles: []
           console-commands: []
           messages: []
+        forced:
+          titles: []
+          fireworks: []
+          sounds: []
+          particles: []
+          console-commands: []
+          messages: []
     '4':
       cooldown: 75
       buy-delay: -1
@@ -1156,6 +1296,13 @@ Pyro:
           particles: []
           console-commands: []
           messages: []
+        forced:
+          titles: []
+          fireworks: []
+          sounds: []
+          particles: []
+          console-commands: []
+          messages: []
     '5':
       cooldown: 90
       buy-delay: -1
@@ -1204,6 +1351,13 @@ Pyro:
           console-commands: []
           messages: []
         purchasable:
+          titles: []
+          fireworks: []
+          sounds: []
+          particles: []
+          console-commands: []
+          messages: []
+        forced:
           titles: []
           fireworks: []
           sounds: []
@@ -1268,6 +1422,13 @@ Ninja:
           particles: []
           console-commands: []
           messages: []
+        forced:
+          titles: []
+          fireworks: []
+          sounds: []
+          particles: []
+          console-commands: []
+          messages: []
     '2':
       cooldown: 45
       buy-delay: -1
@@ -1316,6 +1477,13 @@ Ninja:
           console-commands: []
           messages: []
         purchasable:
+          titles: []
+          fireworks: []
+          sounds: []
+          particles: []
+          console-commands: []
+          messages: []
+        forced:
           titles: []
           fireworks: []
           sounds: []
@@ -1376,6 +1544,13 @@ Ninja:
           particles: []
           console-commands: []
           messages: []
+        forced:
+          titles: []
+          fireworks: []
+          sounds: []
+          particles: []
+          console-commands: []
+          messages: []
     '4':
       cooldown: 75
       buy-delay: -1
@@ -1430,6 +1605,13 @@ Ninja:
           particles: []
           console-commands: []
           messages: []
+        forced:
+          titles: []
+          fireworks: []
+          sounds: []
+          particles: []
+          console-commands: []
+          messages: []
     '5':
       cooldown: 90
       buy-delay: -1
@@ -1478,6 +1660,13 @@ Ninja:
           console-commands: []
           messages: []
         purchasable:
+          titles: []
+          fireworks: []
+          sounds: []
+          particles: []
+          console-commands: []
+          messages: []
+        forced:
           titles: []
           fireworks: []
           sounds: []
@@ -1542,6 +1731,13 @@ Archer:
           particles: []
           console-commands: []
           messages: []
+        forced:
+          titles: []
+          fireworks: []
+          sounds: []
+          particles: []
+          console-commands: []
+          messages: []
     '2':
       cooldown: 45
       buy-delay: -1
@@ -1591,6 +1787,13 @@ Archer:
           console-commands: []
           messages: []
         purchasable:
+          titles: []
+          fireworks: []
+          sounds: []
+          particles: []
+          console-commands: []
+          messages: []
+        forced:
           titles: []
           fireworks: []
           sounds: []
@@ -1652,6 +1855,13 @@ Archer:
           particles: []
           console-commands: []
           messages: []
+        forced:
+          titles: []
+          fireworks: []
+          sounds: []
+          particles: []
+          console-commands: []
+          messages: []
     '4':
       cooldown: 75
       buy-delay: -1
@@ -1706,6 +1916,13 @@ Archer:
           particles: []
           console-commands: []
           messages: []
+        forced:
+          titles: []
+          fireworks: []
+          sounds: []
+          particles: []
+          console-commands: []
+          messages: []
     '5':
       cooldown: 90
       buy-delay: -1
@@ -1754,6 +1971,13 @@ Archer:
           console-commands: []
           messages: []
         purchasable:
+          titles: []
+          fireworks: []
+          sounds: []
+          particles: []
+          console-commands: []
+          messages: []
+        forced:
           titles: []
           fireworks: []
           sounds: []
@@ -1818,6 +2042,13 @@ Infected:
           particles: []
           console-commands: []
           messages: []
+        forced:
+          titles: []
+          fireworks: []
+          sounds: []
+          particles: []
+          console-commands: []
+          messages: []
     '2':
       cooldown: 45
       buy-delay: -1
@@ -1866,6 +2097,13 @@ Infected:
           console-commands: []
           messages: []
         purchasable:
+          titles: []
+          fireworks: []
+          sounds: []
+          particles: []
+          console-commands: []
+          messages: []
+        forced:
           titles: []
           fireworks: []
           sounds: []
@@ -1926,6 +2164,13 @@ Infected:
           particles: []
           console-commands: []
           messages: []
+        forced:
+          titles: []
+          fireworks: []
+          sounds: []
+          particles: []
+          console-commands: []
+          messages: []
     '4':
       cooldown: 75
       buy-delay: -1
@@ -1980,6 +2225,13 @@ Infected:
           particles: []
           console-commands: []
           messages: []
+        forced:
+          titles: []
+          fireworks: []
+          sounds: []
+          particles: []
+          console-commands: []
+          messages: []
     '5':
       cooldown: 90
       buy-delay: -1
@@ -2028,6 +2280,13 @@ Infected:
           console-commands: []
           messages: []
         purchasable:
+          titles: []
+          fireworks: []
+          sounds: []
+          particles: []
+          console-commands: []
+          messages: []
+        forced:
           titles: []
           fireworks: []
           sounds: []
@@ -2092,6 +2351,13 @@ Coal:
           particles: []
           console-commands: []
           messages: []
+        forced:
+          titles: []
+          fireworks: []
+          sounds: []
+          particles: []
+          console-commands: []
+          messages: []
 Iron:
   permission: advancedkits.kit.iron
   preview-menu: default
@@ -2144,6 +2410,13 @@ Iron:
           console-commands: []
           messages: []
         purchasable:
+          titles: []
+          fireworks: []
+          sounds: []
+          particles: []
+          console-commands: []
+          messages: []
+        forced:
           titles: []
           fireworks: []
           sounds: []
@@ -2208,6 +2481,13 @@ Gold:
           particles: []
           console-commands: []
           messages: []
+        forced:
+          titles: []
+          fireworks: []
+          sounds: []
+          particles: []
+          console-commands: []
+          messages: []
 Lapis:
   permission: advancedkits.kit.lapis
   preview-menu: default
@@ -2260,6 +2540,13 @@ Lapis:
           console-commands: []
           messages: []
         purchasable:
+          titles: []
+          fireworks: []
+          sounds: []
+          particles: []
+          console-commands: []
+          messages: []
+        forced:
           titles: []
           fireworks: []
           sounds: []
@@ -2324,6 +2611,13 @@ Emerald:
           particles: []
           console-commands: []
           messages: []
+        forced:
+          titles: []
+          fireworks: []
+          sounds: []
+          particles: []
+          console-commands: []
+          messages: []
 Diamond:
   permission: advancedkits.kit.diamond
   preview-menu: default
@@ -2382,6 +2676,13 @@ Diamond:
           particles: []
           console-commands: []
           messages: []
+        forced:
+          titles: []
+          fireworks: []
+          sounds: []
+          particles: []
+          console-commands: []
+          messages: []
 Bedrock:
   permission: advancedkits.kit.bedrock
   preview-menu: default
@@ -2434,6 +2735,13 @@ Bedrock:
           console-commands: []
           messages: []
         purchasable:
+          titles: []
+          fireworks: []
+          sounds: []
+          particles: []
+          console-commands: []
+          messages: []
+        forced:
           titles: []
           fireworks: []
           sounds: []
