@@ -23,9 +23,5 @@ public interface User
 
     void saveDatabase();
 
-    void giveFirstJoinKits();
-
-    void giveFirstJoinVouchers();
-
     @NotNull UserDatabase getUserDatabase();
 }
