@@ -3,20 +3,20 @@ package me.extremall.advancedkits.api.user;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
-import java.util.Map;
+import java.util.Set;
 import java.util.UUID;
 
 public interface UserManager
 {
-    @NotNull Map<UUID, User> getRegisteredUsers();
+    @NotNull Set<User> getOnlineUsers();
 
     @Nullable User getUser(@NotNull UUID uniqueId);
 
-    void loadUser(@NotNull UUID uniqueId, boolean asyncLoad);
-
-    void unloadUser(@NotNull User user, boolean asyncSave);
-
-    void loadOnlineUsers();
+    void saveUser(@NotNull User user);
 
     void saveOnlineUsers();
+
+    void giveFirstJoinKits(@NotNull User user);
+
+    void giveFirstJoinVouchers(@NotNull User user);
 }
