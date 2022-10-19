@@ -4,7 +4,6 @@ import org.jetbrains.annotations.NotNull;
 
 public interface KitData
 {
-
     @NotNull Cooldown getClaimCooldown();
 
     @NotNull Cooldown getBuyCooldown();
