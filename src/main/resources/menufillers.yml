@@ -1,7 +1,7 @@
 main-kits-menu-left-arrow:
   delay: 10
   random: false
-  slots: [37, 38]
+  slots: [37-38]
   items:
     '1':
       material: 'PLAYER_HEAD:http://textures.minecraft.net/texture/333ae8de7ed079e38d2c82dd42b74cfcbd94b3480348dbb5ecd93da8b81015e3'
@@ -18,7 +18,7 @@ main-kits-menu-left-arrow:
 main-kits-menu-right-arrow:
   delay: 10
   random: false
-  slots: [42, 43]
+  slots: [42-43]
   items:
     '1':
       material: 'PLAYER_HEAD:http://textures.minecraft.net/texture/81c96a5c3d13c3199183e1bc7f086f54ca2a6527126303ac8e25d63e16b64ccf'
@@ -225,7 +225,7 @@ random-rainbow-glass-pane:
 preview-menu-corner-1:
   delay: 20
   random: false
-  slots: [0, 1, 9, 44, 52, 53]
+  slots: [0-1, 9, 44, 52-53]
   items:
     '1':
       material: 'YELLOW_STAINED_GLASS_PANE'
@@ -242,7 +242,7 @@ preview-menu-corner-1:
 preview-menu-corner-2:
   delay: 20
   random: false
-  slots: [7, 8, 17, 36, 45, 46]
+  slots: [7-8, 17, 36, 45-46]
   items:
     '1':
       material: 'ORANGE_STAINED_GLASS_PANE'
