@@ -148,6 +148,8 @@ data-save-interval-ticks: 12000
 cost-formatting:
   exp: '{amount} EXP'
   vault: '${amount}'
+placeholders:
+  unlimited-kit-usages: 'Unlimited'
 voucher-interact-blocks:
   - 'ENCHANTING_TABLE'
   - 'ANVIL'
@@ -254,7 +256,7 @@ voucher-interact-blocks:
   - 'CARTOGRAPHY_TABLE'
 time-units:
   finish: 'Now'
-  years: '{number} Year '
+  years: '{number} Years '
   year: '{number} Year '
   no-years: ''
   months: '{number} Months '
