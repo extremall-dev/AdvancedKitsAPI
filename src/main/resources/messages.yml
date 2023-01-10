@@ -11,7 +11,7 @@ successfully-edited-kit: '&e&l(!) &eYou have edited the {kit} (Lvl. {level}) ite
 successfully-reset-cooldown: '&e&l(!) &eYou have reset {player}''s cooldown on the {kit} kit!'
 main-command-usage: '&c&l(!) &cIncorrect usage! Use "/{command} <give|open|reload|edit|resetcooldown>" instead!'
 give-player-kit-command-usage: '&c&l(!) &cIncorrect usage! Use "/{command} give {player} kit <kit> [level]" instead!'
-give-player-voucher-command-usage: '&c&l(!) &cIncorrect usage! Use "/{command} give {player} voucher <voucher>" instead!'
+give-player-voucher-command-usage: '&c&l(!) &cIncorrect usage! Use "/{command} give {player} voucher <voucher> [amount]" instead!'
 give-player-command-usage: '&c&l(!) &cIncorrect usage! Use "/{command} give {player} <kit|voucher>" instead!'
 give-command-usage: '&c&l(!) &cIncorrect usage! Use "/{command} give <player> <kit|voucher>" instead!'
 invalid-command: '&c&l(!) &cInvalid command! Use "/{command}" for help!'
