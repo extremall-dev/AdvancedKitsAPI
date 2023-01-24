@@ -1,5 +1,6 @@
 title: '&8Kits Menu'
 rows: 6
+refresh-delay: 20
 menu-fillers:
   - 'main-kits-menu-left-arrow'
   - 'main-kits-menu-right-arrow'
