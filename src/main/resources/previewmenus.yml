@@ -1,6 +1,7 @@
 default:
   title: '&8Kit preview: {kit} &o(Lvl. {level})'
   rows: 6
+  refresh-delay: 20
   menu-fillers:
     - 'preview-menu-corner-1'
     - 'preview-menu-corner-2'
