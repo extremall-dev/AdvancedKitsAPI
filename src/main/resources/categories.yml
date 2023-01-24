@@ -1,6 +1,7 @@
 Rank:
   title: 'Rank Kits'
   rows: 5
+  refresh-delay: 20
   menu-fillers:
     - 'random-rainbow-glass-pane'
   kits:
