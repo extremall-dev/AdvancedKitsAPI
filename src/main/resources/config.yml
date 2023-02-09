@@ -1,30 +1,27 @@
 preview-kits-menu:
   previous-page-button:
-    material: 'PLAYER_HEAD:http://textures.minecraft.net/texture/816ea34a6a6ec5c051e6932f1c471b7012b298d38d179f1b487c413f51959cd4'
+    material: PLAYER_HEAD
+    texture: http://textures.minecraft.net/texture/816ea34a6a6ec5c051e6932f1c471b7012b298d38d179f1b487c413f51959cd4
     name: '<bold><color:yellow>(!)<color:yellow></bold> <gradient:yellow:gold>Preview previous level!</gradient>'
-    glow: false
-    lore: []
   no-previous-page-button:
-    material: 'PLAYER_HEAD:http://textures.minecraft.net/texture/3ed1aba73f639f4bc42bd48196c715197be2712c3b962c97ebf9e9ed8efa025'
+    material: PLAYER_HEAD
+    texture: http://textures.minecraft.net/texture/3ed1aba73f639f4bc42bd48196c715197be2712c3b962c97ebf9e9ed8efa025
     name: '<bold><color:red>(!)<color:red></bold> <gradient:red:dark_red>No previous level!</gradient>'
-    glow: false
     lore:
       - '&7You have reached the first level of this kit.'
   next-page-button:
-    material: 'PLAYER_HEAD:http://textures.minecraft.net/texture/9c9ec71c1068ec6e03d2c9287f9da9193639f3a635e2fbd5d87c2fabe6499'
+    material: PLAYER_HEAD
+    texture: http://textures.minecraft.net/texture/9c9ec71c1068ec6e03d2c9287f9da9193639f3a635e2fbd5d87c2fabe6499
     name: '<bold><color:yellow>(!)<color:yellow></bold> <gradient:yellow:gold>Preview next level!</gradient>'
-    glow: false
-    lore: []
   no-next-page-button:
-    material: 'PLAYER_HEAD:http://textures.minecraft.net/texture/3ed1aba73f639f4bc42bd48196c715197be2712c3b962c97ebf9e9ed8efa025'
+    material: PLAYER_HEAD
+    texture: http://textures.minecraft.net/texture/3ed1aba73f639f4bc42bd48196c715197be2712c3b962c97ebf9e9ed8efa025
     name: '<bold><color:red>(!)<color:red></bold> <gradient:red:dark_red>No next level!</gradient>'
-    glow: false
     lore:
       - '&7You have reached the last level of this kit.'
   no-upgrade-button:
-    material: 'BARRIER'
+    material: BARRIER
     name: '<bold><color:#D22727>✧<color:#D22727><color:#F26F0F>✦<color:#F26F0F><color:#D22727>✧<color:#D22727> <gradient:#D22727:#F26F0F>Upgrade {kit}</gradient> <color:#D22727>✧<color:#D22727><color:#F26F0F>✦<color:#F26F0F><color:#D22727>✧<color:#D22727></bold>'
-    glow: false
     lore:
       - ''
       - ' <bold><color:#D22727>*<color:#D22727></bold> <gradient:#D22727:#F26F0F>Upgrade to level:</gradient> <bold><color:yellow>{upgrade_level}<color:yellow></bold>'
@@ -32,9 +29,9 @@ preview-kits-menu:
       - ''
       - '<italic><gradient:#D22727:#F26F0F>(( This kit has no available upgrades! ))</gradient></italic>'
   default-level-upgrade-button:
-    material: 'PLAYER_HEAD:https://textures.minecraft.net/texture/71bdf5e4225d6683c393d6f8b2b735ed228eb6f3a078d0d791adeca55e4392fa'
+    material: PLAYER_HEAD
+    texture: https://textures.minecraft.net/texture/71bdf5e4225d6683c393d6f8b2b735ed228eb6f3a078d0d791adeca55e4392fa
     name: '<bold><color:#D22727>✧<color:#D22727><color:#F26F0F>✦<color:#F26F0F><color:#D22727>✧<color:#D22727> <gradient:#D22727:#F26F0F>Upgrade {kit}</gradient> <color:#D22727>✧<color:#D22727><color:#F26F0F>✦<color:#F26F0F><color:#D22727>✧<color:#D22727></bold>'
-    glow: false
     lore:
       - ''
       - ' <bold><color:#D22727>*<color:#D22727></bold> <gradient:#D22727:#F26F0F>Upgrade to level:</gradient> <bold><color:yellow>{upgrade_level}<color:yellow></bold>'
@@ -42,9 +39,9 @@ preview-kits-menu:
       - ''
       - '<italic><gradient:#D22727:#F26F0F>(( This is the default kit level! ))</gradient></italic>'
   available-upgrade-button:
-    material: 'PLAYER_HEAD:https://textures.minecraft.net/texture/71bdf5e4225d6683c393d6f8b2b735ed228eb6f3a078d0d791adeca55e4392fa'
+    material: PLAYER_HEAD
+    texture: https://textures.minecraft.net/texture/71bdf5e4225d6683c393d6f8b2b735ed228eb6f3a078d0d791adeca55e4392fa
     name: '<bold><color:#10987A>✧<color:#10987A><color:#49ECC3>✦<color:#49ECC3><color:#10987A>✧<color:#10987A> <gradient:#10987A:#49ECC3>Upgrade {kit}</gradient> <color:#10987A>✧<color:#10987A><color:#49ECC3>✦<color:#49ECC3><color:#10987A>✧<color:#10987A></bold>'
-    glow: false
     lore:
       - ''
       - ' <bold><color:#10987A>*<color:#10987A></bold> <gradient:#10987A:#49ECC3>Kit level:</gradient> <bold><underlined><color:yellow>{upgrade_level}<color:yellow></underlined></bold> <bold><color:gray>/<color:gray></bold> <bold><underlined><color:red>{maximum_level}<color:red></underlined></bold>'
@@ -55,9 +52,9 @@ preview-kits-menu:
       - ''
       - '<italic><gradient:#10987A:#49ECC3>(( Click to buy this upgrade! ))</gradient></italic>'
   insufficient-funds-upgrade-button:
-    material: 'PLAYER_HEAD:https://textures.minecraft.net/texture/71bdf5e4225d6683c393d6f8b2b735ed228eb6f3a078d0d791adeca55e4392fa'
+    material: PLAYER_HEAD
+    texture: https://textures.minecraft.net/texture/71bdf5e4225d6683c393d6f8b2b735ed228eb6f3a078d0d791adeca55e4392fa
     name: '<bold><color:#D22727>✧<color:#D22727><color:#F26F0F>✦<color:#F26F0F><color:#D22727>✧<color:#D22727> <gradient:#D22727:#F26F0F>Upgrade {kit}</gradient> <color:#D22727>✧<color:#D22727><color:#F26F0F>✦<color:#F26F0F><color:#D22727>✧<color:#D22727></bold>'
-    glow: false
     lore:
       - ''
       - ' <bold><color:#D22727>*<color:#D22727></bold> <gradient:#D22727:#F26F0F>Upgrade to level:</gradient> <bold><color:yellow>{upgrade_level}<color:yellow></bold>'
@@ -65,9 +62,9 @@ preview-kits-menu:
       - ''
       - '<italic><gradient:#D22727:#F26F0F>(( You cannot afford this kit upgrade! ))</gradient></italic>'
   locked-upgrade-button:
-    material: 'PLAYER_HEAD:https://textures.minecraft.net/texture/71bdf5e4225d6683c393d6f8b2b735ed228eb6f3a078d0d791adeca55e4392fa'
+    material: PLAYER_HEAD
+    texture: https://textures.minecraft.net/texture/71bdf5e4225d6683c393d6f8b2b735ed228eb6f3a078d0d791adeca55e4392fa
     name: '<bold><color:#D22727>✧<color:#D22727><color:#F26F0F>✦<color:#F26F0F><color:#D22727>✧<color:#D22727> <gradient:#D22727:#F26F0F>Upgrade {kit}</gradient> <color:#D22727>✧<color:#D22727><color:#F26F0F>✦<color:#F26F0F><color:#D22727>✧<color:#D22727></bold>'
-    glow: false
     lore:
       - ''
       - ' <bold><color:#D22727>*<color:#D22727></bold> <gradient:#D22727:#F26F0F>Upgrade to level:</gradient> <bold><color:yellow>{upgrade_level}<color:yellow></bold>'
@@ -75,9 +72,9 @@ preview-kits-menu:
       - ''
       - '<italic><gradient:#D22727:#F26F0F>(( You must to unlock this kit first! ))</gradient></italic>'
   maximum-level-upgrade-button:
-    material: 'PLAYER_HEAD:https://textures.minecraft.net/texture/71bdf5e4225d6683c393d6f8b2b735ed228eb6f3a078d0d791adeca55e4392fa'
+    material: PLAYER_HEAD
+    texture: https://textures.minecraft.net/texture/71bdf5e4225d6683c393d6f8b2b735ed228eb6f3a078d0d791adeca55e4392fa
     name: '<bold><color:#DACB1C>✧<color:#DACB1C><color:#CBF91B>✦<color:#CBF91B><color:#DACB1C>✧<color:#DACB1C> <gradient:#DACB1C:#CBF91B>Upgrade {kit}</gradient> <color:#DACB1C>✧<color:#DACB1C><color:#CBF91B>✦<color:#CBF91B><color:#DACB1C>✧<color:#DACB1C></bold>'
-    glow: false
     lore:
       - ''
       - ' <bold><color:#DACB1C>*<color:#DACB1C></bold> <gradient:#DACB1C:#CBF91B>Upgrade to level:</gradient> <bold><color:yellow>{upgrade_level}<color:yellow></bold>'
@@ -85,9 +82,9 @@ preview-kits-menu:
       - ''
       - '<italic><gradient:#DACB1C:#CBF91B>(( You have reached the maximum level! ))</gradient></italic>'
   unavailable-upgrade-button:
-    material: 'PLAYER_HEAD:https://textures.minecraft.net/texture/71bdf5e4225d6683c393d6f8b2b735ed228eb6f3a078d0d791adeca55e4392fa'
+    material: PLAYER_HEAD
+    texture: https://textures.minecraft.net/texture/71bdf5e4225d6683c393d6f8b2b735ed228eb6f3a078d0d791adeca55e4392fa
     name: '<bold><color:#DACB1C>✧<color:#DACB1C><color:#CBF91B>✦<color:#CBF91B><color:#DACB1C>✧<color:#DACB1C> <gradient:#DACB1C:#CBF91B>Upgrade {kit}</gradient> <color:#DACB1C>✧<color:#DACB1C><color:#CBF91B>✦<color:#CBF91B><color:#DACB1C>✧<color:#DACB1C></bold>'
-    glow: false
     lore:
       - ''
       - ' <bold><color:#DACB1C>*<color:#DACB1C></bold> <gradient:#DACB1C:#CBF91B>Upgrade to level:</gradient> <bold><color:yellow>{upgrade_level}<color:yellow></bold>'
@@ -95,9 +92,9 @@ preview-kits-menu:
       - ''
       - '<italic><gradient:#DACB1C:#CBF91B>(( Unlock the previous upgrades first! ))</gradient></italic>'
   complete-upgrade-button:
-    material: 'PLAYER_HEAD:https://textures.minecraft.net/texture/71bdf5e4225d6683c393d6f8b2b735ed228eb6f3a078d0d791adeca55e4392fa'
+    material: PLAYER_HEAD
+    texture: https://textures.minecraft.net/texture/71bdf5e4225d6683c393d6f8b2b735ed228eb6f3a078d0d791adeca55e4392fa
     name: '<bold><color:#10987A>✧<color:#10987A><color:#49ECC3>✦<color:#49ECC3><color:#10987A>✧<color:#10987A> <gradient:#10987A:#49ECC3>Upgrade {kit}</gradient> <color:#10987A>✧<color:#10987A><color:#49ECC3>✦<color:#49ECC3><color:#10987A>✧<color:#10987A></bold>'
-    glow: false
     lore:
       - ''
       - ' <bold><color:#10987A>*<color:#10987A></bold> <gradient:#10987A:#49ECC3>Kit level:</gradient> <bold><underlined><color:yellow>{upgrade_level}<color:yellow></underlined></bold> <bold><color:gray>/<color:gray></bold> <bold><underlined><color:red>{maximum_level}<color:red></underlined></bold>'
@@ -108,9 +105,9 @@ preview-kits-menu:
       - ''
       - '<italic><gradient:#10987A:#49ECC3>(( You already bought this upgrade! ))</gradient></italic>'
   current-upgrade-button:
-    material: 'PLAYER_HEAD:https://textures.minecraft.net/texture/71bdf5e4225d6683c393d6f8b2b735ed228eb6f3a078d0d791adeca55e4392fa'
+    material: PLAYER_HEAD
+    texture: https://textures.minecraft.net/texture/71bdf5e4225d6683c393d6f8b2b735ed228eb6f3a078d0d791adeca55e4392fa
     name: '<bold><color:#10987A>✧<color:#10987A><color:#49ECC3>✦<color:#49ECC3><color:#10987A>✧<color:#10987A> <gradient:#10987A:#49ECC3>Upgrade {kit}</gradient> <color:#10987A>✧<color:#10987A><color:#49ECC3>✦<color:#49ECC3><color:#10987A>✧<color:#10987A></bold>'
-    glow: false
     lore:
       - ''
       - ' <bold><color:#10987A>*<color:#10987A></bold> <gradient:#10987A:#49ECC3>Kit level:</gradient> <bold><underlined><color:yellow>{upgrade_level}<color:yellow></underlined></bold> <bold><color:gray>/<color:gray></bold> <bold><underlined><color:red>{maximum_level}<color:red></underlined></bold>'
@@ -121,9 +118,9 @@ preview-kits-menu:
       - ''
       - '<italic><gradient:#10987A:#49ECC3>(( This is your current upgrade! ))</gradient></italic>'
   delay-upgrade-button:
-    material: 'PLAYER_HEAD:https://textures.minecraft.net/texture/71bdf5e4225d6683c393d6f8b2b735ed228eb6f3a078d0d791adeca55e4392fa'
+    material: PLAYER_HEAD
+    texture: https://textures.minecraft.net/texture/71bdf5e4225d6683c393d6f8b2b735ed228eb6f3a078d0d791adeca55e4392fa
     name: '<bold><color:#10987A>✧<color:#10987A><color:#49ECC3>✦<color:#49ECC3><color:#10987A>✧<color:#10987A> <gradient:#10987A:#49ECC3>Upgrade {kit}</gradient> <color:#10987A>✧<color:#10987A><color:#49ECC3>✦<color:#49ECC3><color:#10987A>✧<color:#10987A></bold>'
-    glow: false
     lore:
       - ''
       - ' <bold><color:#10987A>*<color:#10987A></bold> <gradient:#10987A:#49ECC3>Kit level:</gradient> <bold><underlined><color:yellow>{upgrade_level}<color:yellow></underlined></bold> <bold><color:gray>/<color:gray></bold> <bold><underlined><color:red>{maximum_level}<color:red></underlined></bold>'
