@@ -8,9 +8,9 @@ Rank:
     Coal:
       slots: [20]
       available:
-        material: 'PLAYER_HEAD:http://textures.minecraft.net/texture/cff11a5db46de1f5877a298a99f47c2779c2aad5720c384d9d3826a5a3e5bd3a'
+        material: PLAYER_HEAD
+        texture: http://textures.minecraft.net/texture/cff11a5db46de1f5877a298a99f47c2779c2aad5720c384d9d3826a5a3e5bd3a
         name: '<bold><color:green>✧</color><color:dark_green>✦</color><color:green>✧</color> <gradient:green:dark_green:green>Kit {kit}</gradient> <color:green>✧</color><color:dark_green>✦</color><color:green>✧</color></bold>'
-        glow: false
         lore:
           - ''
           - '<gradient:dark_green:green><bold>Kit</bold> Information:</gradient>'
@@ -27,9 +27,9 @@ Rank:
           - ' <color:#E5DCD9>┠ <underlined>Right-click</underlined> <italic>to view all available levels!</italic></color>'
           - ''
       unavailable:
-        material: 'PLAYER_HEAD:http://textures.minecraft.net/texture/76c0d0459c67f2be82fbe5406ab8d1378da1f28f7a3f82f1dfc47615a955a7'
+        material: PLAYER_HEAD
+        texture: http://textures.minecraft.net/texture/76c0d0459c67f2be82fbe5406ab8d1378da1f28f7a3f82f1dfc47615a955a7
         name: '<bold><color:yellow>✧</color><color:gold>✦</color><color:yellow>✧</color> <gradient:yellow:gold:yellow>Kit {kit}</gradient> <color:yellow>✧</color><color:gold>✦</color><color:yellow>✧</color></bold>'
-        glow: false
         lore:
           - ''
           - '<gradient:gold:yellow><bold>Kit</bold> Information:</gradient>'
@@ -47,9 +47,9 @@ Rank:
           - ' <color:#E5DCD9>┠ <underlined>Right-click</underlined> <italic>to view all available levels!</italic></color>'
           - ''
       locked:
-        material: 'PLAYER_HEAD:http://textures.minecraft.net/texture/8ad943d063347f95ab9e9fa75792da84ec665ebd22b050bdba519ff7da61db'
+        material: PLAYER_HEAD
+        texture: http://textures.minecraft.net/texture/8ad943d063347f95ab9e9fa75792da84ec665ebd22b050bdba519ff7da61db
         name: '<bold><color:red>✧</color><color:dark_red>✦</color><color:red>✧</color> <gradient:red:dark_red:red>Kit {kit}</gradient> <color:red>✧</color><color:dark_red>✦</color><color:red>✧</color></bold>'
-        glow: false
         lore:
           - ''
           - '<gradient:dark_red:red><bold>Kit</bold> Information:</gradient>'
@@ -65,9 +65,9 @@ Rank:
           - ' <color:#E5DCD9>┠ <underlined>Right-click</underlined> <italic>to view all available levels!</italic></color>'
           - ''
       purchasable:
-        material: 'PLAYER_HEAD:http://textures.minecraft.net/texture/8ad943d063347f95ab9e9fa75792da84ec665ebd22b050bdba519ff7da61db'
+        material: PLAYER_HEAD
+        texture: http://textures.minecraft.net/texture/8ad943d063347f95ab9e9fa75792da84ec665ebd22b050bdba519ff7da61db
         name: '<bold><color:light_purple>✧</color><color:dark_purple>✦</color><color:light_purple>✧</color> <gradient:light_purple:dark_purple:light_purple>Kit {kit}</gradient> <color:light_purple>✧</color><color:dark_purple>✦</color><color:light_purple>✧</color></bold>'
-        glow: false
         lore:
           - ''
           - '<gradient:dark_purple:light_purple><bold>Kit</bold> Information:</gradient>'
@@ -83,9 +83,9 @@ Rank:
           - ' <color:#E5DCD9>┠ <underlined>Right-click</underlined> <italic>to view all available levels!</italic></color>'
           - ''
       overused:
-        material: 'PLAYER_HEAD:http://textures.minecraft.net/texture/8ad943d063347f95ab9e9fa75792da84ec665ebd22b050bdba519ff7da61db'
+        material: PLAYER_HEAD
+        texture: http://textures.minecraft.net/texture/8ad943d063347f95ab9e9fa75792da84ec665ebd22b050bdba519ff7da61db
         name: '<bold><color:gray>✧</color><color:dark_gray>✦</color><color:gray>✧</color> <gradient:gray:dark_gray:gray>Kit {kit}</gradient> <color:gray>✧</color><color:dark_gray>✦</color><color:gray>✧</color></bold>'
-        glow: false
         lore:
           - ''
           - '<gradient:dark_gray:gray><bold>Kit</bold> Information:</gradient>'
@@ -104,9 +104,9 @@ Rank:
     Iron:
       slots: [21]
       available:
-        material: 'PLAYER_HEAD:http://textures.minecraft.net/texture/f7aadff9ddc546fdcec6ed5919cc39dfa8d0c07ff4bc613a19f2e6d7f2593'
+        material: PLAYER_HEAD
+        texture: http://textures.minecraft.net/texture/f7aadff9ddc546fdcec6ed5919cc39dfa8d0c07ff4bc613a19f2e6d7f2593
         name: '<bold><color:green>✧</color><color:dark_green>✦</color><color:green>✧</color> <gradient:green:dark_green:green>Kit {kit}</gradient> <color:green>✧</color><color:dark_green>✦</color><color:green>✧</color></bold>'
-        glow: false
         lore:
           - ''
           - '<gradient:dark_green:green><bold>Kit</bold> Information:</gradient>'
@@ -123,9 +123,9 @@ Rank:
           - ' <color:#E5DCD9>┠ <underlined>Right-click</underlined> <italic>to view all available levels!</italic></color>'
           - ''
       unavailable:
-        material: 'PLAYER_HEAD:http://textures.minecraft.net/texture/76c0d0459c67f2be82fbe5406ab8d1378da1f28f7a3f82f1dfc47615a955a7'
+        material: PLAYER_HEAD
+        texture: http://textures.minecraft.net/texture/76c0d0459c67f2be82fbe5406ab8d1378da1f28f7a3f82f1dfc47615a955a7
         name: '<bold><color:yellow>✧</color><color:gold>✦</color><color:yellow>✧</color> <gradient:yellow:gold:yellow>Kit {kit}</gradient> <color:yellow>✧</color><color:gold>✦</color><color:yellow>✧</color></bold>'
-        glow: false
         lore:
           - ''
           - '<gradient:gold:yellow><bold>Kit</bold> Information:</gradient>'
@@ -143,9 +143,9 @@ Rank:
           - ' <color:#E5DCD9>┠ <underlined>Right-click</underlined> <italic>to view all available levels!</italic></color>'
           - ''
       locked:
-        material: 'PLAYER_HEAD:http://textures.minecraft.net/texture/8ad943d063347f95ab9e9fa75792da84ec665ebd22b050bdba519ff7da61db'
+        material: PLAYER_HEAD
+        texture: http://textures.minecraft.net/texture/8ad943d063347f95ab9e9fa75792da84ec665ebd22b050bdba519ff7da61db
         name: '<bold><color:red>✧</color><color:dark_red>✦</color><color:red>✧</color> <gradient:red:dark_red:red>Kit {kit}</gradient> <color:red>✧</color><color:dark_red>✦</color><color:red>✧</color></bold>'
-        glow: false
         lore:
           - ''
           - '<gradient:dark_red:red><bold>Kit</bold> Information:</gradient>'
@@ -161,9 +161,9 @@ Rank:
           - ' <color:#E5DCD9>┠ <underlined>Right-click</underlined> <italic>to view all available levels!</italic></color>'
           - ''
       purchasable:
-        material: 'PLAYER_HEAD:http://textures.minecraft.net/texture/8ad943d063347f95ab9e9fa75792da84ec665ebd22b050bdba519ff7da61db'
+        material: PLAYER_HEAD
+        texture: http://textures.minecraft.net/texture/8ad943d063347f95ab9e9fa75792da84ec665ebd22b050bdba519ff7da61db
         name: '<bold><color:light_purple>✧</color><color:dark_purple>✦</color><color:light_purple>✧</color> <gradient:light_purple:dark_purple:light_purple>Kit {kit}</gradient> <color:light_purple>✧</color><color:dark_purple>✦</color><color:light_purple>✧</color></bold>'
-        glow: false
         lore:
           - ''
           - '<gradient:dark_purple:light_purple><bold>Kit</bold> Information:</gradient>'
@@ -179,9 +179,9 @@ Rank:
           - ' <color:#E5DCD9>┠ <underlined>Right-click</underlined> <italic>to view all available levels!</italic></color>'
           - ''
       overused:
-        material: 'PLAYER_HEAD:http://textures.minecraft.net/texture/8ad943d063347f95ab9e9fa75792da84ec665ebd22b050bdba519ff7da61db'
+        material: PLAYER_HEAD
+        texture: http://textures.minecraft.net/texture/8ad943d063347f95ab9e9fa75792da84ec665ebd22b050bdba519ff7da61db
         name: '<bold><color:gray>✧</color><color:dark_gray>✦</color><color:gray>✧</color> <gradient:gray:dark_gray:gray>Kit {kit}</gradient> <color:gray>✧</color><color:dark_gray>✦</color><color:gray>✧</color></bold>'
-        glow: false
         lore:
           - ''
           - '<gradient:dark_gray:gray><bold>Kit</bold> Information:</gradient>'
@@ -200,9 +200,9 @@ Rank:
     Gold:
       slots: [13]
       available:
-        material: 'PLAYER_HEAD:http://textures.minecraft.net/texture/f37cae5c51eb1558ea828f58e0dff8e6b7b0b1a183d737eecf714661761'
+        material: PLAYER_HEAD
+        texture: http://textures.minecraft.net/texture/f37cae5c51eb1558ea828f58e0dff8e6b7b0b1a183d737eecf714661761
         name: '<bold><color:green>✧</color><color:dark_green>✦</color><color:green>✧</color> <gradient:green:dark_green:green>Kit {kit}</gradient> <color:green>✧</color><color:dark_green>✦</color><color:green>✧</color></bold>'
-        glow: false
         lore:
           - ''
           - '<gradient:dark_green:green><bold>Kit</bold> Information:</gradient>'
@@ -219,9 +219,9 @@ Rank:
           - ' <color:#E5DCD9>┠ <underlined>Right-click</underlined> <italic>to view all available levels!</italic></color>'
           - ''
       unavailable:
-        material: 'PLAYER_HEAD:http://textures.minecraft.net/texture/76c0d0459c67f2be82fbe5406ab8d1378da1f28f7a3f82f1dfc47615a955a7'
+        material: PLAYER_HEAD
+        texture: http://textures.minecraft.net/texture/76c0d0459c67f2be82fbe5406ab8d1378da1f28f7a3f82f1dfc47615a955a7
         name: '<bold><color:yellow>✧</color><color:gold>✦</color><color:yellow>✧</color> <gradient:yellow:gold:yellow>Kit {kit}</gradient> <color:yellow>✧</color><color:gold>✦</color><color:yellow>✧</color></bold>'
-        glow: false
         lore:
           - ''
           - '<gradient:gold:yellow><bold>Kit</bold> Information:</gradient>'
@@ -239,9 +239,9 @@ Rank:
           - ' <color:#E5DCD9>┠ <underlined>Right-click</underlined> <italic>to view all available levels!</italic></color>'
           - ''
       locked:
-        material: 'PLAYER_HEAD:http://textures.minecraft.net/texture/8ad943d063347f95ab9e9fa75792da84ec665ebd22b050bdba519ff7da61db'
+        material: PLAYER_HEAD
+        texture: http://textures.minecraft.net/texture/8ad943d063347f95ab9e9fa75792da84ec665ebd22b050bdba519ff7da61db
         name: '<bold><color:red>✧</color><color:dark_red>✦</color><color:red>✧</color> <gradient:red:dark_red:red>Kit {kit}</gradient> <color:red>✧</color><color:dark_red>✦</color><color:red>✧</color></bold>'
-        glow: false
         lore:
           - ''
           - '<gradient:dark_red:red><bold>Kit</bold> Information:</gradient>'
@@ -257,9 +257,9 @@ Rank:
           - ' <color:#E5DCD9>┠ <underlined>Right-click</underlined> <italic>to view all available levels!</italic></color>'
           - ''
       purchasable:
-        material: 'PLAYER_HEAD:http://textures.minecraft.net/texture/8ad943d063347f95ab9e9fa75792da84ec665ebd22b050bdba519ff7da61db'
+        material: PLAYER_HEAD
+        texture: http://textures.minecraft.net/texture/8ad943d063347f95ab9e9fa75792da84ec665ebd22b050bdba519ff7da61db
         name: '<bold><color:light_purple>✧</color><color:dark_purple>✦</color><color:light_purple>✧</color> <gradient:light_purple:dark_purple:light_purple>Kit {kit}</gradient> <color:light_purple>✧</color><color:dark_purple>✦</color><color:light_purple>✧</color></bold>'
-        glow: false
         lore:
           - ''
           - '<gradient:dark_purple:light_purple><bold>Kit</bold> Information:</gradient>'
@@ -275,9 +275,9 @@ Rank:
           - ' <color:#E5DCD9>┠ <underlined>Right-click</underlined> <italic>to view all available levels!</italic></color>'
           - ''
       overused:
-        material: 'PLAYER_HEAD:http://textures.minecraft.net/texture/8ad943d063347f95ab9e9fa75792da84ec665ebd22b050bdba519ff7da61db'
+        material: PLAYER_HEAD
+        texture: http://textures.minecraft.net/texture/8ad943d063347f95ab9e9fa75792da84ec665ebd22b050bdba519ff7da61db
         name: '<bold><color:gray>✧</color><color:dark_gray>✦</color><color:gray>✧</color> <gradient:gray:dark_gray:gray>Kit {kit}</gradient> <color:gray>✧</color><color:dark_gray>✦</color><color:gray>✧</color></bold>'
-        glow: false
         lore:
           - ''
           - '<gradient:dark_gray:gray><bold>Kit</bold> Information:</gradient>'
@@ -296,9 +296,9 @@ Rank:
     Lapis:
       slots: [14]
       available:
-        material: 'PLAYER_HEAD:http://textures.minecraft.net/texture/478abdf982f909eab5de9bf969cf14f664db4c447738459ea40162b37d124'
+        material: PLAYER_HEAD
+        texture: http://textures.minecraft.net/texture/478abdf982f909eab5de9bf969cf14f664db4c447738459ea40162b37d124
         name: '<bold><color:green>✧</color><color:dark_green>✦</color><color:green>✧</color> <gradient:green:dark_green:green>Kit {kit}</gradient> <color:green>✧</color><color:dark_green>✦</color><color:green>✧</color></bold>'
-        glow: false
         lore:
           - ''
           - '<gradient:dark_green:green><bold>Kit</bold> Information:</gradient>'
@@ -315,9 +315,9 @@ Rank:
           - ' <color:#E5DCD9>┠ <underlined>Right-click</underlined> <italic>to view all available levels!</italic></color>'
           - ''
       unavailable:
-        material: 'PLAYER_HEAD:http://textures.minecraft.net/texture/76c0d0459c67f2be82fbe5406ab8d1378da1f28f7a3f82f1dfc47615a955a7'
+        material: PLAYER_HEAD
+        texture: http://textures.minecraft.net/texture/76c0d0459c67f2be82fbe5406ab8d1378da1f28f7a3f82f1dfc47615a955a7
         name: '<bold><color:yellow>✧</color><color:gold>✦</color><color:yellow>✧</color> <gradient:yellow:gold:yellow>Kit {kit}</gradient> <color:yellow>✧</color><color:gold>✦</color><color:yellow>✧</color></bold>'
-        glow: false
         lore:
           - ''
           - '<gradient:gold:yellow><bold>Kit</bold> Information:</gradient>'
@@ -335,9 +335,9 @@ Rank:
           - ' <color:#E5DCD9>┠ <underlined>Right-click</underlined> <italic>to view all available levels!</italic></color>'
           - ''
       locked:
-        material: 'PLAYER_HEAD:http://textures.minecraft.net/texture/8ad943d063347f95ab9e9fa75792da84ec665ebd22b050bdba519ff7da61db'
+        material: PLAYER_HEAD
+        texture: http://textures.minecraft.net/texture/8ad943d063347f95ab9e9fa75792da84ec665ebd22b050bdba519ff7da61db
         name: '<bold><color:red>✧</color><color:dark_red>✦</color><color:red>✧</color> <gradient:red:dark_red:red>Kit {kit}</gradient> <color:red>✧</color><color:dark_red>✦</color><color:red>✧</color></bold>'
-        glow: false
         lore:
           - ''
           - '<gradient:dark_red:red><bold>Kit</bold> Information:</gradient>'
@@ -353,9 +353,9 @@ Rank:
           - ' <color:#E5DCD9>┠ <underlined>Right-click</underlined> <italic>to view all available levels!</italic></color>'
           - ''
       purchasable:
-        material: 'PLAYER_HEAD:http://textures.minecraft.net/texture/8ad943d063347f95ab9e9fa75792da84ec665ebd22b050bdba519ff7da61db'
+        material: PLAYER_HEAD
+        texture: http://textures.minecraft.net/texture/8ad943d063347f95ab9e9fa75792da84ec665ebd22b050bdba519ff7da61db
         name: '<bold><color:light_purple>✧</color><color:dark_purple>✦</color><color:light_purple>✧</color> <gradient:light_purple:dark_purple:light_purple>Kit {kit}</gradient> <color:light_purple>✧</color><color:dark_purple>✦</color><color:light_purple>✧</color></bold>'
-        glow: false
         lore:
           - ''
           - '<gradient:dark_purple:light_purple><bold>Kit</bold> Information:</gradient>'
@@ -371,9 +371,9 @@ Rank:
           - ' <color:#E5DCD9>┠ <underlined>Right-click</underlined> <italic>to view all available levels!</italic></color>'
           - ''
       overused:
-        material: 'PLAYER_HEAD:http://textures.minecraft.net/texture/8ad943d063347f95ab9e9fa75792da84ec665ebd22b050bdba519ff7da61db'
+        material: PLAYER_HEAD
+        texture: http://textures.minecraft.net/texture/8ad943d063347f95ab9e9fa75792da84ec665ebd22b050bdba519ff7da61db
         name: '<bold><color:gray>✧</color><color:dark_gray>✦</color><color:gray>✧</color> <gradient:gray:dark_gray:gray>Kit {kit}</gradient> <color:gray>✧</color><color:dark_gray>✦</color><color:gray>✧</color></bold>'
-        glow: false
         lore:
           - ''
           - '<gradient:dark_gray:gray><bold>Kit</bold> Information:</gradient>'
@@ -392,9 +392,9 @@ Rank:
     Emerald:
       slots: [15]
       available:
-        material: 'PLAYER_HEAD:http://textures.minecraft.net/texture/f3d5e43de5d4177c4baf2f44161554473a3b0be5430998b5fcd826af943afe3'
+        material: PLAYER_HEAD
+        texture: http://textures.minecraft.net/texture/f3d5e43de5d4177c4baf2f44161554473a3b0be5430998b5fcd826af943afe3
         name: '<bold><color:green>✧</color><color:dark_green>✦</color><color:green>✧</color> <gradient:green:dark_green:green>Kit {kit}</gradient> <color:green>✧</color><color:dark_green>✦</color><color:green>✧</color></bold>'
-        glow: false
         lore:
           - ''
           - '<gradient:dark_green:green><bold>Kit</bold> Information:</gradient>'
@@ -411,9 +411,9 @@ Rank:
           - ' <color:#E5DCD9>┠ <underlined>Right-click</underlined> <italic>to view all available levels!</italic></color>'
           - ''
       unavailable:
-        material: 'PLAYER_HEAD:http://textures.minecraft.net/texture/76c0d0459c67f2be82fbe5406ab8d1378da1f28f7a3f82f1dfc47615a955a7'
+        material: PLAYER_HEAD
+        texture: http://textures.minecraft.net/texture/76c0d0459c67f2be82fbe5406ab8d1378da1f28f7a3f82f1dfc47615a955a7
         name: '<bold><color:yellow>✧</color><color:gold>✦</color><color:yellow>✧</color> <gradient:yellow:gold:yellow>Kit {kit}</gradient> <color:yellow>✧</color><color:gold>✦</color><color:yellow>✧</color></bold>'
-        glow: false
         lore:
           - ''
           - '<gradient:gold:yellow><bold>Kit</bold> Information:</gradient>'
@@ -431,9 +431,9 @@ Rank:
           - ' <color:#E5DCD9>┠ <underlined>Right-click</underlined> <italic>to view all available levels!</italic></color>'
           - ''
       locked:
-        material: 'PLAYER_HEAD:http://textures.minecraft.net/texture/8ad943d063347f95ab9e9fa75792da84ec665ebd22b050bdba519ff7da61db'
+        material: PLAYER_HEAD
+        texture: http://textures.minecraft.net/texture/8ad943d063347f95ab9e9fa75792da84ec665ebd22b050bdba519ff7da61db
         name: '<bold><color:red>✧</color><color:dark_red>✦</color><color:red>✧</color> <gradient:red:dark_red:red>Kit {kit}</gradient> <color:red>✧</color><color:dark_red>✦</color><color:red>✧</color></bold>'
-        glow: false
         lore:
           - ''
           - '<gradient:dark_red:red><bold>Kit</bold> Information:</gradient>'
@@ -449,9 +449,9 @@ Rank:
           - ' <color:#E5DCD9>┠ <underlined>Right-click</underlined> <italic>to view all available levels!</italic></color>'
           - ''
       purchasable:
-        material: 'PLAYER_HEAD:http://textures.minecraft.net/texture/8ad943d063347f95ab9e9fa75792da84ec665ebd22b050bdba519ff7da61db'
+        material: PLAYER_HEAD
+        texture: http://textures.minecraft.net/texture/8ad943d063347f95ab9e9fa75792da84ec665ebd22b050bdba519ff7da61db
         name: '<bold><color:light_purple>✧</color><color:dark_purple>✦</color><color:light_purple>✧</color> <gradient:light_purple:dark_purple:light_purple>Kit {kit}</gradient> <color:light_purple>✧</color><color:dark_purple>✦</color><color:light_purple>✧</color></bold>'
-        glow: false
         lore:
           - ''
           - '<gradient:dark_purple:light_purple><bold>Kit</bold> Information:</gradient>'
@@ -467,9 +467,9 @@ Rank:
           - ' <color:#E5DCD9>┠ <underlined>Right-click</underlined> <italic>to view all available levels!</italic></color>'
           - ''
       overused:
-        material: 'PLAYER_HEAD:http://textures.minecraft.net/texture/8ad943d063347f95ab9e9fa75792da84ec665ebd22b050bdba519ff7da61db'
+        material: PLAYER_HEAD
+        texture: http://textures.minecraft.net/texture/8ad943d063347f95ab9e9fa75792da84ec665ebd22b050bdba519ff7da61db
         name: '<bold><color:gray>✧</color><color:dark_gray>✦</color><color:gray>✧</color> <gradient:gray:dark_gray:gray>Kit {kit}</gradient> <color:gray>✧</color><color:dark_gray>✦</color><color:gray>✧</color></bold>'
-        glow: false
         lore:
           - ''
           - '<gradient:dark_gray:gray><bold>Kit</bold> Information:</gradient>'
@@ -488,9 +488,9 @@ Rank:
     Diamond:
       slots: [25]
       available:
-        material: 'PLAYER_HEAD:http://textures.minecraft.net/texture/25807cc4c3b6958aea6156e84518d91a49c5f32971e6eb269a23a25a27145'
+        material: PLAYER_HEAD
+        texture: http://textures.minecraft.net/texture/25807cc4c3b6958aea6156e84518d91a49c5f32971e6eb269a23a25a27145
         name: '<bold><color:green>✧</color><color:dark_green>✦</color><color:green>✧</color> <gradient:green:dark_green:green>Kit {kit}</gradient> <color:green>✧</color><color:dark_green>✦</color><color:green>✧</color></bold>'
-        glow: false
         lore:
           - ''
           - '<gradient:dark_green:green><bold>Kit</bold> Information:</gradient>'
@@ -507,9 +507,9 @@ Rank:
           - ' <color:#E5DCD9>┠ <underlined>Right-click</underlined> <italic>to view all available levels!</italic></color>'
           - ''
       unavailable:
-        material: 'PLAYER_HEAD:http://textures.minecraft.net/texture/76c0d0459c67f2be82fbe5406ab8d1378da1f28f7a3f82f1dfc47615a955a7'
+        material: PLAYER_HEAD
+        texture: http://textures.minecraft.net/texture/76c0d0459c67f2be82fbe5406ab8d1378da1f28f7a3f82f1dfc47615a955a7
         name: '<bold><color:yellow>✧</color><color:gold>✦</color><color:yellow>✧</color> <gradient:yellow:gold:yellow>Kit {kit}</gradient> <color:yellow>✧</color><color:gold>✦</color><color:yellow>✧</color></bold>'
-        glow: false
         lore:
           - ''
           - '<gradient:gold:yellow><bold>Kit</bold> Information:</gradient>'
@@ -527,9 +527,9 @@ Rank:
           - ' <color:#E5DCD9>┠ <underlined>Right-click</underlined> <italic>to view all available levels!</italic></color>'
           - ''
       locked:
-        material: 'PLAYER_HEAD:http://textures.minecraft.net/texture/8ad943d063347f95ab9e9fa75792da84ec665ebd22b050bdba519ff7da61db'
+        material: PLAYER_HEAD
+        texture: http://textures.minecraft.net/texture/8ad943d063347f95ab9e9fa75792da84ec665ebd22b050bdba519ff7da61db
         name: '<bold><color:red>✧</color><color:dark_red>✦</color><color:red>✧</color> <gradient:red:dark_red:red>Kit {kit}</gradient> <color:red>✧</color><color:dark_red>✦</color><color:red>✧</color></bold>'
-        glow: false
         lore:
           - ''
           - '<gradient:dark_red:red><bold>Kit</bold> Information:</gradient>'
@@ -545,9 +545,9 @@ Rank:
           - ' <color:#E5DCD9>┠ <underlined>Right-click</underlined> <italic>to view all available levels!</italic></color>'
           - ''
       purchasable:
-        material: 'PLAYER_HEAD:http://textures.minecraft.net/texture/8ad943d063347f95ab9e9fa75792da84ec665ebd22b050bdba519ff7da61db'
+        material: PLAYER_HEAD
+        texture: http://textures.minecraft.net/texture/8ad943d063347f95ab9e9fa75792da84ec665ebd22b050bdba519ff7da61db
         name: '<bold><color:light_purple>✧</color><color:dark_purple>✦</color><color:light_purple>✧</color> <gradient:light_purple:dark_purple:light_purple>Kit {kit}</gradient> <color:light_purple>✧</color><color:dark_purple>✦</color><color:light_purple>✧</color></bold>'
-        glow: false
         lore:
           - ''
           - '<gradient:dark_purple:light_purple><bold>Kit</bold> Information:</gradient>'
@@ -563,9 +563,9 @@ Rank:
           - ' <color:#E5DCD9>┠ <underlined>Right-click</underlined> <italic>to view all available levels!</italic></color>'
           - ''
       overused:
-        material: 'PLAYER_HEAD:http://textures.minecraft.net/texture/8ad943d063347f95ab9e9fa75792da84ec665ebd22b050bdba519ff7da61db'
+        material: PLAYER_HEAD
+        texture: http://textures.minecraft.net/texture/8ad943d063347f95ab9e9fa75792da84ec665ebd22b050bdba519ff7da61db
         name: '<bold><color:gray>✧</color><color:dark_gray>✦</color><color:gray>✧</color> <gradient:gray:dark_gray:gray>Kit {kit}</gradient> <color:gray>✧</color><color:dark_gray>✦</color><color:gray>✧</color></bold>'
-        glow: false
         lore:
           - ''
           - '<gradient:dark_gray:gray><bold>Kit</bold> Information:</gradient>'
@@ -584,9 +584,9 @@ Rank:
     Bedrock:
       slots: [26]
       available:
-        material: 'PLAYER_HEAD:http://textures.minecraft.net/texture/6753482c1d5061e9b243f259b52f95c433ff03039ac843ddc46267b903052'
+        material: PLAYER_HEAD
+        texture: http://textures.minecraft.net/texture/6753482c1d5061e9b243f259b52f95c433ff03039ac843ddc46267b903052
         name: '<bold><color:green>✧</color><color:dark_green>✦</color><color:green>✧</color> <gradient:green:dark_green:green>Kit {kit}</gradient> <color:green>✧</color><color:dark_green>✦</color><color:green>✧</color></bold>'
-        glow: false
         lore:
           - ''
           - '<gradient:dark_green:green><bold>Kit</bold> Information:</gradient>'
@@ -603,9 +603,9 @@ Rank:
           - ' <color:#E5DCD9>┠ <underlined>Right-click</underlined> <italic>to view all available levels!</italic></color>'
           - ''
       unavailable:
-        material: 'PLAYER_HEAD:http://textures.minecraft.net/texture/76c0d0459c67f2be82fbe5406ab8d1378da1f28f7a3f82f1dfc47615a955a7'
+        material: PLAYER_HEAD
+        texture: http://textures.minecraft.net/texture/76c0d0459c67f2be82fbe5406ab8d1378da1f28f7a3f82f1dfc47615a955a7
         name: '<bold><color:yellow>✧</color><color:gold>✦</color><color:yellow>✧</color> <gradient:yellow:gold:yellow>Kit {kit}</gradient> <color:yellow>✧</color><color:gold>✦</color><color:yellow>✧</color></bold>'
-        glow: false
         lore:
           - ''
           - '<gradient:gold:yellow><bold>Kit</bold> Information:</gradient>'
@@ -623,9 +623,9 @@ Rank:
           - ' <color:#E5DCD9>┠ <underlined>Right-click</underlined> <italic>to view all available levels!</italic></color>'
           - ''
       locked:
-        material: 'PLAYER_HEAD:http://textures.minecraft.net/texture/8ad943d063347f95ab9e9fa75792da84ec665ebd22b050bdba519ff7da61db'
+        material: PLAYER_HEAD
+        texture: http://textures.minecraft.net/texture/8ad943d063347f95ab9e9fa75792da84ec665ebd22b050bdba519ff7da61db
         name: '<bold><color:red>✧</color><color:dark_red>✦</color><color:red>✧</color> <gradient:red:dark_red:red>Kit {kit}</gradient> <color:red>✧</color><color:dark_red>✦</color><color:red>✧</color></bold>'
-        glow: false
         lore:
           - ''
           - '<gradient:dark_red:red><bold>Kit</bold> Information:</gradient>'
@@ -641,9 +641,9 @@ Rank:
           - ' <color:#E5DCD9>┠ <underlined>Right-click</underlined> <italic>to view all available levels!</italic></color>'
           - ''
       purchasable:
-        material: 'PLAYER_HEAD:http://textures.minecraft.net/texture/8ad943d063347f95ab9e9fa75792da84ec665ebd22b050bdba519ff7da61db'
+        material: PLAYER_HEAD
+        texture: http://textures.minecraft.net/texture/8ad943d063347f95ab9e9fa75792da84ec665ebd22b050bdba519ff7da61db
         name: '<bold><color:light_purple>✧</color><color:dark_purple>✦</color><color:light_purple>✧</color> <gradient:light_purple:dark_purple:light_purple>Kit {kit}</gradient> <color:light_purple>✧</color><color:dark_purple>✦</color><color:light_purple>✧</color></bold>'
-        glow: false
         lore:
           - ''
           - '<gradient:dark_purple:light_purple><bold>Kit</bold> Information:</gradient>'
@@ -659,9 +659,9 @@ Rank:
           - ' <color:#E5DCD9>┠ <underlined>Right-click</underlined> <italic>to view all available levels!</italic></color>'
           - ''
       overused:
-        material: 'PLAYER_HEAD:http://textures.minecraft.net/texture/8ad943d063347f95ab9e9fa75792da84ec665ebd22b050bdba519ff7da61db'
+        material: PLAYER_HEAD
+        texture: http://textures.minecraft.net/texture/8ad943d063347f95ab9e9fa75792da84ec665ebd22b050bdba519ff7da61db
         name: '<bold><color:gray>✧</color><color:dark_gray>✦</color><color:gray>✧</color> <gradient:gray:dark_gray:gray>Kit {kit}</gradient> <color:gray>✧</color><color:dark_gray>✦</color><color:gray>✧</color></bold>'
-        glow: false
         lore:
           - ''
           - '<gradient:dark_gray:gray><bold>Kit</bold> Information:</gradient>'
@@ -685,9 +685,9 @@ Rank:
       - 'LAVA;50;2.0;2.0;2.0;2.0'
     button:
       slots: [41]
-      material: 'PLAYER_HEAD:http://textures.minecraft.net/texture/d67dce4645349e41a7f35797e2b9279e35a65f5e81a34496885d27268f369139'
+      material: PLAYER_HEAD
+      texture: http://textures.minecraft.net/texture/d67dce4645349e41a7f35797e2b9279e35a65f5e81a34496885d27268f369139
       name: '<bold><color:#10987A>✧<color:#10987A><color:#49ECC3>✦<color:#49ECC3><color:#10987A>✧<color:#10987A> <gradient:#10987A:#49ECC3>Rank Kits</gradient> <color:#10987A>✧<color:#10987A><color:#49ECC3>✦<color:#49ECC3><color:#10987A>✧<color:#10987A></bold>'
-      glow: false
       lore:
         - ''
         - ' <bold><color:#10987A>*<color:#10987A></bold> <gradient:#10987A:#49ECC3>Owned kits:</gradient> <color:#E5DCD9>{owned_kits} / {total_kits}<color:#E5DCD9>'
@@ -702,9 +702,9 @@ Rank:
       - 'CLOUD;20;0.5;0.5;0.1;0.1'
     button:
       slots: [32]
-      material: 'PLAYER_HEAD:http://textures.minecraft.net/texture/8a16038bc8e6518afa91498dab7675c01cb31a125d21c49b861294d39e1c560c'
+      material: PLAYER_HEAD
+      texture: http://textures.minecraft.net/texture/8a16038bc8e6518afa91498dab7675c01cb31a125d21c49b861294d39e1c560c
       name: '<bold><color:#10987A>✧<color:#10987A><color:#49ECC3>✦<color:#49ECC3><color:#10987A>✧<color:#10987A> <gradient:#10987A:#49ECC3>Rank Kits</gradient> <color:#10987A>✧<color:#10987A><color:#49ECC3>✦<color:#49ECC3><color:#10987A>✧<color:#10987A></bold>'
-      glow: false
       lore:
         - ''
         - ' <bold><color:#10987A>*<color:#10987A></bold> <gradient:#10987A:#49ECC3>Owned kits:</gradient> <color:#E5DCD9>{owned_kits} / {total_kits}<color:#E5DCD9>'
