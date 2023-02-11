@@ -2,7 +2,7 @@ package me.extremall.advancedkits.api.user;
 
 import me.extremall.advancedkits.api.kit.Kit;
 import me.extremall.advancedkits.api.kit.KitStatus;
-import me.extremall.advancedkits.api.user.data.KitData;
+import me.extremall.advancedkits.api.user.data.DataSave;
 import org.bukkit.entity.Player;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
@@ -15,8 +15,6 @@ public interface User
 
     @Nullable Player getPlayer();
 
-    @NotNull KitData getKitData(@NotNull Kit kit);
-
     @NotNull KitStatus getKitStatus(@NotNull Kit kit);
 
     void loadDatabase();
@@ -24,4 +22,6 @@ public interface User
     void saveDatabase();
 
     @NotNull UserDatabase getUserDatabase();
+
+    @NotNull DataSave getDataSave();
 }
