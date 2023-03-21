@@ -1,5 +1,7 @@
 Snowman:
-  permission: advancedkits.kit.snowman
+  requirements:
+    permissions: []
+    placeholders: []
   preview-menu: default
   levels:
     '1':
@@ -64,7 +66,9 @@ Snowman:
           console-commands: []
           messages: []
 Potions:
-  permission: advancedkits.kit.potions
+  requirements:
+    permissions: []
+    placeholders: []
   preview-menu: default
   levels:
     '1':
@@ -129,7 +133,9 @@ Potions:
           console-commands: []
           messages: []
 Viking:
-  permission: advancedkits.kit.viking
+  requirements:
+    permissions: []
+    placeholders: []
   preview-menu: default
   levels:
     '1':
@@ -438,7 +444,9 @@ Viking:
           console-commands: []
           messages: []
 Ultimate:
-  permission: advancedkits.kit.ultimate
+  requirements:
+    permissions: []
+    placeholders: []
   preview-menu: default
   levels:
     '1':
@@ -747,7 +755,9 @@ Ultimate:
           console-commands: []
           messages: []
 Swordsman:
-  permission: advancedkits.kit.swordsman
+  requirements:
+    permissions: []
+    placeholders: []
   preview-menu: default
   levels:
     '1':
@@ -1056,7 +1066,9 @@ Swordsman:
           console-commands: []
           messages: []
 Pyro:
-  permission: advancedkits.kit.pyro
+  requirements:
+    permissions: []
+    placeholders: []
   preview-menu: default
   levels:
     '1':
@@ -1365,7 +1377,9 @@ Pyro:
           console-commands: []
           messages: []
 Ninja:
-  permission: advancedkits.kit.ninja
+  requirements:
+    permissions: []
+    placeholders: []
   preview-menu: default
   levels:
     '1':
@@ -1674,7 +1688,9 @@ Ninja:
           console-commands: []
           messages: []
 Archer:
-  permission: advancedkits.kit.archer
+  requirements:
+    permissions: []
+    placeholders: []
   preview-menu: default
   levels:
     '1':
@@ -1985,7 +2001,9 @@ Archer:
           console-commands: []
           messages: []
 Infected:
-  permission: advancedkits.kit.infected
+  requirements:
+    permissions: []
+    placeholders: []
   preview-menu: default
   levels:
     '1':
@@ -2294,7 +2312,10 @@ Infected:
           console-commands: []
           messages: []
 Coal:
-  permission: advancedkits.kit.coal
+  requirements:
+    permissions:
+      - 'advancedkits.kit.coal'
+    placeholders: []
   preview-menu: default
   levels:
     '1':
@@ -2359,7 +2380,10 @@ Coal:
           console-commands: []
           messages: []
 Iron:
-  permission: advancedkits.kit.iron
+  requirements:
+    permissions:
+      - 'advancedkits.kit.iron'
+    placeholders: []
   preview-menu: default
   levels:
     '1':
@@ -2424,7 +2448,10 @@ Iron:
           console-commands: []
           messages: []
 Gold:
-  permission: advancedkits.kit.gold
+  requirements:
+    permissions:
+      - 'advancedkits.kit.gold'
+    placeholders: []
   preview-menu: default
   levels:
     '1':
@@ -2489,7 +2516,10 @@ Gold:
           console-commands: []
           messages: []
 Lapis:
-  permission: advancedkits.kit.lapis
+  requirements:
+    permissions:
+      - 'advancedkits.kit.lapis'
+    placeholders: []
   preview-menu: default
   levels:
     '1':
@@ -2554,7 +2584,10 @@ Lapis:
           console-commands: []
           messages: []
 Emerald:
-  permission: advancedkits.kit.emerald
+  requirements:
+    permissions:
+      - 'advancedkits.kit.emerald'
+    placeholders: []
   preview-menu: default
   levels:
     '1':
@@ -2619,7 +2652,10 @@ Emerald:
           console-commands: []
           messages: []
 Diamond:
-  permission: advancedkits.kit.diamond
+  requirements:
+    permissions:
+      - 'advancedkits.kit.diamond'
+    placeholders: []
   preview-menu: default
   levels:
     '1':
@@ -2684,7 +2720,10 @@ Diamond:
           console-commands: []
           messages: []
 Bedrock:
-  permission: advancedkits.kit.bedrock
+  requirements:
+    permissions:
+      - 'advancedkits.kit.bedrock'
+    placeholders: []
   preview-menu: default
   levels:
     '1':
