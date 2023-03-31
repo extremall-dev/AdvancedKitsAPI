@@ -1,7 +1,5 @@
 package me.extremall.advancedkits.api.kit;
 
-import me.extremall.advancedkits.kits.items.ItemSlotType;
-import me.extremall.advancedkits.kits.upgrades.CurrencyType;
 import org.bukkit.inventory.ItemStack;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
@@ -12,19 +10,21 @@ public interface KitLevel
 {
     @NotNull String getIdentifier();
 
+    @NotNull Kit getKit();
+
     int getLevel();
 
-    int getCooldown();
+    long getCooldown();
 
-    int getBuyDelay();
+    long getBuyDelay();
 
     int getMaximumUsages();
 
     int getNumberOfItems();
 
-    @NotNull CurrencyType getCurrencyType();
+    @NotNull String getCurrency();
 
-    @NotNull String getCost();
+    double getCost();
 
     boolean isGiveItems();
 
@@ -32,7 +32,5 @@ public interface KitLevel
 
     @Nullable List<ItemStack> getKitPreviewMenuItems();
 
-    @Nullable List<ItemSlotType> getItemSlotTypes();
-
-    @NotNull RedeemAction getRedeemAction(KitStatus kitStatus);
+    @NotNull RedeemAction getRedeemAction(@NotNull KitStatus kitStatus);
 }
