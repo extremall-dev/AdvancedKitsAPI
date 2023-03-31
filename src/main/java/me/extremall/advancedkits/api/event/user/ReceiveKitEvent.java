@@ -1,6 +1,5 @@
 package me.extremall.advancedkits.api.event.user;
 
-import me.extremall.advancedkits.api.kit.Kit;
 import me.extremall.advancedkits.api.kit.KitLevel;
 import me.extremall.advancedkits.api.kit.KitStatus;
 import me.extremall.advancedkits.api.user.User;
@@ -10,24 +9,12 @@ import org.jetbrains.annotations.NotNull;
 public class ReceiveKitEvent extends BaseUserEvent implements Cancellable
 {
     private boolean cancelled;
-    private Kit kit;
     private KitLevel kitLevel;
     private KitStatus kitStatus;
 
     public ReceiveKitEvent(@NotNull User user)
     {
         super(user);
-    }
-
-    @NotNull
-    public Kit getKit()
-    {
-        return this.kit;
-    }
-
-    public void setKit(@NotNull Kit kit)
-    {
-        this.kit = kit;
     }
 
     @NotNull
