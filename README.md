@@ -7,9 +7,9 @@ Unleash the Power of Customization with AdvancedKits - The most advanced kits pl
 - [Wiki (Documentation)](https://extremall.gitbook.io/advancedkits)
 
 ## API [![](https://jitpack.io/v/extremall-dev/AdvancedKitsAPI.svg)](https://jitpack.io/#extremall-dev/AdvancedKitsAPI)
-How to get DecentHolograms API into your project:
+How to get AdvancedKits API into your project:
 
-Replace `VERSION` with the current version of DecentHolograms. (Latest release)
+Replace `VERSION` with the current version of AdvancedKits. ([Find here](https://api.spigotmc.org/legacy/update.php?resource=90054))
 
 ### Gradle:
 ```groovy
@@ -33,8 +33,8 @@ dependencies {
 
 <dependencies>
     <dependency>
-	      <groupId>com.github.extremall-dev</groupId>
-	      <artifactId>AdvancedKitsAPI</artifactId>
+	<groupId>com.github.extremall-dev</groupId>
+        <artifactId>AdvancedKitsAPI</artifactId>
         <version>VERSION</version>
         <scope>provided</scope>
     </dependency>
