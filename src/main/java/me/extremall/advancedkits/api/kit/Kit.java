@@ -2,7 +2,6 @@ package me.extremall.advancedkits.api.kit;
 
 import dev.dejvokep.boostedyaml.YamlDocument;
 import me.extremall.advancedkits.api.requirement.Requirement;
-import me.extremall.advancedkits.menu.preview.PreviewMenu;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
