@@ -18,7 +18,7 @@ repositories {
 }
 
 dependencies {
-    compileOnly 'com.github.decentsoftware-eu:decentholograms:VERSION'
+    compileOnly 'com.github.extremall-dev:AdvancedKitsAPI:VERSION'
 }
 ```
 
