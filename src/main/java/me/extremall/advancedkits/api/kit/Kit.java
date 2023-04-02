@@ -24,7 +24,5 @@ public interface Kit
 
     boolean isPurchasable();
 
-    @NotNull PreviewMenu getPreviewMenu();
-
     @NotNull YamlDocument getDataFile();
 }
