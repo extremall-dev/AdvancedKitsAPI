@@ -14,11 +14,11 @@ public interface KitLevel
 
     int getLevel();
 
-    long getCooldown();
+    long getClaimDelay();
 
     long getBuyDelay();
 
-    int getMaximumUsages();
+    int getMaximumUses();
 
     int getNumberOfItems();
 
@@ -30,7 +30,7 @@ public interface KitLevel
 
     @Nullable ItemStack[] getKitItems();
 
-    @Nullable List<ItemStack> getKitPreviewMenuItems();
+    @Nullable List<ItemStack> getPreviewItems();
 
     @NotNull RedeemAction getRedeemAction(@NotNull KitStatus kitStatus);
 }

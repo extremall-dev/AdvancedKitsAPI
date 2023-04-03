@@ -13,15 +13,17 @@ public interface Kit
 
     @NotNull Requirement getRequirements();
 
-    @NotNull Map<Integer, KitLevel> getLevels();
+    @Nullable Map<Integer, KitLevel> getLevels();
 
     @Nullable KitLevel getLevel(int level);
 
-    @NotNull KitLevel getDefaultKitLevel();
+    @Nullable KitLevel getDefaultKitLevel();
 
     boolean isUpgradable();
 
     boolean isPurchasable();
+
+    @NotNull String getPreviewMenu();
 
     @NotNull YamlDocument getDataFile();
 }

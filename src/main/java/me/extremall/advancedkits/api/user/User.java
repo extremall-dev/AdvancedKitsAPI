@@ -3,6 +3,7 @@ package me.extremall.advancedkits.api.user;
 import me.extremall.advancedkits.api.kit.Kit;
 import me.extremall.advancedkits.api.kit.KitStatus;
 import me.extremall.advancedkits.api.requirement.Requirement;
+import me.extremall.advancedkits.api.user.data.Cooldown;
 import me.extremall.advancedkits.api.user.data.DataSave;
 import org.bukkit.entity.Player;
 import org.jetbrains.annotations.NotNull;
@@ -28,7 +29,7 @@ public interface User
 
     boolean hasRequirements(@NotNull Requirement requirement);
 
-    void resetClaimCooldown(@NotNull Kit kit);
+    @NotNull Cooldown getClaimCooldown(@NotNull Kit kit);
 
-    void resetBuyCooldown(@NotNull Kit kit);
+    @NotNull Cooldown getBuyCooldown(@NotNull Kit kit);
 }

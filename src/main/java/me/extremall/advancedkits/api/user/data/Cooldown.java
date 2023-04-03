@@ -6,13 +6,13 @@ import java.util.concurrent.TimeUnit;
 
 public interface Cooldown
 {
+    long getTimestamp();
+
+    void setTimestamp(long timestamp);
+
     long getCooldown(@NotNull TimeUnit timeUnit);
 
-    long getCooldownTimestamp();
-
     void setCooldown(@NotNull TimeUnit timeUnit, long delay);
-
-    void setCooldownTimestamp(long timestamp);
 
     void resetCooldown();
 
