@@ -6,7 +6,7 @@
 
     <groupId>me.extremall</groupId>
     <artifactId>advancedkits</artifactId>
-    <version>1.0.3.2.9</version>
+    <version>LATEST</version>
     <packaging>jar</packaging>
     <name>AdvancedKits</name>
     <description>Unleash the Power of Customization with AdvancedKits - The most advanced kits plugin ever made.</description>
@@ -17,19 +17,16 @@
             <groupId>org.spigotmc</groupId>
             <artifactId>spigot-api</artifactId>
             <version>1.19.4-R0.1-SNAPSHOT</version>
-            <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>org.jetbrains</groupId>
             <artifactId>annotations</artifactId>
             <version>24.0.1</version>
-            <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>dev.dejvokep</groupId>
             <artifactId>boosted-yaml-spigot</artifactId>
             <version>1.4</version>
-            <scope>compile</scope>
         </dependency>
     </dependencies>
 
