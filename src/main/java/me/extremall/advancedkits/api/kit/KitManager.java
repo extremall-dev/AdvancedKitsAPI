@@ -19,5 +19,5 @@ public interface KitManager
 
     void giveKitItems(@NotNull Player player, @NotNull KitLevel kitLevel);
 
-    void editKitItems(@NotNull KitLevel kitLevel, @Nullable ItemStack[] contents);
+    void editKitItems(@NotNull KitLevel kitLevel, @Nullable ItemStack @NotNull [] contents);
 }
