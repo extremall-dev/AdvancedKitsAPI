@@ -1,6 +1,5 @@
 package me.extremall.advancedkits.api.user;
 
-import com.google.gson.Gson;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
@@ -23,6 +22,4 @@ public interface UserManager
     void giveFirstJoinKits(@NotNull User user);
 
     void giveFirstJoinVouchers(@NotNull User user);
-
-    @NotNull Gson getGsonDataSave();
 }

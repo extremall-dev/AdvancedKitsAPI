@@ -4,20 +4,26 @@ import me.extremall.advancedkits.api.kit.KitManager;
 import me.extremall.advancedkits.api.user.UserManager;
 import org.jetbrains.annotations.NotNull;
 
-public class AdvancedKitsAPI
+public interface AdvancedKitsAPI
 {
-    private static UserManager userManager;
-    private static KitManager kitManager;
+    @NotNull UserManager getUserManager();
+
+    @NotNull KitManager getKitManager();
+
+    void reload();
 
     @NotNull
-    public static UserManager getUserManager()
+    static AdvancedKitsAPI getInstance()
     {
-        return AdvancedKitsAPI.userManager;
+        if (InstanceHolder.INSTANCE == null)
+        {
+            throw new IllegalStateException("AdvancedKitsAPI has not been initialized!");
+        }
+        return InstanceHolder.INSTANCE;
     }
 
-    @NotNull
-    public static KitManager getKitManager()
+    class InstanceHolder
     {
-        return AdvancedKitsAPI.kitManager;
+        private static AdvancedKitsAPI INSTANCE;
     }
 }

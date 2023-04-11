@@ -13,11 +13,11 @@ public interface Kit
 
     @NotNull Requirement getRequirements();
 
-    @Nullable Map<Integer, KitLevel> getLevels();
+    @NotNull Map<Integer, KitLevel> getLevels();
 
     @Nullable KitLevel getLevel(int level);
 
-    @Nullable KitLevel getDefaultKitLevel();
+    @NotNull KitLevel getDefaultKitLevel();
 
     boolean isUpgradable();
 
