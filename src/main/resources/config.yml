@@ -1,3 +1,5 @@
+# Do not edit
+file-version: '2'
 preview-kits-menu:
   previous-page-button:
     material: PLAYER_HEAD
@@ -141,23 +143,21 @@ first-join-vouchers: []
 first-join-kits:
   - 'Coal;1'
 close-kits-menu-before-opening-preview-menu: true
+allow-claim-kit-with-full-inventory: true
 data-save-interval-ticks: 12000
+# Configure the amount formatting of your currencies
+# Formatting is <plugin>-<currency>: '{amount}'
+# The currency is used only in the plugins with multiple currencies. (UltraEconomy & CoinsEngine)
+# Example with one currency:
+# vault: '{amount}$'
+# Example with multiple currencies:
+# coinsengine-coins: '{amount} coins'
 cost-formatting:
   exp: '{amount} EXP'
-  vault: '${amount}'
 placeholders:
   unlimited-kit-usages: 'Unlimited'
 time-units:
   finish: 'Now'
-  years: '{number} Years '
-  year: '{number} Year '
-  no-years: ''
-  months: '{number} Months '
-  month: '{number} Month '
-  no-months: ''
-  weeks: '{number} Weeks '
-  week: '{number} Week '
-  no-weeks: ''
   days: '{number} Days '
   day: '{number} Day '
   no-days: ''
@@ -174,3 +174,75 @@ permissions:
   main-command: 'advancedkits.command.use'
 main-command-aliases:
   - ak
+storage:
+  # Avaiable providers: YAML, MYSQL (Beta)
+  database: YAML
+  settings:
+    yaml:
+      folder: playerdata
+    mysql:
+      address: 127.0.0.1
+      port: 3306
+      database: advancedkits
+      username: root
+      password: password
+      table-prefix: advancedkits_
+      # Set the driver class name
+      # If left empty, one of the following options will be used based on your server version:
+      # - 'com.mysql.cj.jdbc.Driver' for 1.17+ server versions
+      # - 'com.mysql.jdbc.Driver' for older server versions
+      driver-class-name: ''
+      pool-settings:
+        maximum-pool-size: 10
+        minimum-idle: 10
+        maximum-lifetime: 1800000
+        connection-timeout: 5000
+        properties:
+          - characterEncoding=utf8
+          - encoding=UTF-8
+          - useUnicode=true
+          - useSSL=false
+          - socketTimeout=30000
+          - tcpKeepAlive=true
+          - autoReconnect=true
+          - cachePrepStmts=true
+          - prepStmtCacheSize=250
+          - prepStmtCacheSqlLimit=2048
+          - useServerPrepStmts=true
+          - useLocalSessionState=true
+          - rewriteBatchedStatements=true
+          - cacheResultSetMetadata=true
+          - cacheServerConfiguration=true
+          - elideSetAutoCommits=true
+          - maintainTimeStats=false
+voucher-settings:
+  # The NBTAPI library is used to inject tags on the voucher display item.
+  nbt-tags:
+    # Do you want to use tags on voucher items? (recommended true)
+    #
+    # When set to true, a tag will be added to vouchers. Vouchers without the specified tag name or with
+    # a different tag name will no longer function. This option offers the best performance and allows
+    # you to modify item values at any time without rendering older vouchers invalid. You can also use
+    # any PlaceholderAPI placeholder without any issues; however, please note that placeholders cannot
+    # be refreshed.
+    #
+    # When set to false, the entire item will be checked for similarity. If any value of the item is
+    # changed, the old voucher will no longer work. You can only use static placeholders in this case;
+    # otherwise, the voucher will no longer function. Choose this option if you already have vouchers
+    # without tags and do not want to invalidate them.
+    enabled: true
+    # Modify this setting if you want to invalidate current vouchers with this tag name.
+    # To enable this functionality, ensure that nbt-tags are enabled above.
+    tag-name: advancedkits-vouchers
+menu-settings:
+  # Click types can be found here: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/event/inventory/ClickType.html
+  click-types:
+    claim-kit:
+      - LEFT
+    preview-kit:
+      - RIGHT
+    buttons:
+      - LEFT
+      - RIGHT
+# Do you want to check for updates on the startup?
+check-for-updates: true
