@@ -9,3 +9,15 @@ load: POSTWORLD
 softdepend:
   - PlaceholderAPI
   - Vault
+  - ItemEdit
+  - HeadDatabase
+  - ItemsAdder
+  - Oraxen
+  - PlayerPoints
+  - Jobs
+  - HeadDB
+  - CoinsEngine
+  - UltraEconomy
+  - TokenManager
+  - Essentials
+  - CMI
