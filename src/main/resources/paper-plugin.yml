@@ -1,0 +1,67 @@
+name: ${project.name}
+main: ${project.groupId}.${project.artifactId}.${project.name}
+version: ${project.version}
+author: ${author}
+description: ${project.description}
+website: ${url}
+api-version: '1.19'
+load: POSTWORLD
+folia-supported: true
+dependencies:
+  - name: PlaceholderAPI
+    required: false
+    bootstrap: false
+  - name: Vault
+    required: false
+    bootstrap: false
+  - name: ItemEdit
+    required: false
+    bootstrap: false
+  - name: HeadDatabase
+    required: false
+    bootstrap: false
+  - name: ItemsAdder
+    required: false
+    bootstrap: false
+  - name: Oraxen
+    required: false
+    bootstrap: false
+  - name: PlayerPoints
+    required: false
+    bootstrap: false
+  - name: Jobs
+    required: false
+    bootstrap: false
+  - name: HeadDB
+    required: false
+    bootstrap: false
+  - name: CoinsEngine
+    required: false
+    bootstrap: false
+  - name: UltraEconomy
+    required: false
+    bootstrap: false
+  - name: TokenManager
+    required: false
+    bootstrap: false
+  - name: Essentials
+    required: false
+    bootstrap: false
+  - name: CMI
+    required: false
+    bootstrap: false
+load-after:
+  - name: PlaceholderAPI
+  - name: Vault
+  - name: ItemEdit
+  - name: HeadDatabase
+  - name: ItemsAdder
+  - name: Oraxen
+  - name: PlayerPoints
+  - name: Jobs
+  - name: HeadDB
+  - name: CoinsEngine
+  - name: UltraEconomy
+  - name: TokenManager
+  - name: Essentials
+  - name: CMI
