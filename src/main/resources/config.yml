@@ -1,5 +1,7 @@
 # Do not edit
-file-version: '2'
+file-version: '4'
+# Do you want to check for updates on the startup?
+check-for-updates: true
 preview-kits-menu:
   previous-page-button:
     material: PLAYER_HEAD
@@ -133,12 +135,6 @@ preview-kits-menu:
       - ' <bold><color:#10987A>*<color:#10987A></bold> <gradient:#10987A:#49ECC3>Number of Items:</gradient> <color:#E5DCD9>{items}<color:#E5DCD9>'
       - ''
       - '<italic><gradient:#10987A:#49ECC3>(( You have to wait for the delay! ))</gradient></italic>'
-open-menu-commands:
-  - 'kits;advancedkits.command.kits'
-claim-kit-commands:
-  - 'kit;advancedkits.command.kit'
-kit-preview-commands:
-  - 'kitpreview;advancedkits.command.kitpreview'
 first-join-vouchers: []
 first-join-kits:
   - 'Coal;1'
@@ -170,16 +166,17 @@ time-units:
   seconds: '{number} Seconds'
   second: '{number} Second'
   no-seconds: ''
-permissions:
-  main-command: 'advancedkits.command.use'
-main-command-aliases:
-  - ak
 storage:
-  # Avaiable providers: YAML, MYSQL (Beta)
+  # Available storage providers: YAML, SQLITE, MYSQL
+  # WARNING: The SQLITE and MYSQL providers are currently under development and could potentially lead to data loss in future updates.
+  # For production environments, it is recommended to use the YAML provider due to its stability and reliability.
+  # However, you can choose other providers at your own risk.
   database: YAML
   settings:
     yaml:
       folder: playerdata
+    sqlite:
+      file: database
     mysql:
       address: 127.0.0.1
       port: 3306
@@ -215,6 +212,8 @@ storage:
           - cacheServerConfiguration=true
           - elideSetAutoCommits=true
           - maintainTimeStats=false
+kit-settings:
+  replace-items: false
 voucher-settings:
   # The NBTAPI library is used to inject tags on the voucher display item.
   nbt-tags:
@@ -244,5 +243,43 @@ menu-settings:
     buttons:
       - LEFT
       - RIGHT
-# Do you want to check for updates on the startup?
-check-for-updates: true
+# Command settings section defines configurations for various plugin commands.
+command-settings:
+  # Prefix for fallback commands
+  fallback-prefix: advancedkits
+  # Avaiable command options:
+  # enabled - Whether the command is enabled (true) or disabled (false).
+  # command - The main command keyword for the command.
+  # aliases - Aliases that can be used instead of the main command keyword.
+  # permission - Permission node required to execute the command.
+  # description - Description of what the command does. (do not use color codes)
+  commands:
+    # Admin command settings
+    admin:
+      enabled: true
+      command: advancedkits
+      aliases:
+        - ak
+      permission: advancedkits.command.admin
+      description: The main AdvancedKits admin command.
+    # Open menu command settings
+    open-menu:
+      enabled: true
+      command: kits
+      aliases: []
+      permission: advancedkits.command.kits
+      description: Opens the main kits menu.
+    # Kit claim command settings
+    kit-claim:
+      enabled: true
+      command: kit
+      aliases: []
+      permission: advancedkits.command.kit
+      description: Obtains the specified kit.
+    # Kit preview command settings
+    kit-preview:
+      enabled: true
+      command: kitpreview
+      aliases: []
+      permission: advancedkits.command.kitpreview
+      description: Previews the specified kit.
