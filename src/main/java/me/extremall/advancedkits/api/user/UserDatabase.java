@@ -1,17 +1,15 @@
 package me.extremall.advancedkits.api.user;
 
 import me.extremall.advancedkits.api.user.data.DataSave;
-import org.jetbrains.annotations.NotNull;
+import org.jetbrains.annotations.Nullable;
 
 public interface UserDatabase
 {
-    @NotNull DataSave getDataSave();
+    @Nullable DataSave getDataSave();
 
     boolean exists();
 
     void load();
 
     void save();
-
-    void reset();
 }

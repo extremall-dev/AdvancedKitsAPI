@@ -3,8 +3,10 @@ package me.extremall.advancedkits.api.event.user;
 import me.extremall.advancedkits.api.kit.KitLevel;
 import me.extremall.advancedkits.api.user.User;
 import org.bukkit.event.Cancellable;
+import org.jetbrains.annotations.ApiStatus;
 import org.jetbrains.annotations.NotNull;
 
+@ApiStatus.Internal
 public class KitUsageLimitEvent extends BaseUserEvent implements Cancellable
 {
     private boolean cancelled;

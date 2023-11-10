@@ -29,7 +29,7 @@ public interface User
 
     @NotNull UserDatabase getUserDatabase();
 
-    boolean hasRequirements(@NotNull Requirement requirement);
+    boolean hasRequirement(@NotNull Requirement requirement);
 
     @NotNull Cooldown getClaimCooldown(@NotNull Kit kit);
 

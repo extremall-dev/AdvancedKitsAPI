@@ -4,33 +4,58 @@ import org.bukkit.inventory.ItemStack;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
+import java.math.BigDecimal;
 import java.util.List;
 
-public interface KitLevel
+public interface KitLevel extends Cloneable
 {
     @NotNull String getIdentifier();
 
     @NotNull Kit getKit();
 
+    void setKit(@NotNull Kit kit);
+
     int getLevel();
+
+    void setLevel(int level);
 
     long getClaimDelay();
 
+    void setClaimDelay(long claimDelay);
+
     long getBuyDelay();
 
+    void setBuyDelay(long buyDelay);
+
     int getMaximumUses();
+
+    void setMaximumUses(int maximumUses);
 
     int getNumberOfItems();
 
     @NotNull String getCurrency();
 
-    double getCost();
+    void setCurrency(@NotNull String currency);
+
+    @NotNull BigDecimal getCost();
+
+    void setCost(@NotNull BigDecimal cost);
 
     boolean isGiveItems();
 
+    void setGiveItems(boolean giveItems);
+
     @Nullable ItemStack[] getKitItems();
+
+    void setKitItems(@Nullable ItemStack[] kitItems);
 
     @Nullable List<ItemStack> getPreviewItems();
 
+    void setPreviewItems(@Nullable List<ItemStack> previewItems);
+
     @NotNull RedeemAction getRedeemAction(@NotNull KitStatus kitStatus);
+
+    void setRedeemAction(@NotNull KitStatus kitStatus, @NotNull RedeemAction redeemAction);
+
+    @NotNull KitLevel clone();
 }

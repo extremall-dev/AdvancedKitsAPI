@@ -16,6 +16,8 @@ public interface RedeemAction
 
     @NotNull List<String> getConsoleCommands();
 
+    @NotNull List<String> getPlayerCommands();
+
     @NotNull List<String> getMessages();
 
     void setTitles(@NotNull List<String> titles);
@@ -27,6 +29,8 @@ public interface RedeemAction
     void setParticles(@NotNull List<String> particles);
 
     void setConsoleCommands(@NotNull List<String> consoleCommands);
+
+    void setPlayerCommands(@NotNull List<String> playerCommands);
 
     void setMessages(@NotNull List<String> messages);
 }
