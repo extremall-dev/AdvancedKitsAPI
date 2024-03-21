@@ -8,60 +8,36 @@ api-version: '1.19'
 load: POSTWORLD
 folia-supported: true
 dependencies:
-  - name: PlaceholderAPI
-    required: false
-    bootstrap: false
-  - name: Vault
-    required: false
-    bootstrap: false
-  - name: ItemEdit
-    required: false
-    bootstrap: false
-  - name: HeadDatabase
-    required: false
-    bootstrap: false
-  - name: ItemsAdder
-    required: false
-    bootstrap: false
-  - name: Oraxen
-    required: false
-    bootstrap: false
-  - name: PlayerPoints
-    required: false
-    bootstrap: false
-  - name: Jobs
-    required: false
-    bootstrap: false
-  - name: HeadDB
-    required: false
-    bootstrap: false
-  - name: CoinsEngine
-    required: false
-    bootstrap: false
-  - name: UltraEconomy
-    required: false
-    bootstrap: false
-  - name: TokenManager
-    required: false
-    bootstrap: false
-  - name: Essentials
-    required: false
-    bootstrap: false
-  - name: CMI
-    required: false
-    bootstrap: false
-load-after:
-  - name: PlaceholderAPI
-  - name: Vault
-  - name: ItemEdit
-  - name: HeadDatabase
-  - name: ItemsAdder
-  - name: Oraxen
-  - name: PlayerPoints
-  - name: Jobs
-  - name: HeadDB
-  - name: CoinsEngine
-  - name: UltraEconomy
-  - name: TokenManager
-  - name: Essentials
-  - name: CMI
+  server:
+    PlaceholderAPI:
+      required: false
+    Vault:
+      required: false
+    ItemEdit:
+      required: false
+    HeadDatabase:
+      required: false
+    ItemsAdder:
+      required: false
+    Oraxen:
+      required: false
+    PlayerPoints:
+      required: false
+    Jobs:
+      required: false
+    HeadDB:
+      required: false
+    CoinsEngine:
+      required: false
+    UltraEconomy:
+      required: false
+    TokenManager:
+      required: false
+    Essentials:
+      required: false
+    CMI:
+      required: false
+    Skulls:
+      required: false
+    MythicMobs:
+      required: false
