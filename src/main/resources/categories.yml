@@ -1,12 +1,56 @@
-Rank:
-  title: 'Rank Kits'
-  rows: 5
+Donator:
+  title: 'Donator Kits'
+  rows: 6
   refresh-delay: 20
   menu-fillers:
-    - 'random-rainbow-glass-pane'
+    - 'donator-background'
+  open-menu:
+    sounds:
+      - ENTITY_HORSE_ARMOR;VOICE;10.0;1.0
+      - BLOCK_COMPARATOR_CLICK;VOICE;1.0;1.0
+    particles:
+      - LAVA;50;2.0;2.0;2.0;2.0
+    button:
+      slots: [41]
+      material: PLAYER_HEAD
+      texture: http://textures.minecraft.net/texture/9ac52419b99025828c89fa825945e6948e45bb5a22e4425a59e9096e4c1ac38
+      name: '<green><b>DONATOR KITS'
+      lore:
+        - ''
+        - ' <dark_green>▐ <green>Owned Kits: <white>{owned_kits} / {total_kits}'
+        - ' <dark_green>▐ <green>Available Kits: <white>{available_kits}'
+        - ''
+        - '<i><white>(( Click to view the donator kits! ))'
+  close-menu:
+    sounds:
+      - BLOCK_ENDER_CHEST_CLOSE;VOICE;10.0;1.0
+    particles:
+      - FLAME;50;2.0;2.0;2.0;2.0
+      - CLOUD;20;0.5;0.5;0.1;0.1
+    button:
+      slots: [50]
+      material: BARRIER
+      name: '<red><b>CLOSE'
+      lore:
+        - ''
+        - '<white><i>(( Click to close this menu! ))'
+  back-menu:
+    sounds:
+      - ENTITY_HORSE_ARMOR;VOICE;10.0;1.0
+      - BLOCK_COMPARATOR_CLICK;VOICE;1.0;1.0
+    particles:
+      - FLAME;50;2.0;2.0;2.0;2.0
+      - CLOUD;20;0.5;0.5;0.1;0.1
+    button:
+      slots: [49]
+      material: IRON_BARS
+      name: '<green><b>BACK'
+      lore:
+        - ''
+        - '<white><i>(( Click to go back to main menu! ))'
   kits:
     Coal:
-      slots: [20]
+      slots: [29]
       available:
         material: PLAYER_HEAD
         texture: http://textures.minecraft.net/texture/cff11a5db46de1f5877a298a99f47c2779c2aad5720c384d9d3826a5a3e5bd3a
@@ -102,7 +146,7 @@ Rank:
           - ' <#E5DCD9>┠ <u>Right-click</u> <i>to view all available levels!'
           - ''
     Iron:
-      slots: [21]
+      slots: [30]
       available:
         material: PLAYER_HEAD
         texture: http://textures.minecraft.net/texture/f7aadff9ddc546fdcec6ed5919cc39dfa8d0c07ff4bc613a19f2e6d7f2593
@@ -198,7 +242,7 @@ Rank:
           - ' <#E5DCD9>┠ <u>Right-click</u> <i>to view all available levels!'
           - ''
     Gold:
-      slots: [13]
+      slots: [22]
       available:
         material: PLAYER_HEAD
         texture: http://textures.minecraft.net/texture/f37cae5c51eb1558ea828f58e0dff8e6b7b0b1a183d737eecf714661761
@@ -294,7 +338,7 @@ Rank:
           - ' <#E5DCD9>┠ <u>Right-click</u> <i>to view all available levels!'
           - ''
     Lapis:
-      slots: [14]
+      slots: [23]
       available:
         material: PLAYER_HEAD
         texture: http://textures.minecraft.net/texture/478abdf982f909eab5de9bf969cf14f664db4c447738459ea40162b37d124
@@ -390,7 +434,7 @@ Rank:
           - ' <#E5DCD9>┠ <u>Right-click</u> <i>to view all available levels!'
           - ''
     Emerald:
-      slots: [15]
+      slots: [24]
       available:
         material: PLAYER_HEAD
         texture: http://textures.minecraft.net/texture/f3d5e43de5d4177c4baf2f44161554473a3b0be5430998b5fcd826af943afe3
@@ -486,7 +530,7 @@ Rank:
           - ' <#E5DCD9>┠ <u>Right-click</u> <i>to view all available levels!'
           - ''
     Diamond:
-      slots: [25]
+      slots: [34]
       available:
         material: PLAYER_HEAD
         texture: http://textures.minecraft.net/texture/25807cc4c3b6958aea6156e84518d91a49c5f32971e6eb269a23a25a27145
@@ -582,7 +626,7 @@ Rank:
           - ' <#E5DCD9>┠ <u>Right-click</u> <i>to view all available levels!'
           - ''
     Bedrock:
-      slots: [26]
+      slots: [35]
       available:
         material: PLAYER_HEAD
         texture: http://textures.minecraft.net/texture/6753482c1d5061e9b243f259b52f95c433ff03039ac843ddc46267b903052
@@ -677,40 +721,3 @@ Rank:
           - ' <gradient:dark_gray:gray>┗ Maximum Usages:</gradient> <#E5DCD9>{maximum_usages}'
           - ' <#E5DCD9>┠ <u>Right-click</u> <i>to view all available levels!'
           - ''
-  open-menu:
-    sounds:
-      - 'ENTITY_HORSE_ARMOR;VOICE;10.0;1.0'
-      - 'BLOCK_COMPARATOR_CLICK;VOICE;1.0;1.0'
-    particles:
-      - 'LAVA;50;2.0;2.0;2.0;2.0'
-    button:
-      slots: [41]
-      material: PLAYER_HEAD
-      texture: http://textures.minecraft.net/texture/d67dce4645349e41a7f35797e2b9279e35a65f5e81a34496885d27268f369139
-      name: '<b><#10987A>✧<#10987A><#49ECC3>✦<#49ECC3><#10987A>✧<#10987A> <gradient:#10987A:#49ECC3>Rank Kits</gradient> <#10987A>✧<#10987A><#49ECC3>✦<#49ECC3><#10987A>✧<#10987A>'
-      lore:
-        - ''
-        - ' <#10987A><b>*</b> <gradient:#10987A:#49ECC3>Owned kits:</gradient> <#E5DCD9>{owned_kits} / {total_kits}<#E5DCD9>'
-        - ' <#10987A><b>*</b> <gradient:#10987A:#49ECC3>Available kits:</gradient> <#E5DCD9>{available_kits}<#E5DCD9>'
-        - ''
-        - '<i><gradient:#10987A:#49ECC3>(( Click to view the rank kits! ))</gradient>'
-  close-menu:
-    sounds:
-      - 'BLOCK_ENDER_CHEST_CLOSE;VOICE;10.0;1.0'
-    particles:
-      - 'FLAME;50;2.0;2.0;2.0;2.0'
-      - 'CLOUD;20;0.5;0.5;0.1;0.1'
-    button:
-      slots: [32]
-      material: PLAYER_HEAD
-      texture: http://textures.minecraft.net/texture/8a16038bc8e6518afa91498dab7675c01cb31a125d21c49b861294d39e1c560c
-      name: '<b><#10987A>✧<#10987A><#49ECC3>✦<#49ECC3><#10987A>✧<#10987A> <gradient:#10987A:#49ECC3>Rank Kits</gradient> <#10987A>✧<#10987A><#49ECC3>✦<#49ECC3><#10987A>✧<#10987A>'
-      lore:
-        - ''
-        - ' <#10987A><b>*</b> <gradient:#10987A:#49ECC3>Owned kits:</gradient> <#E5DCD9>{owned_kits} / {total_kits}<#E5DCD9>'
-        - ' <#10987A><b>*</b> <gradient:#10987A:#49ECC3>Available kits:</gradient> <#E5DCD9>{available_kits}<#E5DCD9>'
-        - ''
-        - '  <i><#CE166F><b>TIP:</b> <i><gradient:#CE166F:#D544EB>Press ESC to return</gradient>'
-        - '   <i><gradient:#D544EB:#CE166F>to the previous menu!</gradient>'
-        - ''
-        - '<i><gradient:#10987A:#49ECC3>(( Click to close this menu! ))</gradient>'
