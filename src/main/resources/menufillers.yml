@@ -161,3 +161,11 @@ preview-menu-corner-2:
     '2':
       material: YELLOW_STAINED_GLASS_PANE
       name: '&r'
+donator-background:
+  delay: 0
+  random: false
+  slots: []
+  items:
+    '1':
+      material: GREEN_STAINED_GLASS_PANE
+      name: '&r'
