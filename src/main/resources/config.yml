@@ -1,28 +1,34 @@
 # Do not edit
-file-version: '7'
+file-version: '13'
 # Do you want to check for updates on the startup?
 check-for-updates: true
 preview-kits-menu:
   previous-page-button:
     material: PLAYER_HEAD
     texture: http://textures.minecraft.net/texture/816ea34a6a6ec5c051e6932f1c471b7012b298d38d179f1b487c413f51959cd4
-    name: '<bold><color:yellow>(!)<color:yellow></bold> <gradient:yellow:gold>Preview previous level!</gradient>'
+    name: '&a&lPrevious Level: {previous_page}'
+    lore:
+      - '&7Click to go back to the previous level.'
   no-previous-page-button:
     material: PLAYER_HEAD
     texture: http://textures.minecraft.net/texture/3ed1aba73f639f4bc42bd48196c715197be2712c3b962c97ebf9e9ed8efa025
-    name: '<bold><color:red>(!)<color:red></bold> <gradient:red:dark_red>No previous level!</gradient>'
+    name: '&c&lNo Previous Level'
     lore:
-      - '&7You have reached the first level of this kit.'
+      - '&7Viewing Level: {current_page}'
+      - '&7There is no previous level.'
   next-page-button:
     material: PLAYER_HEAD
     texture: http://textures.minecraft.net/texture/9c9ec71c1068ec6e03d2c9287f9da9193639f3a635e2fbd5d87c2fabe6499
-    name: '<bold><color:yellow>(!)<color:yellow></bold> <gradient:yellow:gold>Preview next level!</gradient>'
+    name: '&a&lNext Level: {next_page}'
+    lore:
+      - '&7Click to advance to the next level.'
   no-next-page-button:
     material: PLAYER_HEAD
     texture: http://textures.minecraft.net/texture/3ed1aba73f639f4bc42bd48196c715197be2712c3b962c97ebf9e9ed8efa025
-    name: '<bold><color:red>(!)<color:red></bold> <gradient:red:dark_red>No next level!</gradient>'
+    name: '&c&lNo Next Level'
     lore:
-      - '&7You have reached the last level of this kit.'
+      - '&7Viewing Level: {current_page}'
+      - '&7There is no next level.'
   no-upgrade-button:
     material: BARRIER
     name: '<bold><color:#D22727>✧<color:#D22727><color:#F26F0F>✦<color:#F26F0F><color:#D22727>✧<color:#D22727> <gradient:#D22727:#F26F0F>Upgrade {kit}</gradient> <color:#D22727>✧<color:#D22727><color:#F26F0F>✦<color:#F26F0F><color:#D22727>✧<color:#D22727></bold>'
@@ -139,6 +145,7 @@ first-join-vouchers: []
 first-join-kits:
   - 'Coal;1'
 allow-claim-kit-with-full-inventory: true
+# Set 0 to disable
 data-save-interval-ticks: 12000
 # Configure the amount formatting of your currencies
 # Formatting is <plugin>-<currency>: '{amount}'
@@ -166,20 +173,18 @@ time-units:
   second: '{number} Second'
   no-seconds: ''
 storage:
-  # Available storage providers: YAML, SQLITE, MYSQL
-  # WARNING: The SQLITE and MYSQL providers are currently under development and could potentially lead to data loss in future updates.
-  # For production environments, it is recommended to use the YAML provider due to its stability and reliability.
-  # However, you can choose other providers at your own risk.
+  # Available storage providers: YAML, SQLITE, MYSQL, MARIADB, POSTGRESQL, MONGODB
+  # WARNING: The SQLITE, MYSQL, MARIADB, POSTGRESQL, MONGODB providers are currently under development and could
+  # potentially lead to data loss in future updates. For production environments, it is recommended to use the YAML
+  # provider due to its stability and reliability. However, you can choose other providers at your own risk.
   database: YAML
   settings:
     yaml:
       folder: playerdata
     sqlite:
       file: database
+    # Configure here MYSQL, MARIADB, & POSTGRESQL
     mysql:
-      # Set this to false if your server is non-premium (cracked).
-      # WARNING: Changing this option will result in data loss. Reset the database for cleanup after switching.
-      support-uuid: true
       address: 127.0.0.1
       port: 3306
       database: advancedkits
@@ -187,9 +192,11 @@ storage:
       password: password
       table-prefix: advancedkits_
       # Set the driver class name
-      # If left empty, one of the following options will be used based on your server version:
-      # - 'com.mysql.cj.jdbc.Driver' for 1.17+ server versions
-      # - 'com.mysql.jdbc.Driver' for older server versions
+      # Default driver class names:
+      # MySQL - me.extremall.advancedkits.libs.mysql.cj.jdbc.Driver
+      # MariaDB - me.extremall.advancedkits.libs.mariadb.Driver
+      # PostgreSQL - me.extremall.advancedkits.libs.postgresql.Driver
+      # Leave this empty to use automatically one of the above drivers.
       driver-class-name: ''
       pool-settings:
         maximum-pool-size: 10
@@ -214,6 +221,12 @@ storage:
           - cacheServerConfiguration=true
           - elideSetAutoCommits=true
           - maintainTimeStats=false
+    mongodb:
+      address: 127.0.0.1
+      port: 27017
+      database: advancedkits
+      username: admin
+      password: password
 kit-settings:
   replace-items: false
 voucher-settings:
@@ -235,14 +248,28 @@ voucher-settings:
     # Modify this setting if you want to invalidate current vouchers with this tag name.
     # To enable this functionality, ensure that nbt-tags are enabled above.
     tag-name: advancedkits-vouchers
+  # Disable the ability to rename vouchers using an anvil.
+  #
+  # Note: When set to true, players will be disallowed from renaming voucher items.
+  #       To work this option, nbt tags must be enabled.
+  #       To work this option, your server version must be 1.9.4 or newer.
+  disable-anvil-rename: true
 menu-settings:
+  # Whether to enable the back to previous menu feature.
+  # Set to 'true' to allow navigating back to the previous menu by closing the current submenu, 'false' to disable.
+  back-to-previous-menu: true
   # Determines whether the current menu should be closed before opening a new one.
   # If set to true, the current menu will be closed, and the mouse will be centered on the switch.
-  # Note: Sounds and particles will not play for closing category or preview menus.
+  # Note: Sound effects and particles will not be triggered when menus are closed during menu switching.
   close-menu-before-open:
+    # Close the current menu before opening the main menu.
+    # This occurs when using the back button on a category.
+    main: false
     # Close the current menu before opening a category menu.
+    # This occurs when opening a category menu from the main menu.
     category: false
     # Close the current menu before opening a preview menu.
+    # This occurs when opening a preview menu from the main menu or categories.
     preview: true
   # Control whether the menu should close on successful and failed kit claims.
   close-menu-on-claim-kit:
