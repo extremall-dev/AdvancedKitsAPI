@@ -9,8 +9,6 @@ Unleash the Power of Customization with AdvancedKits - The most advanced kits pl
 ## API [![](https://jitpack.io/v/extremall-dev/AdvancedKitsAPI.svg)](https://jitpack.io/#extremall-dev/AdvancedKitsAPI)
 How to get AdvancedKits API into your project:
 
-Replace `VERSION` with the current version of AdvancedKits. ([Find here](https://api.spigotmc.org/legacy/update.php?resource=90054))
-
 ### Gradle:
 ```groovy
 repositories {
@@ -18,7 +16,7 @@ repositories {
 }
 
 dependencies {
-    compileOnly 'com.github.extremall-dev:AdvancedKitsAPI:VERSION'
+    compileOnly 'com.github.extremall-dev:AdvancedKitsAPI:1.9.10'
 }
 ```
 
@@ -35,7 +33,7 @@ dependencies {
     <dependency>
 	<groupId>com.github.extremall-dev</groupId>
         <artifactId>AdvancedKitsAPI</artifactId>
-        <version>VERSION</version>
+        <version>1.9.10</version>
         <scope>provided</scope>
     </dependency>
 </dependencies>
