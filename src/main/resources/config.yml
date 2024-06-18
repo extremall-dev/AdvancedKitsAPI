@@ -1,5 +1,5 @@
 # Do not edit
-file-version: '13'
+file-version: '14'
 # Do you want to check for updates on the startup?
 check-for-updates: true
 preview-kits-menu:
@@ -147,15 +147,6 @@ first-join-kits:
 allow-claim-kit-with-full-inventory: true
 # Set 0 to disable
 data-save-interval-ticks: 12000
-# Configure the amount formatting of your currencies
-# Formatting is <plugin>-<currency>: '{amount}'
-# The currency is used only in the plugins with multiple currencies. (UltraEconomy & CoinsEngine)
-# Example with one currency:
-# vault: '{amount}$'
-# Example with multiple currencies:
-# coinsengine-coins: '{amount} coins'
-cost-formatting:
-  exp: '{amount} EXP'
 placeholders:
   unlimited-kit-usages: 'Unlimited'
 time-units:
@@ -229,6 +220,22 @@ storage:
       password: password
 kit-settings:
   replace-items: false
+currency-settings:
+  # This section defines the formatting settings for different currencies.
+  # Available formatting options:
+  # provider - The identifier for the currency provider.
+  # format - The template for formatting the amount.
+  # currency - (optional) The specific currency identifier if the provider supports multiple currencies.
+  formatting:
+    - provider: EXP
+      format: '{amount} EXP'
+    # Examples of additional currency configurations:
+    # Uncomment and modify the following lines to add more currencies.
+    # - provider: VAULT
+    #   format: '{amount}$'
+    # - provider: COINSENGINE
+    #   currency: COINS
+    #   format: '{amount} coins'
 voucher-settings:
   # The NBTAPI library is used to inject tags on the voucher display item.
   nbt-tags:
