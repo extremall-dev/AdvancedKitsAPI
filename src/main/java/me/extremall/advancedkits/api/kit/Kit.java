@@ -42,5 +42,5 @@ public interface Kit extends Cloneable
 
     void setDataFile(@NotNull YamlDocument yamlDocument);
 
-    @NotNull Kit clone();
+    //@NotNull Kit clone(@NotNull String kitIdentifier);
 }

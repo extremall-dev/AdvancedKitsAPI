@@ -68,5 +68,5 @@ public interface KitLevel extends Cloneable
 
     void setRedeemAction(@NotNull KitStatus kitStatus, @NotNull RedeemAction redeemAction);
 
-    @NotNull KitLevel clone();
+    //@NotNull KitLevel clone();
 }

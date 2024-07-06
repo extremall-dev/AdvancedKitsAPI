@@ -8,15 +8,13 @@ import me.extremall.advancedkits.api.user.User;
 import org.bukkit.event.Cancellable;
 import org.jetbrains.annotations.NotNull;
 
+@Getter
 public class ReceiveKitEvent extends BaseUserEvent implements Cancellable
 {
-    @Getter
     @Setter
     private boolean cancelled;
-    @Getter
-    private KitLevel kitLevel;
-    @Getter
-    private KitStatus kitStatus;
+    private final KitLevel kitLevel;
+    private final KitStatus kitStatus;
 
     public ReceiveKitEvent(@NotNull User user, @NotNull KitLevel kitLevel, @NotNull KitStatus kitStatus)
     {

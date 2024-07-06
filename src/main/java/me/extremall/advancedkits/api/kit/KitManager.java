@@ -29,5 +29,8 @@ public interface KitManager
     @ApiStatus.Internal
     boolean createKit(@NotNull String kitIdentifier);
 
+    @ApiStatus.Internal
+    boolean renameKit(@NotNull Kit kit, @NotNull String kitIdentifier);
+
     void reload();
 }
