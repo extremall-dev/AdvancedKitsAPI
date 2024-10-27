@@ -1,9 +1,17 @@
 Donator:
   title: 'Donator Kits'
+  type: CHEST
   rows: 6
   refresh-delay: 20
+  display-name: 'Donator Kits'
   menu-fillers:
     - 'donator-background'
+  open-command:
+    enabled: true
+    command: donatorkits
+    aliases: []
+    #permission: advancedkits.command.kits
+    description: Opens the donator kits menu.
   open-menu:
     sounds:
       - ENTITY_HORSE_ARMOR;VOICE;10.0;1.0
