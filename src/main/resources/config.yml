@@ -3,6 +3,19 @@ file-version: '14'
 # Do you want to check for updates on the startup?
 check-for-updates: true
 preview-kits-menu:
+  # Placeholders: {back-menu-display-name} & {back-menu-title}
+  back-button:
+    material: IRON_BARS
+    name: '<green><b>BACK'
+    lore:
+      - ''
+      - '<white><i>(( Click to go back to previous menu! ))'
+  close-button:
+    material: BARRIER
+    name: <red><b>CLOSE
+    lore:
+      - ''
+      - '<white><i>(( Click to close this menu! ))'
   previous-page-button:
     material: PLAYER_HEAD
     texture: http://textures.minecraft.net/texture/816ea34a6a6ec5c051e6932f1c471b7012b298d38d179f1b487c413f51959cd4
@@ -262,9 +275,6 @@ voucher-settings:
   #       To work this option, your server version must be 1.9.4 or newer.
   disable-anvil-rename: true
 menu-settings:
-  # Whether to enable the back to previous menu feature.
-  # Set to 'true' to allow navigating back to the previous menu by closing the current submenu, 'false' to disable.
-  back-to-previous-menu: true
   # Determines whether the current menu should be closed before opening a new one.
   # If set to true, the current menu will be closed, and the mouse will be centered on the switch.
   # Note: Sound effects and particles will not be triggered when menus are closed during menu switching.
@@ -313,13 +323,6 @@ command-settings:
         - ak
       permission: advancedkits.command.admin
       description: The main AdvancedKits admin command.
-    # Open menu command settings
-    open-menu:
-      enabled: true
-      command: kits
-      aliases: []
-      #permission: advancedkits.command.kits
-      description: Opens the main kits menu.
     # Kit claim command settings
     kit-claim:
       enabled: true
