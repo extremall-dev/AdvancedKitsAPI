@@ -1,5 +1,5 @@
 # Do not edit
-file-version: '14'
+file-version: '17'
 # Do you want to check for updates on the startup?
 check-for-updates: true
 preview-kits-menu:
@@ -16,6 +16,12 @@ preview-kits-menu:
     lore:
       - ''
       - '<white><i>(( Click to close this menu! ))'
+  claim-button:
+    material: BARRIER
+    name: <red><b>QUICK CLAIM
+    lore:
+      - ''
+      - '<white><i>(( Click to quick claim! ))'
   previous-page-button:
     material: PLAYER_HEAD
     texture: http://textures.minecraft.net/texture/816ea34a6a6ec5c051e6932f1c471b7012b298d38d179f1b487c413f51959cd4
@@ -154,9 +160,6 @@ preview-kits-menu:
       - ' <bold><color:#10987A>*<color:#10987A></bold> <gradient:#10987A:#49ECC3>Number of Items:</gradient> <color:#E5DCD9>{items}<color:#E5DCD9>'
       - ''
       - '<italic><gradient:#10987A:#49ECC3>(( You have to wait for the delay! ))</gradient></italic>'
-first-join-vouchers: []
-first-join-kits:
-  - 'Coal;1'
 allow-claim-kit-with-full-inventory: true
 # Set 0 to disable
 data-save-interval-ticks: 12000
@@ -177,15 +180,20 @@ time-units:
   second: '{number} Second'
   no-seconds: ''
 storage:
-  # Available storage providers: YAML, SQLITE, MYSQL, MARIADB, POSTGRESQL, MONGODB
-  # WARNING: The SQLITE, MYSQL, MARIADB, POSTGRESQL, MONGODB providers are currently under development and could
+  # Available storage providers: YAML, SQLITE, H2, MYSQL, MARIADB, POSTGRESQL, MONGODB
+  # WARNING: The SQLITE, H2, MYSQL, MARIADB, POSTGRESQL, MONGODB providers are currently under development and could
   # potentially lead to data loss in future updates. For production environments, it is recommended to use the YAML
   # provider due to its stability and reliability. However, you can choose other providers at your own risk.
   database: YAML
   settings:
     yaml:
+      # Placeholders: {separator}
       folder: playerdata
     sqlite:
+      # Placeholders: {separator}
+      file: database
+    h2:
+      # Placeholders: {separator}
       file: database
     # Configure here MYSQL, MARIADB, & POSTGRESQL
     mysql:
@@ -275,19 +283,6 @@ voucher-settings:
   #       To work this option, your server version must be 1.9.4 or newer.
   disable-anvil-rename: true
 menu-settings:
-  # Determines whether the current menu should be closed before opening a new one.
-  # If set to true, the current menu will be closed, and the mouse will be centered on the switch.
-  # Note: Sound effects and particles will not be triggered when menus are closed during menu switching.
-  close-menu-before-open:
-    # Close the current menu before opening the main menu.
-    # This occurs when using the back button on a category.
-    main: false
-    # Close the current menu before opening a category menu.
-    # This occurs when opening a category menu from the main menu.
-    category: false
-    # Close the current menu before opening a preview menu.
-    # This occurs when opening a preview menu from the main menu or categories.
-    preview: true
   # Control whether the menu should close on successful and failed kit claims.
   close-menu-on-claim-kit:
     # Close the menu when the player successfully receives the kit.
@@ -337,3 +332,60 @@ command-settings:
       aliases: []
       #permission: advancedkits.command.kitpreview
       description: Previews the specified kit.
+# =====================================================
+#  Redis Configuration for AdvancedKits
+#  Purpose: Used ONLY to cache player data for faster access
+#  Not required unless you want Redis-based caching
+# =====================================================
+redis:
+  # Enable or disable Redis caching
+  # true  -> Player data will be cached in Redis
+  # false -> No Redis caching will be used
+  enabled: false
+  # The IP address or hostname of your Redis server
+  address: 127.0.0.1
+  # The port Redis is running on (default is 6379)
+  port: 6379
+  # The password for your Redis server (leave blank if none)
+  password: password
+  # The prefix used for Redis keys for this plugin
+  # Helps prevent key conflicts with other plugins
+  prefix: advancedkits
+  # Time (in seconds) before cached player data expires
+  # Example: 86400 = 1 day
+  # Use -1 to disable expiry (data will stay until manually removed)
+  expire-seconds: 86400
+# =====================================================
+#  Grant Triggers Configuration for AdvancedKits
+#  Purpose: Define automatic rewards for players triggered
+#           by events like first join or respawn.
+#  Notes:
+#    - Each trigger can be enabled/disabled
+#    - Grants can include kits and vouchers
+#    - Requirements can restrict who receives grants
+#    - Multiple grants per trigger are supported
+# =====================================================
+grant-triggers:
+  # Triggered when a player joins the server for the first time
+  on-first-join:
+    # true = trigger is active, false = ignored
+    enabled: true
+    # Optional conditions to meet before grants are applied
+    requirements: {}
+    # List of rewards given when the trigger activates
+    grants:
+      - type: KIT # Grant a kit
+        kit: Coal # Name of the kit to give
+        level: 1 # Kit level
+      # You can add more grants here, e.g. vouchers or additional kits
+  # Triggered when a player respawns
+  on-respawn:
+    enabled: false
+    requirements: {}
+    grants:
+      - type: KIT
+        kit: Coal
+        level: 1
+      - type: VOUCHER
+        voucher: Coal
+        amount: 5
